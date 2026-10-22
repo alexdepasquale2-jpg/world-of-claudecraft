@@ -2163,12 +2163,12 @@ export const GUIDE_CLASSES: GuideClassInfo[] = [
         "name": "Noise Field"
       },
       {
-        "id": "glitch_phase_skip",
-        "name": "Phase Skip"
-      },
-      {
         "id": "glitch_overflow",
         "name": "Overflow"
+      },
+      {
+        "id": "glitch_phase_skip",
+        "name": "Phase Skip"
       },
       {
         "id": "glitch_cascade",
@@ -2185,12 +2185,12 @@ export const GUIDE_CLASSES: GuideClassInfo[] = [
         "name": "Noise Field"
       },
       {
-        "id": "glitch_phase_skip",
-        "name": "Phase Skip"
-      },
-      {
         "id": "glitch_overflow",
         "name": "Overflow"
+      },
+      {
+        "id": "glitch_phase_skip",
+        "name": "Phase Skip"
       },
       {
         "id": "glitch_memory_leak",
