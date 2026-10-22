@@ -7816,7 +7816,7 @@ export const vi_VN: EnTranslations = {
       "mana": "Mana",
       "energy": "Năng Lượng",
       "focus": "Tập Trung",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "classPage": {
       "back": "Tất cả lớp nhân vật",
@@ -7887,10 +7887,10 @@ export const vi_VN: EnTranslations = {
       "none": "Không có lớp nào khớp mọi bộ lọc. Xóa bớt một cái để thấy thêm."
     },
     "abilityHook": {
-      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Corruption the longer it runs.",
+      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Instability the longer it runs.",
       "glitch_noise_field": "Fills a spot you choose with static that hurts and slows everything inside.",
       "glitch_phase_skip": "Skips you to a spot you choose in an instant.",
-      "glitch_overflow": "Dumps your stored Corruption into a target in one hit.",
+      "glitch_overflow": "Dumps your stored Instability into a target in one hit.",
       "glitch_cascade": "Stretches every fault you have running in a chosen area.",
       "evil_eye": "Chỉ định kẻ địch mà hành động và sự thống khổ của nó sẽ nuôi dưỡng Kết Án của bạn.",
       "heroic_strike": "Đặt sẵn một cú vung nặng tay tiêu nộ khí vào đòn đánh kế tiếp của bạn.",
@@ -11344,7 +11344,7 @@ export const vi_VN: EnTranslations = {
       "energy": "Năng Lượng",
       "rage": "Nộ Khí",
       "focus": "Tập Trung",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "roles": {
       "warrior": "Đỡ Đòn / DPS Cận Chiến",
@@ -11381,7 +11381,7 @@ export const vi_VN: EnTranslations = {
       "mage": "Pháp Sư điều khiển sức mạnh Hỏa, Băng và uy lực bí thuật để tiêu diệt kẻ thù, triệu hồi nước, và đóng băng các mối đe dọa tại chỗ.",
       "warlock": "Thuật Sĩ Hắc Ám triệu hồi quỷ dữ, gieo lời nguyền và ma thuật sát thương theo thời gian, và hút sinh lực từ kẻ thù để trường tồn.",
       "druid": "Druid khơi dẫn sức mạnh thiên nhiên, chữa lành vết thương, trói buộc kẻ thù, và biến hình thành các dạng thú để phòng thủ hoặc gây sát thương.",
-      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Instability the longer they run, then dumping it in bursts."
     },
     "aria": "Chi tiết lớp {className}: vai trò {role}. Chỉ số khởi đầu: Sức Mạnh {str}, Nhanh Nhẹn {agi}, Sức Bền {sta}, Trí Tuệ {int}, Tinh Thần {spi}.",
     "statBarAria": "{stat}: {value} trên 25"
@@ -11906,7 +11906,7 @@ export const vi_VN: EnTranslations = {
       "abilityNotReady": "Kỹ năng đó chưa sẵn sàng.",
       "notEnoughRage": "Không đủ nộ khí!",
       "notEnoughEnergy": "Không đủ năng lượng!",
-      "notEnoughCorruption": "Not enough Corruption!",
+      "notEnoughInstability": "Not enough Instability!",
       "notEnoughMana": "Không đủ mana!",
       "notEnoughDevotion": "Không đủ Sùng Tín!",
       "notEnoughResource": "Không đủ {resource}!",
@@ -12251,7 +12251,7 @@ export const vi_VN: EnTranslations = {
       "energy": "Năng Lượng",
       "focus": "tập trung",
       "devotion": "Sùng Tín",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "forms": {
       "bear": "Bruin",
@@ -13146,11 +13146,11 @@ export const vi_VN: EnTranslations = {
       },
       "glitch_rollback": {
         "name": "Rollback",
-        "description": "Restores 25% of your maximum health. Costs 50 Corruption."
+        "description": "Restores 25% of your maximum health. Costs 50 Instability."
       },
       "glitch_cascade": {
         "name": "Cascade",
-        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Corruption faster. Costs 20 Corruption."
+        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Instability faster. Costs 20 Instability."
       },
       "glitch_fork_bomb": {
         "name": "Fork Bomb",

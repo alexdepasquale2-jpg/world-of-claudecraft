@@ -7816,7 +7816,7 @@ export const da_DK: EnTranslations = {
       "mana": "Mana",
       "energy": "Energi",
       "focus": "Fokus",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "classPage": {
       "back": "Alle klasser",
@@ -7887,10 +7887,10 @@ export const da_DK: EnTranslations = {
       "none": "Ingen klasse matcher alle filtre. Ryd et for at se flere."
     },
     "abilityHook": {
-      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Corruption the longer it runs.",
+      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Instability the longer it runs.",
       "glitch_noise_field": "Fills a spot you choose with static that hurts and slows everything inside.",
       "glitch_phase_skip": "Skips you to a spot you choose in an instant.",
-      "glitch_overflow": "Dumps your stored Corruption into a target in one hit.",
+      "glitch_overflow": "Dumps your stored Instability into a target in one hit.",
       "glitch_cascade": "Stretches every fault you have running in a chosen area.",
       "evil_eye": "Navngiver den fjende, hvis handlinger og lidelse vil fodre din Fordømmelse.",
       "heroic_strike": "Sætter et tungere sving i kø der bruger raseri på dit næste slag.",
@@ -11344,7 +11344,7 @@ export const da_DK: EnTranslations = {
       "energy": "Energi",
       "rage": "Raseri",
       "focus": "Fokus",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "roles": {
       "warrior": "Tank / Nærkamps-DPS",
@@ -11381,7 +11381,7 @@ export const da_DK: EnTranslations = {
       "mage": "Magikere bøjer Ild-, Frost- og arkankraft for at tilintetgøre fjender, frembringe vand og fryse trusler på stedet.",
       "warlock": "Heksemestre tilkalder dæmoner, kaster forbandelser og skade-over-tid-magi og suger liv fra fjender for at holde ud.",
       "druid": "Druider kanaliserer naturen, helbreder sår, omslynger fjender og skifter til dyreformer til forsvar eller skade.",
-      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Instability the longer they run, then dumping it in bursts."
     },
     "aria": "Klassedetaljer for {className}: rolle {role}. Startværdier: Styrke {str}, Smidighed {agi}, Udholdenhed {sta}, Intellekt {int}, Ånd {spi}.",
     "statBarAria": "{stat}: {value} ud af 25"
@@ -11906,7 +11906,7 @@ export const da_DK: EnTranslations = {
       "abilityNotReady": "Den evne er ikke klar endnu.",
       "notEnoughRage": "Ikke nok raseri!",
       "notEnoughEnergy": "Ikke nok energi!",
-      "notEnoughCorruption": "Not enough Corruption!",
+      "notEnoughInstability": "Not enough Instability!",
       "notEnoughMana": "Ikke nok mana!",
       "notEnoughDevotion": "Ikke nok Hengivenhed!",
       "notEnoughResource": "Ikke nok {resource}!",
@@ -12251,7 +12251,7 @@ export const da_DK: EnTranslations = {
       "energy": "Energi",
       "focus": "fokus",
       "devotion": "Hengivenhed",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "forms": {
       "bear": "Bruin",
@@ -13146,11 +13146,11 @@ export const da_DK: EnTranslations = {
       },
       "glitch_rollback": {
         "name": "Rollback",
-        "description": "Restores 25% of your maximum health. Costs 50 Corruption."
+        "description": "Restores 25% of your maximum health. Costs 50 Instability."
       },
       "glitch_cascade": {
         "name": "Cascade",
-        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Corruption faster. Costs 20 Corruption."
+        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Instability faster. Costs 20 Instability."
       },
       "glitch_fork_bomb": {
         "name": "Fork Bomb",

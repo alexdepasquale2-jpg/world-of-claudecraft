@@ -2,7 +2,7 @@
 // Glitch specializations and class-wide choice rows. Kept beside the Glitch
 // kit (glitch.ts) rather than in the shared classic tables. Every option here
 // uses an existing, already-applied effect kind (ability mods, global mods,
-// stats); Corruption itself is tuned in combat/glitch_corruption.ts.
+// stats); Instability itself is tuned in combat/glitch_corruption.ts.
 // ---------------------------------------------------------------------------
 
 import type { ClassChoiceRows } from './talent_rows';
@@ -17,7 +17,7 @@ export const GLITCH_TALENTS: ClassTalents = {
       name: 'Overclock',
       role: 'dps',
       icon: '*',
-      description: 'A burst caster who banks Corruption and dumps it in one detonation.',
+      description: 'A burst caster who banks Instability and dumps it in one detonation.',
       signature: 'glitch_fork_bomb',
       mastery: {
         name: 'Overvolt',
@@ -50,7 +50,7 @@ export const GLITCH_TALENTS: ClassTalents = {
       name: 'Sandbox',
       role: 'dps',
       icon: 'x',
-      description: 'A resilient caster who turns Corruption into shields and second chances.',
+      description: 'A resilient caster who turns Instability into shields and second chances.',
       signature: 'glitch_sandbox',
       mastery: {
         name: 'Isolation',
@@ -83,7 +83,7 @@ export const GLITCH_CHOICE_ROWS: ClassChoiceRows = {
         {
           id: 'glt_r5_lean_rollback',
           name: 'Lean Rollback',
-          description: 'Rollback costs 40% less Corruption.',
+          description: 'Rollback costs 40% less Instability.',
           effect: { ability: [{ ability: 'glitch_rollback', costPct: -0.4 }] },
         },
       ],
@@ -121,7 +121,7 @@ export const GLITCH_CHOICE_ROWS: ClassChoiceRows = {
         {
           id: 'glt_r11_buffer',
           name: 'Buffer',
-          description: 'Overflow costs 20% less Corruption.',
+          description: 'Overflow costs 20% less Instability.',
           effect: { ability: [{ ability: 'glitch_overflow', costPct: -0.2 }] },
         },
         {
@@ -177,7 +177,7 @@ export const GLITCH_CHOICE_ROWS: ClassChoiceRows = {
         {
           id: 'glt_r17_free_cascade',
           name: 'Zero Copy',
-          description: 'Cascade costs no Corruption.',
+          description: 'Cascade costs no Instability.',
           effect: { ability: [{ ability: 'glitch_cascade', costPct: -1 }] },
         },
         {

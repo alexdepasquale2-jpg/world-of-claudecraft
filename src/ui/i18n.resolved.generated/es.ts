@@ -7816,7 +7816,7 @@ export const es: EnTranslations = {
       "mana": "Maná",
       "energy": "Energía",
       "focus": "Concentración",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "classPage": {
       "back": "Todas las clases",
@@ -7887,10 +7887,10 @@ export const es: EnTranslations = {
       "none": "Ninguna clase coincide con todos los filtros. Quita uno para ver más."
     },
     "abilityHook": {
-      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Corruption the longer it runs.",
+      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Instability the longer it runs.",
       "glitch_noise_field": "Fills a spot you choose with static that hurts and slows everything inside.",
       "glitch_phase_skip": "Skips you to a spot you choose in an instant.",
-      "glitch_overflow": "Dumps your stored Corruption into a target in one hit.",
+      "glitch_overflow": "Dumps your stored Instability into a target in one hit.",
       "glitch_cascade": "Stretches every fault you have running in a chosen area.",
       "evil_eye": "Señala al enemigo cuyas acciones y sufrimiento alimentarán tu Condena.",
       "heroic_strike": "Prepara un golpe más fuerte que gasta ira en tu próximo ataque.",
@@ -11344,7 +11344,7 @@ export const es: EnTranslations = {
       "energy": "Energía",
       "rage": "Ira",
       "focus": "Concentración",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "roles": {
       "warrior": "Tanque / DPS cuerpo a cuerpo",
@@ -11381,7 +11381,7 @@ export const es: EnTranslations = {
       "mage": "Los magos moldean Fuego, Escarcha y fuerza Arcana para destruir enemigos, invocar agua y congelar amenazas.",
       "warlock": "Los brujos invocan demonios, lanzan maldiciones y daño prolongado, y drenan vida para resistir.",
       "druid": "Los druidas canalizan la naturaleza, curan heridas, enredan enemigos y cambian de forma animal para defender o atacar.",
-      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Instability the longer they run, then dumping it in bursts."
     },
     "aria": "Detalles de clase para {className}: rol {role}. Atributos iniciales: Fuerza {str}, Agilidad {agi}, Aguante {sta}, Intelecto {int}, Espíritu {spi}.",
     "statBarAria": "{stat}: {value} de 25"
@@ -11906,7 +11906,7 @@ export const es: EnTranslations = {
       "abilityNotReady": "Esa habilidad aún no está lista.",
       "notEnoughRage": "¡No tienes suficiente ira!",
       "notEnoughEnergy": "¡No tienes suficiente energía!",
-      "notEnoughCorruption": "Not enough Corruption!",
+      "notEnoughInstability": "Not enough Instability!",
       "notEnoughMana": "¡No tienes suficiente maná!",
       "notEnoughDevotion": "¡Devoción insuficiente!",
       "notEnoughResource": "¡No tienes suficiente {resource}!",
@@ -12251,7 +12251,7 @@ export const es: EnTranslations = {
       "energy": "energía",
       "focus": "concentración",
       "devotion": "Devoción",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "forms": {
       "bear": "oso",
@@ -13146,11 +13146,11 @@ export const es: EnTranslations = {
       },
       "glitch_rollback": {
         "name": "Rollback",
-        "description": "Restores 25% of your maximum health. Costs 50 Corruption."
+        "description": "Restores 25% of your maximum health. Costs 50 Instability."
       },
       "glitch_cascade": {
         "name": "Cascade",
-        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Corruption faster. Costs 20 Corruption."
+        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Instability faster. Costs 20 Instability."
       },
       "glitch_fork_bomb": {
         "name": "Fork Bomb",

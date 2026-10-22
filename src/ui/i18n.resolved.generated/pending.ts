@@ -42,7 +42,7 @@ export const pending: Record<string, readonly string[]> = {
     "guide.abilityHook.glitch_overflow",
     "guide.abilityHook.glitch_phase_skip",
     "guide.resourceName.corruption",
-    "hud.errors.notEnoughCorruption"
+    "hud.errors.notEnoughInstability"
   ],
   "es_ES": [
     "abilityUi.resources.corruption",
@@ -77,7 +77,7 @@ export const pending: Record<string, readonly string[]> = {
     "guide.abilityHook.glitch_overflow",
     "guide.abilityHook.glitch_phase_skip",
     "guide.resourceName.corruption",
-    "hud.errors.notEnoughCorruption"
+    "hud.errors.notEnoughInstability"
   ],
   "fr_FR": [
     "abilityUi.resources.corruption",
@@ -112,7 +112,7 @@ export const pending: Record<string, readonly string[]> = {
     "guide.abilityHook.glitch_overflow",
     "guide.abilityHook.glitch_phase_skip",
     "guide.resourceName.corruption",
-    "hud.errors.notEnoughCorruption"
+    "hud.errors.notEnoughInstability"
   ],
   "fr_CA": [
     "abilityUi.resources.corruption",
@@ -147,7 +147,7 @@ export const pending: Record<string, readonly string[]> = {
     "guide.abilityHook.glitch_overflow",
     "guide.abilityHook.glitch_phase_skip",
     "guide.resourceName.corruption",
-    "hud.errors.notEnoughCorruption"
+    "hud.errors.notEnoughInstability"
   ],
   "en_CA": [],
   "it_IT": [
@@ -183,7 +183,7 @@ export const pending: Record<string, readonly string[]> = {
     "guide.abilityHook.glitch_overflow",
     "guide.abilityHook.glitch_phase_skip",
     "guide.resourceName.corruption",
-    "hud.errors.notEnoughCorruption"
+    "hud.errors.notEnoughInstability"
   ],
   "de_DE": [
     "abilityUi.resources.corruption",
@@ -218,7 +218,7 @@ export const pending: Record<string, readonly string[]> = {
     "guide.abilityHook.glitch_overflow",
     "guide.abilityHook.glitch_phase_skip",
     "guide.resourceName.corruption",
-    "hud.errors.notEnoughCorruption"
+    "hud.errors.notEnoughInstability"
   ],
   "zh_CN": [],
   "zh_TW": [],
@@ -257,7 +257,7 @@ export const pending: Record<string, readonly string[]> = {
     "guide.abilityHook.glitch_overflow",
     "guide.abilityHook.glitch_phase_skip",
     "guide.resourceName.corruption",
-    "hud.errors.notEnoughCorruption"
+    "hud.errors.notEnoughInstability"
   ],
   "ru_RU": [],
   "cs_CZ": [
@@ -293,7 +293,7 @@ export const pending: Record<string, readonly string[]> = {
     "guide.abilityHook.glitch_overflow",
     "guide.abilityHook.glitch_phase_skip",
     "guide.resourceName.corruption",
-    "hud.errors.notEnoughCorruption"
+    "hud.errors.notEnoughInstability"
   ],
   "nl_NL": [
     "abilityUi.resources.corruption",
@@ -328,7 +328,7 @@ export const pending: Record<string, readonly string[]> = {
     "guide.abilityHook.glitch_overflow",
     "guide.abilityHook.glitch_phase_skip",
     "guide.resourceName.corruption",
-    "hud.errors.notEnoughCorruption"
+    "hud.errors.notEnoughInstability"
   ],
   "pl_PL": [
     "abilityUi.resources.corruption",
@@ -363,7 +363,7 @@ export const pending: Record<string, readonly string[]> = {
     "guide.abilityHook.glitch_overflow",
     "guide.abilityHook.glitch_phase_skip",
     "guide.resourceName.corruption",
-    "hud.errors.notEnoughCorruption"
+    "hud.errors.notEnoughInstability"
   ],
   "id_ID": [
     "abilityUi.resources.corruption",
@@ -398,7 +398,7 @@ export const pending: Record<string, readonly string[]> = {
     "guide.abilityHook.glitch_overflow",
     "guide.abilityHook.glitch_phase_skip",
     "guide.resourceName.corruption",
-    "hud.errors.notEnoughCorruption"
+    "hud.errors.notEnoughInstability"
   ],
   "tr_TR": [
     "abilityUi.resources.corruption",
@@ -433,7 +433,7 @@ export const pending: Record<string, readonly string[]> = {
     "guide.abilityHook.glitch_overflow",
     "guide.abilityHook.glitch_phase_skip",
     "guide.resourceName.corruption",
-    "hud.errors.notEnoughCorruption"
+    "hud.errors.notEnoughInstability"
   ],
   "sv_SE": [
     "abilityUi.resources.corruption",
@@ -468,7 +468,7 @@ export const pending: Record<string, readonly string[]> = {
     "guide.abilityHook.glitch_overflow",
     "guide.abilityHook.glitch_phase_skip",
     "guide.resourceName.corruption",
-    "hud.errors.notEnoughCorruption"
+    "hud.errors.notEnoughInstability"
   ],
   "vi_VN": [
     "abilityUi.resources.corruption",
@@ -503,7 +503,7 @@ export const pending: Record<string, readonly string[]> = {
     "guide.abilityHook.glitch_overflow",
     "guide.abilityHook.glitch_phase_skip",
     "guide.resourceName.corruption",
-    "hud.errors.notEnoughCorruption"
+    "hud.errors.notEnoughInstability"
   ],
   "da_DK": [
     "abilityUi.resources.corruption",
@@ -538,6 +538,6 @@ export const pending: Record<string, readonly string[]> = {
     "guide.abilityHook.glitch_overflow",
     "guide.abilityHook.glitch_phase_skip",
     "guide.resourceName.corruption",
-    "hud.errors.notEnoughCorruption"
+    "hud.errors.notEnoughInstability"
   ]
 };

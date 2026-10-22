@@ -7816,7 +7816,7 @@ export const sv_SE: EnTranslations = {
       "mana": "Mana",
       "energy": "Energi",
       "focus": "Fokus",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "classPage": {
       "back": "Alla klasser",
@@ -7887,10 +7887,10 @@ export const sv_SE: EnTranslations = {
       "none": "Ingen klass matchar varje filter. Rensa ett för att se fler."
     },
     "abilityHook": {
-      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Corruption the longer it runs.",
+      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Instability the longer it runs.",
       "glitch_noise_field": "Fills a spot you choose with static that hurts and slows everything inside.",
       "glitch_phase_skip": "Skips you to a spot you choose in an instant.",
-      "glitch_overflow": "Dumps your stored Corruption into a target in one hit.",
+      "glitch_overflow": "Dumps your stored Instability into a target in one hit.",
       "glitch_cascade": "Stretches every fault you have running in a chosen area.",
       "evil_eye": "Namnger fienden vars handlingar och lidande föder din Fördömelse.",
       "heroic_strike": "Köar ett tyngre svingslag som förbrukar raseri på ditt nästa slag.",
@@ -11344,7 +11344,7 @@ export const sv_SE: EnTranslations = {
       "energy": "Energi",
       "rage": "Raseri",
       "focus": "Fokus",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "roles": {
       "warrior": "Tank / Närstrids-DPS",
@@ -11381,7 +11381,7 @@ export const sv_SE: EnTranslations = {
       "mage": "Magiker böjer Eld, Frost och arkankraft för att förgöra fiender, frammana vatten och frysa hot på plats.",
       "warlock": "Häxmästare frammanar demoner, lägger förbannelser och skada-över-tid-magi, och suger liv från fiender för att överleva.",
       "druid": "Druider kanaliserar naturen, läker sår, snärjer fiender och skiftar till djurformer för försvar eller skada.",
-      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Instability the longer they run, then dumping it in bursts."
     },
     "aria": "Klassdetaljer för {className}: roll {role}. Startvärden: Styrka {str}, Smidighet {agi}, Uthållighet {sta}, Intellekt {int}, Ande {spi}.",
     "statBarAria": "{stat}: {value} av 25"
@@ -11906,7 +11906,7 @@ export const sv_SE: EnTranslations = {
       "abilityNotReady": "Den förmågan är inte redo än.",
       "notEnoughRage": "Inte tillräckligt med raseri!",
       "notEnoughEnergy": "Inte tillräckligt med energi!",
-      "notEnoughCorruption": "Not enough Corruption!",
+      "notEnoughInstability": "Not enough Instability!",
       "notEnoughMana": "Inte tillräckligt med mana!",
       "notEnoughDevotion": "Inte tillräckligt med hängivenhet!",
       "notEnoughResource": "Inte tillräckligt med {resource}!",
@@ -12251,7 +12251,7 @@ export const sv_SE: EnTranslations = {
       "energy": "Energi",
       "focus": "fokus",
       "devotion": "Hängivenhet",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "forms": {
       "bear": "Björn",
@@ -13146,11 +13146,11 @@ export const sv_SE: EnTranslations = {
       },
       "glitch_rollback": {
         "name": "Rollback",
-        "description": "Restores 25% of your maximum health. Costs 50 Corruption."
+        "description": "Restores 25% of your maximum health. Costs 50 Instability."
       },
       "glitch_cascade": {
         "name": "Cascade",
-        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Corruption faster. Costs 20 Corruption."
+        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Instability faster. Costs 20 Instability."
       },
       "glitch_fork_bomb": {
         "name": "Fork Bomb",

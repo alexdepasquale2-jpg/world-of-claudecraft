@@ -7816,7 +7816,7 @@ export const pt_BR: EnTranslations = {
       "mana": "Mana",
       "energy": "Energia",
       "focus": "Foco",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "classPage": {
       "back": "Todas as classes",
@@ -7887,10 +7887,10 @@ export const pt_BR: EnTranslations = {
       "none": "Nenhuma classe atende a todos os filtros. Limpe um para ver mais."
     },
     "abilityHook": {
-      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Corruption the longer it runs.",
+      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Instability the longer it runs.",
       "glitch_noise_field": "Fills a spot you choose with static that hurts and slows everything inside.",
       "glitch_phase_skip": "Skips you to a spot you choose in an instant.",
-      "glitch_overflow": "Dumps your stored Corruption into a target in one hit.",
+      "glitch_overflow": "Dumps your stored Instability into a target in one hit.",
       "glitch_cascade": "Stretches every fault you have running in a chosen area.",
       "evil_eye": "Nomeia o inimigo cujas ações e sofrimento alimentarão sua Condenação.",
       "heroic_strike": "Prepara um golpe mais pesado que gasta fúria no seu próximo ataque.",
@@ -11344,7 +11344,7 @@ export const pt_BR: EnTranslations = {
       "energy": "Energia",
       "rage": "Raiva",
       "focus": "Foco",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "roles": {
       "warrior": "Tanque / DPS corpo a corpo",
@@ -11381,7 +11381,7 @@ export const pt_BR: EnTranslations = {
       "mage": "Magos manipulam Fogo, Gelo e força arcana para destruir inimigos, conjurar água e congelar ameaças.",
       "warlock": "Bruxos invocam demônios, aplicam maldições e magia de dano contínuo, e sugam a vida dos inimigos para resistir.",
       "druid": "Druidas canalizam a natureza, curam feridas, enredam inimigos e assumem formas animais para defender ou causar dano.",
-      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Instability the longer they run, then dumping it in bursts."
     },
     "aria": "Detalhes de classe para {className}: função {role}. Atributos iniciais: Força {str}, Agilidade {agi}, Vigor {sta}, Intelecto {int}, Espírito {spi}.",
     "statBarAria": "{stat}: {value} de 25"
@@ -11906,7 +11906,7 @@ export const pt_BR: EnTranslations = {
       "abilityNotReady": "Essa habilidade ainda não está pronta.",
       "notEnoughRage": "Raiva insuficiente!",
       "notEnoughEnergy": "Energia insuficiente!",
-      "notEnoughCorruption": "Not enough Corruption!",
+      "notEnoughInstability": "Not enough Instability!",
       "notEnoughMana": "Mana insuficiente!",
       "notEnoughDevotion": "Devoção insuficiente!",
       "notEnoughResource": "{resource} insuficiente!",
@@ -12251,7 +12251,7 @@ export const pt_BR: EnTranslations = {
       "energy": "energia",
       "focus": "foco",
       "devotion": "Devoção",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "forms": {
       "bear": "urso",
@@ -13146,11 +13146,11 @@ export const pt_BR: EnTranslations = {
       },
       "glitch_rollback": {
         "name": "Rollback",
-        "description": "Restores 25% of your maximum health. Costs 50 Corruption."
+        "description": "Restores 25% of your maximum health. Costs 50 Instability."
       },
       "glitch_cascade": {
         "name": "Cascade",
-        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Corruption faster. Costs 20 Corruption."
+        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Instability faster. Costs 20 Instability."
       },
       "glitch_fork_bomb": {
         "name": "Fork Bomb",

@@ -7816,7 +7816,7 @@ export const tr_TR: EnTranslations = {
       "mana": "Mana",
       "energy": "Enerji",
       "focus": "Odak",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "classPage": {
       "back": "Tüm sınıflar",
@@ -7887,10 +7887,10 @@ export const tr_TR: EnTranslations = {
       "none": "Hiçbir sınıf her filtreye uymuyor. Daha fazlasını görmek için birini temizle."
     },
     "abilityHook": {
-      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Corruption the longer it runs.",
+      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Instability the longer it runs.",
       "glitch_noise_field": "Fills a spot you choose with static that hurts and slows everything inside.",
       "glitch_phase_skip": "Skips you to a spot you choose in an instant.",
-      "glitch_overflow": "Dumps your stored Corruption into a target in one hit.",
+      "glitch_overflow": "Dumps your stored Instability into a target in one hit.",
       "glitch_cascade": "Stretches every fault you have running in a chosen area.",
       "evil_eye": "Eylemleri ve ıstırabı Mahkûmiyetini besleyecek düşmanı adlandırır.",
       "heroic_strike": "Bir sonraki vuruşunda öfke harcayan daha ağır bir savruş sıraya koyar.",
@@ -11344,7 +11344,7 @@ export const tr_TR: EnTranslations = {
       "energy": "Enerji",
       "rage": "Öfke",
       "focus": "Odak",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "roles": {
       "warrior": "Tank / Yakın DPS",
@@ -11381,7 +11381,7 @@ export const tr_TR: EnTranslations = {
       "mage": "Büyücüler Ateş, Buz ve gizem gücünü bükerek düşmanları yok eder, su çağırır ve tehditleri olduğu yerde dondurur.",
       "warlock": "Karabüyücüler şeytanlar çağırır, lanetler ve süregelen hasar büyüleri uygular ve dayanmak için düşmanlardan can emer.",
       "druid": "Druidler doğayı yönlendirir; yaraları iyileştirir, düşmanları kıskaca alır ve savunma ya da hasar için hayvan formlarına bürünür.",
-      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Instability the longer they run, then dumping it in bursts."
     },
     "aria": "{className} sınıf ayrıntıları: rol {role}. Başlangıç nitelikleri: Kuvvet {str}, Çeviklik {agi}, Dayanıklılık {sta}, Zeka {int}, Ruh {spi}.",
     "statBarAria": "{stat}: 25 üzerinden {value}"
@@ -11906,7 +11906,7 @@ export const tr_TR: EnTranslations = {
       "abilityNotReady": "O yetenek henüz hazır değil.",
       "notEnoughRage": "Yeterli öfke yok!",
       "notEnoughEnergy": "Yeterli enerji yok!",
-      "notEnoughCorruption": "Not enough Corruption!",
+      "notEnoughInstability": "Not enough Instability!",
       "notEnoughMana": "Yeterli mana yok!",
       "notEnoughDevotion": "Yeterli Adanmışlık yok!",
       "notEnoughResource": "Yeterli {resource} yok!",
@@ -12251,7 +12251,7 @@ export const tr_TR: EnTranslations = {
       "energy": "Enerji",
       "focus": "odak",
       "devotion": "Adanmışlık",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "forms": {
       "bear": "Bruin",
@@ -13146,11 +13146,11 @@ export const tr_TR: EnTranslations = {
       },
       "glitch_rollback": {
         "name": "Rollback",
-        "description": "Restores 25% of your maximum health. Costs 50 Corruption."
+        "description": "Restores 25% of your maximum health. Costs 50 Instability."
       },
       "glitch_cascade": {
         "name": "Cascade",
-        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Corruption faster. Costs 20 Corruption."
+        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Instability faster. Costs 20 Instability."
       },
       "glitch_fork_bomb": {
         "name": "Fork Bomb",

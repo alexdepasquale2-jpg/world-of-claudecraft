@@ -7816,7 +7816,7 @@ export const ko_KR: EnTranslations = {
       "mana": "마나",
       "energy": "기력",
       "focus": "집중",
-      "corruption": "오염"
+      "corruption": "불안정"
     },
     "classPage": {
       "back": "전체 직업",
@@ -7887,10 +7887,10 @@ export const ko_KR: EnTranslations = {
       "none": "모든 조건에 맞는 직업이 없습니다. 조건을 하나 지우면 더 많은 직업이 나타납니다."
     },
     "abilityHook": {
-      "glitch_corrupt_byte": "오래 지속될수록 오염을 키우는 결함으로 대상을 오염시킵니다.",
+      "glitch_corrupt_byte": "오래 지속될수록 불안정을 키우는 결함으로 대상을 잠식합니다.",
       "glitch_noise_field": "선택한 지점을 정전기로 채워 안에 있는 모든 대상에게 피해를 주고 느리게 합니다.",
       "glitch_phase_skip": "선택한 지점으로 순식간에 건너뜁니다.",
-      "glitch_overflow": "저장된 오염을 한 번에 대상에게 쏟아붓습니다.",
+      "glitch_overflow": "저장된 불안정을 한 번에 대상에게 쏟아붓습니다.",
       "glitch_cascade": "선택한 지역에서 작동 중인 모든 결함을 연장합니다.",
       "evil_eye": "적 하나를 지정해 그 행동과 고통으로 단죄를 축적합니다.",
       "heroic_strike": "다음 타격에 분노를 소모해 더 강하게 휘두르도록 예약합니다.",
@@ -11344,7 +11344,7 @@ export const ko_KR: EnTranslations = {
       "energy": "기력",
       "rage": "분노",
       "focus": "집중",
-      "corruption": "오염"
+      "corruption": "불안정"
     },
     "roles": {
       "warrior": "탱커 / 근접 DPS",
@@ -11381,7 +11381,7 @@ export const ko_KR: EnTranslations = {
       "mage": "마법사는 화염, 냉기, 비전의 힘으로 적을 파괴하고 물을 만들어내며 위협을 얼립니다.",
       "warlock": "흑마법사는 악마를 소환하고 저주와 지속 피해 마법을 걸며 적에게서 생명력을 흡수해 버팁니다.",
       "druid": "드루이드는 자연의 힘으로 치유하고 적을 묶으며 동물 형태로 변신해 방어하거나 피해를 줍니다.",
-      "glitch": "글리치는 주변 세계를 오염시키며 효과와 장을 퍼뜨립니다. 그것들이 오래 지속될수록 오염이 쌓이고, 이를 한꺼번에 쏟아냅니다."
+      "glitch": "글리치는 주변 세계를 뒤틀며 효과와 장을 퍼뜨립니다. 그것들이 오래 지속될수록 불안정이 쌓이고, 이를 한꺼번에 쏟아냅니다."
     },
     "aria": "{className} 직업 세부 정보: 역할 {role}. 시작 능력치: 힘 {str}, 민첩 {agi}, 체력 {sta}, 지능 {int}, 정신력 {spi}.",
     "statBarAria": "{stat}: {value}/25"
@@ -11906,7 +11906,7 @@ export const ko_KR: EnTranslations = {
       "abilityNotReady": "그 능력은 아직 준비되지 않았습니다.",
       "notEnoughRage": "분노가 부족합니다!",
       "notEnoughEnergy": "기력이 부족합니다!",
-      "notEnoughCorruption": "오염이 부족합니다!",
+      "notEnoughInstability": "불안정이 부족합니다!",
       "notEnoughMana": "마나가 부족합니다!",
       "notEnoughDevotion": "헌신이 부족합니다!",
       "notEnoughResource": "{resource}이 부족합니다!",
@@ -12251,7 +12251,7 @@ export const ko_KR: EnTranslations = {
       "energy": "기력",
       "focus": "집중",
       "devotion": "헌신",
-      "corruption": "오염"
+      "corruption": "불안정"
     },
     "forms": {
       "bear": "곰",
@@ -13125,12 +13125,12 @@ export const ko_KR: EnTranslations = {
   "entities": {
     "abilities": {
       "glitch_corrupt_byte": {
-        "name": "바이트 오염",
-        "description": "대상을 오염시켜 12초에 걸쳐 {damage}의 암흑 피해를 줍니다. 지속되는 동안 오염이 쌓입니다."
+        "name": "바이트 오류",
+        "description": "대상을 잠식하여 12초에 걸쳐 {damage}의 암흑 피해를 줍니다. 지속되는 동안 불안정이 쌓입니다."
       },
       "glitch_noise_field": {
         "name": "잡음 장",
-        "description": "대상 지역을 8초 동안 정전기로 채워 매초 6~8의 비전 피해를 주고 안에 있는 적의 이동 속도를 30% 감소시킵니다. 지속되는 동안 오염이 쌓입니다."
+        "description": "대상 지역을 8초 동안 정전기로 채워 매초 6~8의 비전 피해를 주고 안에 있는 적의 이동 속도를 30% 감소시킵니다. 지속되는 동안 불안정이 쌓입니다."
       },
       "glitch_phase_skip": {
         "name": "위상 도약",
@@ -13138,31 +13138,31 @@ export const ko_KR: EnTranslations = {
       },
       "glitch_overflow": {
         "name": "오버플로",
-        "description": "저장된 오염을 대상에게 쏟아부어 {damage}의 암흑 피해를 줍니다. 오염 30 소모."
+        "description": "저장된 불안정을 대상에게 쏟아부어 {damage}의 암흑 피해를 줍니다. 불안정 30 소모."
       },
       "glitch_memory_leak": {
         "name": "메모리 누수",
-        "description": "대상의 힘을 새어 나가게 하여 15초에 걸쳐 {damage}의 암흑 피해를 줍니다. 지속되는 동안 오염이 쌓입니다."
+        "description": "대상의 힘을 새어 나가게 하여 15초에 걸쳐 {damage}의 암흑 피해를 줍니다. 지속되는 동안 불안정이 쌓입니다."
       },
       "glitch_rollback": {
         "name": "롤백",
-        "description": "최대 생명력의 25%를 회복합니다. 오염 50 소모."
+        "description": "최대 생명력의 25%를 회복합니다. 불안정 50 소모."
       },
       "glitch_cascade": {
         "name": "연쇄",
-        "description": "대상 지역의 적에게 걸린 자신의 모든 글리치 효과를 4초 연장합니다. 연장된 효과는 경과 시간을 유지하므로 계속 더 빠르게 오염을 쌓습니다. 오염 20 소모."
+        "description": "대상 지역의 적에게 걸린 자신의 모든 글리치 효과를 4초 연장합니다. 연장된 효과는 경과 시간을 유지하므로 계속 더 빠르게 불안정을 쌓습니다. 불안정 20 소모."
       },
       "glitch_fork_bomb": {
         "name": "포크 폭탄",
-        "description": "대상 지역을 폭발시켜 안에 있는 모든 적에게 {damage}의 비전 피해를 줍니다. 오염 40 소모. (오버클럭 대표 기술)"
+        "description": "대상 지역을 폭발시켜 안에 있는 모든 적에게 {damage}의 비전 피해를 줍니다. 불안정 40 소모. (오버클럭 대표 기술)"
       },
       "glitch_bit_rot": {
         "name": "비트 부패",
-        "description": "대상을 부패시켜 10초에 걸쳐 {damage}의 암흑 피해를 줍니다. 지속되는 동안 오염이 쌓입니다. (엔트로피 대표 기술)"
+        "description": "대상을 부패시켜 10초에 걸쳐 {damage}의 암흑 피해를 줍니다. 지속되는 동안 불안정이 쌓입니다. (엔트로피 대표 기술)"
       },
       "glitch_sandbox": {
         "name": "샌드박스",
-        "description": "최대 생명력의 20%에 해당하는 피해를 흡수하는 보호막으로 자신을 10초 동안 격리합니다. 오염 20 소모. (샌드박스 대표 기술)"
+        "description": "최대 생명력의 20%에 해당하는 피해를 흡수하는 보호막으로 자신을 10초 동안 격리합니다. 불안정 20 소모. (샌드박스 대표 기술)"
       },
       "sport_kick": {
         "name": "킥",

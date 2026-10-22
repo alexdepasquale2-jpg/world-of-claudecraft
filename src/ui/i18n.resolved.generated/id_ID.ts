@@ -7816,7 +7816,7 @@ export const id_ID: EnTranslations = {
       "mana": "Mana",
       "energy": "Energi",
       "focus": "Fokus",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "classPage": {
       "back": "Semua kelas",
@@ -7887,10 +7887,10 @@ export const id_ID: EnTranslations = {
       "none": "Tak ada kelas yang cocok dengan semua saringan. Bersihkan satu untuk melihat lebih banyak."
     },
     "abilityHook": {
-      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Corruption the longer it runs.",
+      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Instability the longer it runs.",
       "glitch_noise_field": "Fills a spot you choose with static that hurts and slows everything inside.",
       "glitch_phase_skip": "Skips you to a spot you choose in an instant.",
-      "glitch_overflow": "Dumps your stored Corruption into a target in one hit.",
+      "glitch_overflow": "Dumps your stored Instability into a target in one hit.",
       "glitch_cascade": "Stretches every fault you have running in a chosen area.",
       "evil_eye": "Menandai musuh yang tindakan dan penderitaannya akan mengisi Kecaman-mu.",
       "heroic_strike": "Mengantrekan ayunan lebih berat yang menghabiskan amarah pada pukulanmu berikutnya.",
@@ -11344,7 +11344,7 @@ export const id_ID: EnTranslations = {
       "energy": "Energi",
       "rage": "Amukan",
       "focus": "Fokus",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "roles": {
       "warrior": "Tank / DPS Jarak Dekat",
@@ -11381,7 +11381,7 @@ export const id_ID: EnTranslations = {
       "mage": "Penyihir menundukkan kekuatan Api, Beku, dan Arkana untuk membinasakan musuh, memanggil air, dan membekukan ancaman di tempat.",
       "warlock": "Penyihir Iblis memanggil iblis, menebar kutukan dan sihir kerusakan berkelanjutan, serta menyedot nyawa musuh untuk bertahan.",
       "druid": "Druid menyalurkan kekuatan alam, menyembuhkan luka, membelit musuh, dan berubah ke wujud hewan untuk bertahan atau menyerang.",
-      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Instability the longer they run, then dumping it in bursts."
     },
     "aria": "Detail kelas untuk {className}: peran {role}. Statistik awal: Kekuatan {str}, Kegesitan {agi}, Stamina {sta}, Kecerdasan {int}, Semangat {spi}.",
     "statBarAria": "{stat}: {value} dari 25"
@@ -11906,7 +11906,7 @@ export const id_ID: EnTranslations = {
       "abilityNotReady": "Kemampuan itu belum siap.",
       "notEnoughRage": "Amarah tidak cukup!",
       "notEnoughEnergy": "Energi tidak cukup!",
-      "notEnoughCorruption": "Not enough Corruption!",
+      "notEnoughInstability": "Not enough Instability!",
       "notEnoughMana": "Mana tidak cukup!",
       "notEnoughDevotion": "Pengabdian tidak cukup!",
       "notEnoughResource": "{resource} tidak cukup!",
@@ -12251,7 +12251,7 @@ export const id_ID: EnTranslations = {
       "energy": "Energi",
       "focus": "fokus",
       "devotion": "Pengabdian",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "forms": {
       "bear": "Bruin",
@@ -13146,11 +13146,11 @@ export const id_ID: EnTranslations = {
       },
       "glitch_rollback": {
         "name": "Rollback",
-        "description": "Restores 25% of your maximum health. Costs 50 Corruption."
+        "description": "Restores 25% of your maximum health. Costs 50 Instability."
       },
       "glitch_cascade": {
         "name": "Cascade",
-        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Corruption faster. Costs 20 Corruption."
+        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Instability faster. Costs 20 Instability."
       },
       "glitch_fork_bomb": {
         "name": "Fork Bomb",

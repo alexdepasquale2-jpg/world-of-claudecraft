@@ -145,7 +145,7 @@ export function updateRegen(ctx: SimContext, p: Entity, meta: PlayerMeta): void 
     // Hunter Focus returns at 5 per second on the classic two-second tick.
     p.resource = Math.min(p.maxResource, p.resource + 10);
   } else if (p.resourceType === 'corruption') {
-    // Glitch Corruption builds from its running effects (combat/glitch_corruption.ts).
+    // Glitch Instability builds from its running effects (combat/glitch_corruption.ts).
     regenGlitchCorruption(ctx, p);
   } else if (p.resourceType === 'rage' && !p.inCombat) {
     p.resource = Math.max(0, p.resource - 2);

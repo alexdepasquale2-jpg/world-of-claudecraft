@@ -4979,6 +4979,18 @@ export const ABILITY_ART_PENDING = new Set<string>([
   // Buried Hoards: the Clockwork Shock Bomb's thrown cast draws its glyph until
   // its skill painting ships (the item itself already ships painted art).
   'clockwork_shock_bomb',
+  // The Glitch kit (src/sim/content/glitch.ts) draws its school glyphs until
+  // its skill paintings ship.
+  'glitch_corrupt_byte',
+  'glitch_noise_field',
+  'glitch_phase_skip',
+  'glitch_overflow',
+  'glitch_memory_leak',
+  'glitch_rollback',
+  'glitch_cascade',
+  'glitch_fork_bomb',
+  'glitch_bit_rot',
+  'glitch_sandbox',
 ]);
 
 /** Static URL of an ability's image icon, or null if it uses a recipe. */

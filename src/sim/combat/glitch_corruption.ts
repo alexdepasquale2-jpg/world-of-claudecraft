@@ -2,7 +2,7 @@ import { GLITCH_ABILITIES } from '../content/glitch';
 import type { SimContext } from '../sim_context';
 import type { AbilityDef, Aura, Entity, Vec3 } from '../types';
 
-// Glitch Corruption (content: src/sim/content/glitch.ts). The bar starts empty
+// Glitch Instability (content: src/sim/content/glitch.ts). The bar starts empty
 // and fills on the classic two-second regen tick from the Glitch's effects
 // already running in the world:
 //   - each Glitch damage-over-time effect it owns on an enemy adds
@@ -50,7 +50,7 @@ export function isGlitchEffectAura(aura: Aura, sourceId: number): boolean {
   return aura.sourceId === sourceId && GLITCH_EFFECT_AURA_IDS.has(aura.id);
 }
 
-/** Corruption one effect contributes per tick, from how long it has run. */
+/** Instability one effect contributes per tick, from how long it has run. */
 export function corruptionForEffectAge(elapsedSeconds: number): number {
   const steps = Math.min(
     CORRUPTION_MAX_AGE_STEPS,
@@ -59,7 +59,7 @@ export function corruptionForEffectAge(elapsedSeconds: number): number {
   return CORRUPTION_PER_EFFECT + steps * CORRUPTION_PER_EFFECT_AGE_STEP;
 }
 
-/** Total Corruption the Glitch would gain on this tick. */
+/** Total Instability the Glitch would gain on this tick. */
 export function glitchCorruptionGain(ctx: SimContext, p: Entity): number {
   let gain = 0;
   ctx.grid.forEachInRadius(p.pos.x, p.pos.z, CORRUPTION_SCAN_RADIUS, (e) => {
@@ -76,7 +76,7 @@ export function glitchCorruptionGain(ctx: SimContext, p: Entity): number {
   return gain;
 }
 
-/** The Corruption arm of the two-second regen tick (combat/auras.ts updateRegen). */
+/** The Instability arm of the two-second regen tick (combat/auras.ts updateRegen). */
 export function regenGlitchCorruption(ctx: SimContext, p: Entity): void {
   const gain = glitchCorruptionGain(ctx, p);
   if (gain > 0) {

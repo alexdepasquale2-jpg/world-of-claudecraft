@@ -7816,7 +7816,7 @@ export const cs_CZ: EnTranslations = {
       "mana": "Mana",
       "energy": "Energie",
       "focus": "Soustředění",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "classPage": {
       "back": "Všechny třídy",
@@ -7887,10 +7887,10 @@ export const cs_CZ: EnTranslations = {
       "none": "Žádná třída nesplňuje všechny filtry. Vyčisti jeden a uvidíš víc."
     },
     "abilityHook": {
-      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Corruption the longer it runs.",
+      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Instability the longer it runs.",
       "glitch_noise_field": "Fills a spot you choose with static that hurts and slows everything inside.",
       "glitch_phase_skip": "Skips you to a spot you choose in an instant.",
-      "glitch_overflow": "Dumps your stored Corruption into a target in one hit.",
+      "glitch_overflow": "Dumps your stored Instability into a target in one hit.",
       "glitch_cascade": "Stretches every fault you have running in a chosen area.",
       "evil_eye": "Pojmenuje nepřítele, jehož činy a utrpení krmí tvé Odsouzení.",
       "heroic_strike": "Zařadí těžší švih, který utratí vztek při příštím zásahu.",
@@ -11344,7 +11344,7 @@ export const cs_CZ: EnTranslations = {
       "energy": "Energie",
       "rage": "Vztek",
       "focus": "Soustředění",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "roles": {
       "warrior": "Tank / DPS na blízko",
@@ -11381,7 +11381,7 @@ export const cs_CZ: EnTranslations = {
       "mage": "Mágové ohýbají oheň, mráz a arkánní sílu, aby ničili nepřátele, vyvolávali vodu a zmrazovali hrozby na místě.",
       "warlock": "Černokněžníci vyvolávají démony, sesílají kletby a průběžné poškození a vysávají život z nepřátel, aby vydrželi.",
       "druid": "Druidové usměrňují síly přírody, léčí zranění, spoutávají nepřátele a mění se do zvířecích podob pro obranu nebo poškození.",
-      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Instability the longer they run, then dumping it in bursts."
     },
     "aria": "Detaily třídy {className}: role {role}. Počáteční statistiky: Síla {str}, Obratnost {agi}, Výdrž {sta}, Intelekt {int}, Duch {spi}.",
     "statBarAria": "{stat}: {value} z 25"
@@ -11906,7 +11906,7 @@ export const cs_CZ: EnTranslations = {
       "abilityNotReady": "Tato schopnost ještě není připravená.",
       "notEnoughRage": "Nedostatek vzteku!",
       "notEnoughEnergy": "Nedostatek energie!",
-      "notEnoughCorruption": "Not enough Corruption!",
+      "notEnoughInstability": "Not enough Instability!",
       "notEnoughMana": "Nedostatek many!",
       "notEnoughDevotion": "Nedostatek Oddanosti!",
       "notEnoughResource": "Nedostatek zdroje: {resource}!",
@@ -12251,7 +12251,7 @@ export const cs_CZ: EnTranslations = {
       "energy": "Energie",
       "focus": "soustředění",
       "devotion": "Oddanost",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "forms": {
       "bear": "Medvěd",
@@ -13146,11 +13146,11 @@ export const cs_CZ: EnTranslations = {
       },
       "glitch_rollback": {
         "name": "Rollback",
-        "description": "Restores 25% of your maximum health. Costs 50 Corruption."
+        "description": "Restores 25% of your maximum health. Costs 50 Instability."
       },
       "glitch_cascade": {
         "name": "Cascade",
-        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Corruption faster. Costs 20 Corruption."
+        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Instability faster. Costs 20 Instability."
       },
       "glitch_fork_bomb": {
         "name": "Fork Bomb",

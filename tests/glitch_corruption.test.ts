@@ -17,7 +17,7 @@ import type { Aura, Entity } from '../src/sim/types';
 import { groundHeight } from '../src/sim/world';
 import { OPEN_FIELD, placePlayerInOpenField } from './helpers/open_field';
 
-// The Glitch class (src/sim/content/glitch.ts) and its Corruption resource
+// The Glitch class (src/sim/content/glitch.ts) and its Instability resource
 // (src/sim/combat/glitch_corruption.ts): the bar builds from the Glitch's own
 // running effects, faster the older they are, and its hits compound per effect.
 
@@ -66,7 +66,7 @@ function glitchAuras(mob: Entity, me: Entity): Aura[] {
 }
 
 describe('Glitch class definition', () => {
-  it('is a Corruption class that starts with an empty bar capped at 100', () => {
+  it('is a Instability class that starts with an empty bar capped at 100', () => {
     expect(CLASSES.glitch.resourceType).toBe('corruption');
     const { me } = makeGlitch();
     expect(me.resourceType).toBe('corruption');
@@ -83,7 +83,7 @@ describe('Glitch class definition', () => {
   });
 });
 
-describe('Corruption generation', () => {
+describe('Instability generation', () => {
   it('ages: an effect builds more per tick the longer it has run, up to a cap', () => {
     expect(corruptionForEffectAge(0)).toBe(1);
     expect(corruptionForEffectAge(3.9)).toBe(1);
@@ -150,8 +150,8 @@ describe('Corruption generation', () => {
   });
 });
 
-describe('Corruption spending', () => {
-  it('refuses a spender without enough Corruption, then lands it once banked', () => {
+describe('Instability spending', () => {
+  it('refuses a spender without enough Instability, then lands it once banked', () => {
     const { sim, me } = makeGlitch();
     const mob = spawnDummy(sim, OPEN_FIELD.x + 10, OPEN_FIELD.z);
     target(sim, me, mob);
@@ -161,7 +161,7 @@ describe('Corruption spending', () => {
       .drainEvents()
       .filter((e) => e.type === 'error')
       .map((e) => (e as { text: string }).text);
-    expect(errs).toContain('Not enough Corruption!');
+    expect(errs).toContain('Not enough Instability!');
     expect(mob.hp).toBe(100000);
 
     me.resource = 40;

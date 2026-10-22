@@ -331,7 +331,7 @@ export const shellStrings = {
         energy: 'Energy',
         rage: 'Rage',
         focus: 'Focus',
-        corruption: 'Corruption',
+        corruption: 'Instability',
       },
       roles: {
         warrior: 'Tank / Melee DPS',
@@ -377,7 +377,7 @@ export const shellStrings = {
         druid:
           'Druids channel nature, healing wounds, entangling foes, and shifting into animal forms for defense or damage.',
         glitch:
-          'Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts.',
+          'Glitches corrupt the world around them, seeding effects and fields that build Instability the longer they run, then dumping it in bursts.',
       },
       aria: 'Class details for {className}: role {role}. Starting stats: Strength {str}, Agility {agi}, Stamina {sta}, Intellect {int}, Spirit {spi}.',
       statBarAria: '{stat}: {value} out of 25',

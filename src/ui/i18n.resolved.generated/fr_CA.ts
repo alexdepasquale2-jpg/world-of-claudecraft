@@ -7816,7 +7816,7 @@ export const fr_CA: EnTranslations = {
       "mana": "Mana",
       "energy": "Énergie",
       "focus": "Concentration",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "classPage": {
       "back": "Toutes les classes",
@@ -7887,10 +7887,10 @@ export const fr_CA: EnTranslations = {
       "none": "Aucune classe ne correspond à tous les filtres. Effacez-en un pour en voir davantage."
     },
     "abilityHook": {
-      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Corruption the longer it runs.",
+      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Instability the longer it runs.",
       "glitch_noise_field": "Fills a spot you choose with static that hurts and slows everything inside.",
       "glitch_phase_skip": "Skips you to a spot you choose in an instant.",
-      "glitch_overflow": "Dumps your stored Corruption into a target in one hit.",
+      "glitch_overflow": "Dumps your stored Instability into a target in one hit.",
       "glitch_cascade": "Stretches every fault you have running in a chosen area.",
       "evil_eye": "Désigne l'ennemi dont les actions et les souffrances alimenteront votre Condamnation.",
       "heroic_strike": "Prépare un coup plus lourd qui dépense de la rage sur votre prochaine attaque.",
@@ -11344,7 +11344,7 @@ export const fr_CA: EnTranslations = {
       "energy": "Énergie",
       "rage": "Rage",
       "focus": "Concentration",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "roles": {
       "warrior": "Tank / DPS mêlée",
@@ -11381,7 +11381,7 @@ export const fr_CA: EnTranslations = {
       "mage": "Les mages manient le Feu, le Givre et la force des Arcanes pour détruire leurs ennemis, conjurer de l'eau et figer les menaces sur place.",
       "warlock": "Les démonistes invoquent des démons, jettent des malédictions et des dégâts prolongés, puis drainent la vie de leurs ennemis pour tenir bon.",
       "druid": "Les druides canalisent la nature, guérissent, entravent les ennemis et prennent des formes animales pour défendre ou attaquer.",
-      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Instability the longer they run, then dumping it in bursts."
     },
     "aria": "Détails de classe pour {className}: rôle {role}. Caractéristiques de départ: Force {str}, Agilité {agi}, Endurance {sta}, Intelligence {int}, Esprit {spi}.",
     "statBarAria": "{stat}: {value} sur 25"
@@ -11906,7 +11906,7 @@ export const fr_CA: EnTranslations = {
       "abilityNotReady": "Cette technique n'est pas encore prête.",
       "notEnoughRage": "Pas assez de rage !",
       "notEnoughEnergy": "Pas assez d'énergie !",
-      "notEnoughCorruption": "Not enough Corruption!",
+      "notEnoughInstability": "Not enough Instability!",
       "notEnoughMana": "Pas assez de mana !",
       "notEnoughDevotion": "Dévotion insuffisante !",
       "notEnoughResource": "Pas assez de {resource} !",
@@ -12251,7 +12251,7 @@ export const fr_CA: EnTranslations = {
       "energy": "énergie",
       "focus": "concentration",
       "devotion": "Dévotion",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "forms": {
       "bear": "Bruin",
@@ -13146,11 +13146,11 @@ export const fr_CA: EnTranslations = {
       },
       "glitch_rollback": {
         "name": "Rollback",
-        "description": "Restores 25% of your maximum health. Costs 50 Corruption."
+        "description": "Restores 25% of your maximum health. Costs 50 Instability."
       },
       "glitch_cascade": {
         "name": "Cascade",
-        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Corruption faster. Costs 20 Corruption."
+        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Instability faster. Costs 20 Instability."
       },
       "glitch_fork_bomb": {
         "name": "Fork Bomb",

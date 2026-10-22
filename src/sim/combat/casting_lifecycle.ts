@@ -1296,7 +1296,7 @@ export function castAbility(
               : p.resourceType === 'focus'
                 ? 'Not enough Focus!'
                 : p.resourceType === 'corruption'
-                  ? 'Not enough Corruption!'
+                  ? 'Not enough Instability!'
                   : 'Not enough mana!',
     );
     return;

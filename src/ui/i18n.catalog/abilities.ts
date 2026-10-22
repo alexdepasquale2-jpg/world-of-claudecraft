@@ -74,7 +74,7 @@ const abilityStringsEn = {
       energy: 'Energy',
       focus: 'Focus',
       devotion: 'Devotion',
-      corruption: 'Corruption',
+      corruption: 'Instability',
     },
     forms: {
       bear: 'Bruin',
@@ -162,11 +162,11 @@ const classAbilityNamesEn = {
         'Memory Leak',
         "Leaks the target's strength away, dealing {damage} Shadow damage over 15 sec. Builds Corruption while it runs.",
       ],
-      ['glitch_rollback', 'Rollback', 'Restores 25% of your maximum health. Costs 50 Corruption.'],
+      ['glitch_rollback', 'Rollback', 'Restores 25% of your maximum health. Costs 50 Instability.'],
       [
         'glitch_cascade',
         'Cascade',
-        'Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Corruption faster. Costs 20 Corruption.',
+        'Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Instability faster. Costs 20 Instability.',
       ],
       [
         'glitch_fork_bomb',

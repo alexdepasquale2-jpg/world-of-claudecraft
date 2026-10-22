@@ -19675,46 +19675,47 @@ export const ko_KR: Partial<Record<TranslationKey, string>> = {
   'classes.glitch': '글리치',
   'classes.glitchAria': '글리치 직업',
   'classDetails.lore.glitch':
-    '글리치는 주변 세계를 오염시키며 효과와 장을 퍼뜨립니다. 그것들이 오래 지속될수록 오염이 쌓이고, 이를 한꺼번에 쏟아냅니다.',
-  'hud.errors.notEnoughCorruption': '오염이 부족합니다!',
-  'guide.resourceName.corruption': '오염',
-  'abilityUi.resources.corruption': '오염',
-  'classDetails.resources.corruption': '오염',
+    '글리치는 주변 세계를 뒤틀며 효과와 장을 퍼뜨립니다. 그것들이 오래 지속될수록 불안정이 쌓이고, 이를 한꺼번에 쏟아냅니다.',
+  'hud.errors.notEnoughInstability': '불안정이 부족합니다!',
+  'guide.resourceName.corruption': '불안정',
+  'abilityUi.resources.corruption': '불안정',
+  'classDetails.resources.corruption': '불안정',
   'classDetails.roles.glitch': '원거리 DPS',
   'guide.abilityHook.glitch_corrupt_byte':
-    '오래 지속될수록 오염을 키우는 결함으로 대상을 오염시킵니다.',
+    '오래 지속될수록 불안정을 키우는 결함으로 대상을 잠식합니다.',
   'guide.abilityHook.glitch_noise_field':
     '선택한 지점을 정전기로 채워 안에 있는 모든 대상에게 피해를 주고 느리게 합니다.',
   'guide.abilityHook.glitch_phase_skip': '선택한 지점으로 순식간에 건너뜁니다.',
-  'guide.abilityHook.glitch_overflow': '저장된 오염을 한 번에 대상에게 쏟아붓습니다.',
+  'guide.abilityHook.glitch_overflow': '저장된 불안정을 한 번에 대상에게 쏟아붓습니다.',
   'guide.abilityHook.glitch_cascade': '선택한 지역에서 작동 중인 모든 결함을 연장합니다.',
-  'entities.abilities.glitch_corrupt_byte.name': '바이트 오염',
+  'entities.abilities.glitch_corrupt_byte.name': '바이트 오류',
   'entities.abilities.glitch_corrupt_byte.description':
-    '대상을 오염시켜 12초에 걸쳐 {damage}의 암흑 피해를 줍니다. 지속되는 동안 오염이 쌓입니다.',
+    '대상을 잠식하여 12초에 걸쳐 {damage}의 암흑 피해를 줍니다. 지속되는 동안 불안정이 쌓입니다.',
   'entities.abilities.glitch_noise_field.name': '잡음 장',
   'entities.abilities.glitch_noise_field.description':
-    '대상 지역을 8초 동안 정전기로 채워 매초 6~8의 비전 피해를 주고 안에 있는 적의 이동 속도를 30% 감소시킵니다. 지속되는 동안 오염이 쌓입니다.',
+    '대상 지역을 8초 동안 정전기로 채워 매초 6~8의 비전 피해를 주고 안에 있는 적의 이동 속도를 30% 감소시킵니다. 지속되는 동안 불안정이 쌓입니다.',
   'entities.abilities.glitch_phase_skip.name': '위상 도약',
   'entities.abilities.glitch_phase_skip.description':
     '최대 20미터 떨어진 대상 위치로 도약하고 이동 불가 효과를 해제합니다.',
   'entities.abilities.glitch_overflow.name': '오버플로',
   'entities.abilities.glitch_overflow.description':
-    '저장된 오염을 대상에게 쏟아부어 {damage}의 암흑 피해를 줍니다. 오염 30 소모.',
+    '저장된 불안정을 대상에게 쏟아부어 {damage}의 암흑 피해를 줍니다. 불안정 30 소모.',
   'entities.abilities.glitch_memory_leak.name': '메모리 누수',
   'entities.abilities.glitch_memory_leak.description':
-    '대상의 힘을 새어 나가게 하여 15초에 걸쳐 {damage}의 암흑 피해를 줍니다. 지속되는 동안 오염이 쌓입니다.',
+    '대상의 힘을 새어 나가게 하여 15초에 걸쳐 {damage}의 암흑 피해를 줍니다. 지속되는 동안 불안정이 쌓입니다.',
   'entities.abilities.glitch_rollback.name': '롤백',
-  'entities.abilities.glitch_rollback.description': '최대 생명력의 25%를 회복합니다. 오염 50 소모.',
+  'entities.abilities.glitch_rollback.description':
+    '최대 생명력의 25%를 회복합니다. 불안정 50 소모.',
   'entities.abilities.glitch_cascade.name': '연쇄',
   'entities.abilities.glitch_cascade.description':
-    '대상 지역의 적에게 걸린 자신의 모든 글리치 효과를 4초 연장합니다. 연장된 효과는 경과 시간을 유지하므로 계속 더 빠르게 오염을 쌓습니다. 오염 20 소모.',
+    '대상 지역의 적에게 걸린 자신의 모든 글리치 효과를 4초 연장합니다. 연장된 효과는 경과 시간을 유지하므로 계속 더 빠르게 불안정을 쌓습니다. 불안정 20 소모.',
   'entities.abilities.glitch_fork_bomb.name': '포크 폭탄',
   'entities.abilities.glitch_fork_bomb.description':
-    '대상 지역을 폭발시켜 안에 있는 모든 적에게 {damage}의 비전 피해를 줍니다. 오염 40 소모. (오버클럭 대표 기술)',
+    '대상 지역을 폭발시켜 안에 있는 모든 적에게 {damage}의 비전 피해를 줍니다. 불안정 40 소모. (오버클럭 대표 기술)',
   'entities.abilities.glitch_bit_rot.name': '비트 부패',
   'entities.abilities.glitch_bit_rot.description':
-    '대상을 부패시켜 10초에 걸쳐 {damage}의 암흑 피해를 줍니다. 지속되는 동안 오염이 쌓입니다. (엔트로피 대표 기술)',
+    '대상을 부패시켜 10초에 걸쳐 {damage}의 암흑 피해를 줍니다. 지속되는 동안 불안정이 쌓입니다. (엔트로피 대표 기술)',
   'entities.abilities.glitch_sandbox.name': '샌드박스',
   'entities.abilities.glitch_sandbox.description':
-    '최대 생명력의 20%에 해당하는 피해를 흡수하는 보호막으로 자신을 10초 동안 격리합니다. 오염 20 소모. (샌드박스 대표 기술)',
+    '최대 생명력의 20%에 해당하는 피해를 흡수하는 보호막으로 자신을 10초 동안 격리합니다. 불안정 20 소모. (샌드박스 대표 기술)',
 };

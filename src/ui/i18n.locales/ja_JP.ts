@@ -19696,45 +19696,45 @@ export const ja_JP: Partial<Record<TranslationKey, string>> = {
   'classes.glitch': 'グリッチ',
   'classes.glitchAria': 'グリッチクラス',
   'classDetails.lore.glitch':
-    'グリッチは周囲の世界を侵食し、効果やフィールドを撒き散らす。それらが長く続くほど侵食が蓄積し、やがて一気に解き放つ。',
-  'hud.errors.notEnoughCorruption': '侵食が足りません！',
-  'guide.resourceName.corruption': '侵食',
-  'abilityUi.resources.corruption': '侵食',
-  'classDetails.resources.corruption': '侵食',
+    'グリッチは周囲の世界を歪め、効果やフィールドを撒き散らす。それらが長く続くほど不安定値が蓄積し、やがて一気に解き放つ。',
+  'hud.errors.notEnoughInstability': '不安定値が足りません！',
+  'guide.resourceName.corruption': '不安定値',
+  'abilityUi.resources.corruption': '不安定値',
+  'classDetails.resources.corruption': '不安定値',
   'classDetails.roles.glitch': '遠隔DPS',
-  'guide.abilityHook.glitch_corrupt_byte': '長く続くほど侵食を育てる持続性の障害で対象を侵食する。',
+  'guide.abilityHook.glitch_corrupt_byte': '長く続くほど不安定値を育てる持続性の障害で対象を蝕む。',
   'guide.abilityHook.glitch_noise_field':
     '選んだ地点を静電気で満たし、内部の全員にダメージを与えて減速させる。',
   'guide.abilityHook.glitch_phase_skip': '選んだ地点へ一瞬で跳躍する。',
-  'guide.abilityHook.glitch_overflow': '蓄えた侵食を一撃で対象に叩き込む。',
+  'guide.abilityHook.glitch_overflow': '蓄えた不安定値を一撃で対象に叩き込む。',
   'guide.abilityHook.glitch_cascade': '選んだ範囲で動作中のすべての障害を引き延ばす。',
   'entities.abilities.glitch_corrupt_byte.name': 'コラプトバイト',
   'entities.abilities.glitch_corrupt_byte.description':
-    '対象を侵食し、12秒かけて{damage}の闇ダメージを与える。持続中は侵食が蓄積する。',
+    '対象を蝕み、12秒かけて{damage}の闇ダメージを与える。持続中は不安定値が蓄積する。',
   'entities.abilities.glitch_noise_field.name': 'ノイズフィールド',
   'entities.abilities.glitch_noise_field.description':
-    '対象地点を8秒間静電気で満たし、毎秒6～8の秘術ダメージを与え、内部の敵の移動速度を30%低下させる。持続中は侵食が蓄積する。',
+    '対象地点を8秒間静電気で満たし、毎秒6～8の秘術ダメージを与え、内部の敵の移動速度を30%低下させる。持続中は不安定値が蓄積する。',
   'entities.abilities.glitch_phase_skip.name': 'フェイズスキップ',
   'entities.abilities.glitch_phase_skip.description':
     '最大20ヤード先の対象地点へ跳躍し、移動不能効果を解除する。',
   'entities.abilities.glitch_overflow.name': 'オーバーフロー',
   'entities.abilities.glitch_overflow.description':
-    '蓄えた侵食を対象に叩き込み、{damage}の闇ダメージを与える。侵食を30消費する。',
+    '蓄えた不安定値を対象に叩き込み、{damage}の闇ダメージを与える。不安定値を30消費する。',
   'entities.abilities.glitch_memory_leak.name': 'メモリリーク',
   'entities.abilities.glitch_memory_leak.description':
-    '対象の力を漏出させ、15秒かけて{damage}の闇ダメージを与える。持続中は侵食が蓄積する。',
+    '対象の力を漏出させ、15秒かけて{damage}の闇ダメージを与える。持続中は不安定値が蓄積する。',
   'entities.abilities.glitch_rollback.name': 'ロールバック',
-  'entities.abilities.glitch_rollback.description': '最大HPの25%を回復する。侵食を50消費する。',
+  'entities.abilities.glitch_rollback.description': '最大HPの25%を回復する。不安定値を50消費する。',
   'entities.abilities.glitch_cascade.name': 'カスケード',
   'entities.abilities.glitch_cascade.description':
-    '対象範囲内の敵にかかっている自分のグリッチ効果をすべて4秒延長する。延長された効果は経過時間を保つため、より速く侵食を蓄積し続ける。侵食を20消費する。',
+    '対象範囲内の敵にかかっている自分のグリッチ効果をすべて4秒延長する。延長された効果は経過時間を保つため、より速く不安定値を蓄積し続ける。不安定値を20消費する。',
   'entities.abilities.glitch_fork_bomb.name': 'フォークボム',
   'entities.abilities.glitch_fork_bomb.description':
-    '対象範囲を爆発させ、内部のすべての敵に{damage}の秘術ダメージを与える。侵食を40消費する。（オーバークロックの代表技）',
+    '対象範囲を爆発させ、内部のすべての敵に{damage}の秘術ダメージを与える。不安定値を40消費する。（オーバークロックの代表技）',
   'entities.abilities.glitch_bit_rot.name': 'ビットロット',
   'entities.abilities.glitch_bit_rot.description':
-    '対象を腐らせ、10秒かけて{damage}の闇ダメージを与える。持続中は侵食が蓄積する。（エントロピーの代表技）',
+    '対象を腐らせ、10秒かけて{damage}の闇ダメージを与える。持続中は不安定値が蓄積する。（エントロピーの代表技）',
   'entities.abilities.glitch_sandbox.name': 'サンドボックス',
   'entities.abilities.glitch_sandbox.description':
-    '最大HPの20%に相当するダメージを吸収するシールドで自分を隔離する。10秒間持続。侵食を20消費する。（サンドボックスの代表技）',
+    '最大HPの20%に相当するダメージを吸収するシールドで自分を隔離する。10秒間持続。不安定値を20消費する。（サンドボックスの代表技）',
 };

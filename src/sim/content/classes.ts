@@ -630,7 +630,7 @@ export const CLASSES: Record<PlayerClass, ClassDef> = {
     id: 'glitch',
     name: 'Glitch',
     // A ranged hybrid on the warlock's caster chassis. It has no mana: its bar
-    // is Corruption (0 to 100), built by its running effects
+    // is Instability (0 to 100), built by its running effects
     // (combat/glitch_corruption.ts), so baseMana is the cap like rage.
     baseStats: { str: 11, agi: 12, sta: 15, int: 21, spi: 21, armor: 22 },
     statsPerLevel: { str: 0, agi: 0, sta: 2, int: 3, spi: 2, armor: 4 },

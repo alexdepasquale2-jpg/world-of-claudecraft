@@ -1350,7 +1350,7 @@ export const guideStrings = {
     mana: 'Mana',
     energy: 'Energy',
     focus: 'Focus',
-    corruption: 'Corruption',
+    corruption: 'Instability',
   },
   classPage: {
     back: 'All classes',
@@ -1472,11 +1472,11 @@ export const guideStrings = {
   // press it). Keyed by the sim ability id.
   abilityHook: {
     glitch_corrupt_byte:
-      'Corrupts a target with a lingering fault that feeds your Corruption the longer it runs.',
+      'Corrupts a target with a lingering fault that feeds your Instability the longer it runs.',
     glitch_noise_field:
       'Fills a spot you choose with static that hurts and slows everything inside.',
     glitch_phase_skip: 'Skips you to a spot you choose in an instant.',
-    glitch_overflow: 'Dumps your stored Corruption into a target in one hit.',
+    glitch_overflow: 'Dumps your stored Instability into a target in one hit.',
     glitch_cascade: 'Stretches every fault you have running in a chosen area.',
     evil_eye: 'Names the enemy whose actions and suffering will feed your Condemnation.',
     heroic_strike: 'Queues a heavier swing that spends rage on your next hit.',

@@ -1,13 +1,13 @@
 import type { AbilityDef } from '../types';
 
-// The Glitch: a ranged hybrid whose resource, Corruption, is never spent to
+// The Glitch: a ranged hybrid whose resource, Instability, is never spent to
 // open a fight. It builds from the Glitch's own effects already running on the
 // world (each damage-over-time effect it owns on an enemy, and each ground zone
 // it has placed), and each effect builds faster the longer it has been running.
 // The engine side lives in src/sim/combat/glitch_corruption.ts.
 //
 // Generators (Corrupt Byte, Noise Field, Memory Leak, Bit Rot) cost nothing;
-// spenders (Overflow, Fork Bomb, Rollback, Sandbox) cost Corruption. Every
+// spenders (Overflow, Fork Bomb, Rollback, Sandbox) cost Instability. Every
 // Glitch hit on a target is amplified per Glitch effect already on that target
 // (Feedback), and Cascade extends every effect it touches, so effects compound.
 export const GLITCH_ABILITIES: Record<string, AbilityDef> = {
@@ -38,7 +38,7 @@ export const GLITCH_ABILITIES: Record<string, AbilityDef> = {
       },
     ],
     description:
-      'Corrupts the target, dealing $d Shadow damage over 12 sec. Builds Corruption while it runs.',
+      'Corrupts the target, dealing $d Shadow damage over 12 sec. Builds Instability while it runs.',
   },
   glitch_noise_field: {
     id: 'glitch_noise_field',
@@ -65,7 +65,7 @@ export const GLITCH_ABILITIES: Record<string, AbilityDef> = {
       },
     ],
     description:
-      'Fills the target area with static for 8 sec, dealing 6 to 8 Arcane damage each second and slowing enemies inside by 30%. Builds Corruption while it lasts.',
+      'Fills the target area with static for 8 sec, dealing 6 to 8 Arcane damage each second and slowing enemies inside by 30%. Builds Instability while it lasts.',
   },
   glitch_phase_skip: {
     id: 'glitch_phase_skip',
@@ -103,7 +103,7 @@ export const GLITCH_ABILITIES: Record<string, AbilityDef> = {
       },
     ],
     description:
-      'Dumps stored Corruption into the target, dealing $d Shadow damage. Costs 30 Corruption.',
+      'Dumps stored Instability into the target, dealing $d Shadow damage. Costs 30 Instability.',
   },
   glitch_memory_leak: {
     id: 'glitch_memory_leak',
@@ -118,7 +118,7 @@ export const GLITCH_ABILITIES: Record<string, AbilityDef> = {
     requiresTarget: true,
     effects: [{ type: 'dot', total: 60, duration: 15, interval: 3 }],
     description:
-      "Leaks the target's strength away, dealing $d Shadow damage over 15 sec. Builds Corruption while it runs.",
+      "Leaks the target's strength away, dealing $d Shadow damage over 15 sec. Builds Instability while it runs.",
   },
   glitch_rollback: {
     id: 'glitch_rollback',
@@ -132,7 +132,7 @@ export const GLITCH_ABILITIES: Record<string, AbilityDef> = {
     school: 'arcane',
     requiresTarget: false,
     effects: [{ type: 'heal', min: 0, max: 0, casterMaxHpPct: 0.25 }],
-    description: 'Restores 25% of your maximum health. Costs 50 Corruption.',
+    description: 'Restores 25% of your maximum health. Costs 50 Instability.',
   },
   glitch_cascade: {
     id: 'glitch_cascade',
@@ -148,7 +148,7 @@ export const GLITCH_ABILITIES: Record<string, AbilityDef> = {
     targetMode: 'position',
     effects: [{ type: 'glitchCascade', radius: 8, seconds: 4 }],
     description:
-      'Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Corruption faster. Costs 20 Corruption.',
+      'Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Instability faster. Costs 20 Instability.',
   },
   // ---- Spec signatures (granted at the spec pick) ----
   glitch_fork_bomb: {
@@ -168,7 +168,7 @@ export const GLITCH_ABILITIES: Record<string, AbilityDef> = {
     // before its one-second interval comes around again.
     effects: [{ type: 'groundAoE', min: 30, max: 38, radius: 8, duration: 0.5, interval: 1 }],
     description:
-      'Detonates the target area, dealing $d Arcane damage to every enemy inside. Costs 40 Corruption. (Overclock signature)',
+      'Detonates the target area, dealing $d Arcane damage to every enemy inside. Costs 40 Instability. (Overclock signature)',
   },
   glitch_bit_rot: {
     id: 'glitch_bit_rot',
@@ -184,7 +184,7 @@ export const GLITCH_ABILITIES: Record<string, AbilityDef> = {
     requiresTarget: true,
     effects: [{ type: 'dot', total: 50, duration: 10, interval: 2 }],
     description:
-      'Rots the target, dealing $d Shadow damage over 10 sec. Builds Corruption while it runs. (Entropy signature)',
+      'Rots the target, dealing $d Shadow damage over 10 sec. Builds Instability while it runs. (Entropy signature)',
   },
   glitch_sandbox: {
     id: 'glitch_sandbox',
@@ -200,7 +200,7 @@ export const GLITCH_ABILITIES: Record<string, AbilityDef> = {
     requiresTarget: false,
     effects: [{ type: 'selfAbsorbPctMax', pct: 0.2, duration: 10 }],
     description:
-      'Isolates you in a shield that absorbs damage equal to 20% of your maximum health for 10 sec. Costs 20 Corruption. (Sandbox signature)',
+      'Isolates you in a shield that absorbs damage equal to 20% of your maximum health for 10 sec. Costs 20 Instability. (Sandbox signature)',
   },
 };
 

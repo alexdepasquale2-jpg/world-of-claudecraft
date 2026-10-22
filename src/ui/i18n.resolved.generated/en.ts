@@ -7816,7 +7816,7 @@ export const en: EnTranslations = {
       "mana": "Mana",
       "energy": "Energy",
       "focus": "Focus",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "classPage": {
       "back": "All classes",
@@ -7887,10 +7887,10 @@ export const en: EnTranslations = {
       "none": "No class matches every filter. Clear one to see more."
     },
     "abilityHook": {
-      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Corruption the longer it runs.",
+      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Instability the longer it runs.",
       "glitch_noise_field": "Fills a spot you choose with static that hurts and slows everything inside.",
       "glitch_phase_skip": "Skips you to a spot you choose in an instant.",
-      "glitch_overflow": "Dumps your stored Corruption into a target in one hit.",
+      "glitch_overflow": "Dumps your stored Instability into a target in one hit.",
       "glitch_cascade": "Stretches every fault you have running in a chosen area.",
       "evil_eye": "Names the enemy whose actions and suffering will feed your Condemnation.",
       "heroic_strike": "Queues a heavier swing that spends rage on your next hit.",
@@ -11344,7 +11344,7 @@ export const en: EnTranslations = {
       "energy": "Energy",
       "rage": "Rage",
       "focus": "Focus",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "roles": {
       "warrior": "Tank / Melee DPS",
@@ -11381,7 +11381,7 @@ export const en: EnTranslations = {
       "mage": "Mages bend Fire, Frost, and arcane force to destroy enemies, summon water, and freeze threats in place.",
       "warlock": "Warlocks summon demons, apply curses and damage-over-time magic, and leech life from enemies to endure.",
       "druid": "Druids channel nature, healing wounds, entangling foes, and shifting into animal forms for defense or damage.",
-      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Instability the longer they run, then dumping it in bursts."
     },
     "aria": "Class details for {className}: role {role}. Starting stats: Strength {str}, Agility {agi}, Stamina {sta}, Intellect {int}, Spirit {spi}.",
     "statBarAria": "{stat}: {value} out of 25"
@@ -11906,7 +11906,7 @@ export const en: EnTranslations = {
       "abilityNotReady": "That ability is not ready yet.",
       "notEnoughRage": "Not enough rage!",
       "notEnoughEnergy": "Not enough energy!",
-      "notEnoughCorruption": "Not enough Corruption!",
+      "notEnoughInstability": "Not enough Instability!",
       "notEnoughMana": "Not enough mana!",
       "notEnoughDevotion": "Not enough Devotion!",
       "notEnoughResource": "Not enough {resource}!",
@@ -12251,7 +12251,7 @@ export const en: EnTranslations = {
       "energy": "Energy",
       "focus": "Focus",
       "devotion": "Devotion",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "forms": {
       "bear": "Bruin",
@@ -13146,11 +13146,11 @@ export const en: EnTranslations = {
       },
       "glitch_rollback": {
         "name": "Rollback",
-        "description": "Restores 25% of your maximum health. Costs 50 Corruption."
+        "description": "Restores 25% of your maximum health. Costs 50 Instability."
       },
       "glitch_cascade": {
         "name": "Cascade",
-        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Corruption faster. Costs 20 Corruption."
+        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Instability faster. Costs 20 Instability."
       },
       "glitch_fork_bomb": {
         "name": "Fork Bomb",

@@ -7816,7 +7816,7 @@ export const it_IT: EnTranslations = {
       "mana": "Mana",
       "energy": "Energia",
       "focus": "Concentrazione",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "classPage": {
       "back": "Tutte le classi",
@@ -7887,10 +7887,10 @@ export const it_IT: EnTranslations = {
       "none": "Nessuna classe corrisponde a tutti i filtri. Azzerane uno per vederne di più."
     },
     "abilityHook": {
-      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Corruption the longer it runs.",
+      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Instability the longer it runs.",
       "glitch_noise_field": "Fills a spot you choose with static that hurts and slows everything inside.",
       "glitch_phase_skip": "Skips you to a spot you choose in an instant.",
-      "glitch_overflow": "Dumps your stored Corruption into a target in one hit.",
+      "glitch_overflow": "Dumps your stored Instability into a target in one hit.",
       "glitch_cascade": "Stretches every fault you have running in a chosen area.",
       "evil_eye": "Nomina il nemico le cui azioni e sofferenza alimentano la tua Condanna.",
       "heroic_strike": "Mette in coda un fendente più pesante che spende ira al tuo prossimo colpo.",
@@ -11344,7 +11344,7 @@ export const it_IT: EnTranslations = {
       "energy": "Energia",
       "rage": "Rabbia",
       "focus": "Concentrazione",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "roles": {
       "warrior": "Tank / DPS da mischia",
@@ -11381,7 +11381,7 @@ export const it_IT: EnTranslations = {
       "mage": "I maghi manipolano Fuoco, Gelo e forza arcana per distruggere i nemici, evocare acqua e congelare le minacce sul posto.",
       "warlock": "Gli stregoni evocano demoni, applicano maledizioni e magie di danno nel tempo, e sottraggono vita ai nemici per resistere.",
       "druid": "I druidi canalizzano la natura, curano ferite, intralciano nemici e assumono forme animali per difendere o attaccare.",
-      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Instability the longer they run, then dumping it in bursts."
     },
     "aria": "Dettagli classe per {className}: ruolo {role}. Statistiche iniziali: Forza {str}, Agilità {agi}, Tempra {sta}, Intelletto {int}, Spirito {spi}.",
     "statBarAria": "{stat}: {value} su 25"
@@ -11906,7 +11906,7 @@ export const it_IT: EnTranslations = {
       "abilityNotReady": "Quell'abilità non è ancora pronta.",
       "notEnoughRage": "Rabbia insufficiente!",
       "notEnoughEnergy": "Energia insufficiente!",
-      "notEnoughCorruption": "Not enough Corruption!",
+      "notEnoughInstability": "Not enough Instability!",
       "notEnoughMana": "Mana insufficiente!",
       "notEnoughDevotion": "Devozione insufficiente!",
       "notEnoughResource": "{resource} insufficiente!",
@@ -12251,7 +12251,7 @@ export const it_IT: EnTranslations = {
       "energy": "energia",
       "focus": "concentrazione",
       "devotion": "Devozione",
-      "corruption": "Corruption"
+      "corruption": "Instability"
     },
     "forms": {
       "bear": "orso",
@@ -13146,11 +13146,11 @@ export const it_IT: EnTranslations = {
       },
       "glitch_rollback": {
         "name": "Rollback",
-        "description": "Restores 25% of your maximum health. Costs 50 Corruption."
+        "description": "Restores 25% of your maximum health. Costs 50 Instability."
       },
       "glitch_cascade": {
         "name": "Cascade",
-        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Corruption faster. Costs 20 Corruption."
+        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Instability faster. Costs 20 Instability."
       },
       "glitch_fork_bomb": {
         "name": "Fork Bomb",
