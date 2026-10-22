@@ -770,6 +770,7 @@ export const REWARD_ARCHETYPE: Record<PlayerClass, PlayerClass> = {
   priest: 'mage',
   warlock: 'mage',
   druid: 'mage',
+  glitch: 'mage',
 };
 
 // Resolve the item a quest awards a given class: a class-specific reward if the

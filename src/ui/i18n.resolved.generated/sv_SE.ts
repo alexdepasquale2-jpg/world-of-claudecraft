@@ -7815,7 +7815,8 @@ export const sv_SE: EnTranslations = {
       "rage": "Raseri",
       "mana": "Mana",
       "energy": "Energi",
-      "focus": "Fokus"
+      "focus": "Fokus",
+      "corruption": "Corruption"
     },
     "classPage": {
       "back": "Alla klasser",
@@ -10258,6 +10259,7 @@ export const sv_SE: EnTranslations = {
     "mage": "Magiker",
     "warlock": "Häxmästare",
     "druid": "Druid",
+    "glitch": "Glitch",
     "warriorAria": "Krigarklass",
     "paladinAria": "Paladinklass",
     "hunterAria": "Jägarklass",
@@ -10266,7 +10268,8 @@ export const sv_SE: EnTranslations = {
     "shamanAria": "Schamanklass",
     "mageAria": "Magikerklass",
     "warlockAria": "Häxmästarklass",
-    "druidAria": "Druidklass"
+    "druidAria": "Druidklass",
+    "glitchAria": "Glitch class"
   },
   "controls": {
     "title": "Kontrollguide",
@@ -11335,7 +11338,8 @@ export const sv_SE: EnTranslations = {
       "mana": "Mana",
       "energy": "Energi",
       "rage": "Raseri",
-      "focus": "Fokus"
+      "focus": "Fokus",
+      "corruption": "Corruption"
     },
     "roles": {
       "warrior": "Tank / Närstrids-DPS",
@@ -11346,7 +11350,8 @@ export const sv_SE: EnTranslations = {
       "shaman": "Helare / Närstrids- eller Distans-DPS",
       "mage": "Distans-DPS",
       "warlock": "Distans-DPS",
-      "druid": "Tank / Helare / Närstrids- eller Distans-DPS"
+      "druid": "Tank / Helare / Närstrids- eller Distans-DPS",
+      "glitch": "Ranged DPS"
     },
     "armor": {
       "chainLeatherCloth": "Ringbrynja, Läder, Tyg",
@@ -11370,7 +11375,8 @@ export const sv_SE: EnTranslations = {
       "shaman": "Schamaner befaller elementen, fyller vapen med kraft, chockar fiender med blixtar och återställer allierade.",
       "mage": "Magiker böjer Eld, Frost och arkankraft för att förgöra fiender, frammana vatten och frysa hot på plats.",
       "warlock": "Häxmästare frammanar demoner, lägger förbannelser och skada-över-tid-magi, och suger liv från fiender för att överleva.",
-      "druid": "Druider kanaliserar naturen, läker sår, snärjer fiender och skiftar till djurformer för försvar eller skada."
+      "druid": "Druider kanaliserar naturen, läker sår, snärjer fiender och skiftar till djurformer för försvar eller skada.",
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
     },
     "aria": "Klassdetaljer för {className}: roll {role}. Startvärden: Styrka {str}, Smidighet {agi}, Uthållighet {sta}, Intellekt {int}, Ande {spi}.",
     "statBarAria": "{stat}: {value} av 25"
@@ -11895,6 +11901,7 @@ export const sv_SE: EnTranslations = {
       "abilityNotReady": "Den förmågan är inte redo än.",
       "notEnoughRage": "Inte tillräckligt med raseri!",
       "notEnoughEnergy": "Inte tillräckligt med energi!",
+      "notEnoughCorruption": "Not enough Corruption!",
       "notEnoughMana": "Inte tillräckligt med mana!",
       "notEnoughDevotion": "Inte tillräckligt med hängivenhet!",
       "notEnoughResource": "Inte tillräckligt med {resource}!",
@@ -12238,7 +12245,8 @@ export const sv_SE: EnTranslations = {
       "rage": "Raseri",
       "energy": "Energi",
       "focus": "fokus",
-      "devotion": "Hängivenhet"
+      "devotion": "Hängivenhet",
+      "corruption": "Corruption"
     },
     "forms": {
       "bear": "Björn",

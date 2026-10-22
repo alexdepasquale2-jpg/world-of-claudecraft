@@ -7815,7 +7815,8 @@ export const vi_VN: EnTranslations = {
       "rage": "Cuồng Nộ",
       "mana": "Mana",
       "energy": "Năng Lượng",
-      "focus": "Tập Trung"
+      "focus": "Tập Trung",
+      "corruption": "Corruption"
     },
     "classPage": {
       "back": "Tất cả lớp nhân vật",
@@ -10258,6 +10259,7 @@ export const vi_VN: EnTranslations = {
     "mage": "Pháp Sư",
     "warlock": "Thuật Sĩ Hắc Ám",
     "druid": "Druid",
+    "glitch": "Glitch",
     "warriorAria": "Lớp nhân vật Chiến Binh",
     "paladinAria": "Lớp nhân vật Thánh Kỵ Sĩ",
     "hunterAria": "Lớp nhân vật Thợ Săn",
@@ -10266,7 +10268,8 @@ export const vi_VN: EnTranslations = {
     "shamanAria": "Lớp nhân vật Shaman",
     "mageAria": "Lớp nhân vật Pháp Sư",
     "warlockAria": "Lớp nhân vật Thuật Sĩ Hắc Ám",
-    "druidAria": "Lớp nhân vật Druid"
+    "druidAria": "Lớp nhân vật Druid",
+    "glitchAria": "Glitch class"
   },
   "controls": {
     "title": "Hướng Dẫn Điều Khiển",
@@ -11335,7 +11338,8 @@ export const vi_VN: EnTranslations = {
       "mana": "Mana",
       "energy": "Năng Lượng",
       "rage": "Nộ Khí",
-      "focus": "Tập Trung"
+      "focus": "Tập Trung",
+      "corruption": "Corruption"
     },
     "roles": {
       "warrior": "Đỡ Đòn / DPS Cận Chiến",
@@ -11346,7 +11350,8 @@ export const vi_VN: EnTranslations = {
       "shaman": "Trị Liệu / DPS Cận Chiến hoặc Tầm Xa",
       "mage": "DPS Tầm Xa",
       "warlock": "DPS Tầm Xa",
-      "druid": "Đỡ Đòn / Trị Liệu / DPS Cận Chiến hoặc Tầm Xa"
+      "druid": "Đỡ Đòn / Trị Liệu / DPS Cận Chiến hoặc Tầm Xa",
+      "glitch": "Ranged DPS"
     },
     "armor": {
       "chainLeatherCloth": "Giáp Xích, Giáp Da, Giáp Vải",
@@ -11370,7 +11375,8 @@ export const vi_VN: EnTranslations = {
       "shaman": "Shaman điều khiển các nguyên tố, ban sức mạnh cho vũ khí, gây choáng kẻ thù bằng sấm sét, và hồi phục cho đồng minh.",
       "mage": "Pháp Sư điều khiển sức mạnh Hỏa, Băng và uy lực bí thuật để tiêu diệt kẻ thù, triệu hồi nước, và đóng băng các mối đe dọa tại chỗ.",
       "warlock": "Thuật Sĩ Hắc Ám triệu hồi quỷ dữ, gieo lời nguyền và ma thuật sát thương theo thời gian, và hút sinh lực từ kẻ thù để trường tồn.",
-      "druid": "Druid khơi dẫn sức mạnh thiên nhiên, chữa lành vết thương, trói buộc kẻ thù, và biến hình thành các dạng thú để phòng thủ hoặc gây sát thương."
+      "druid": "Druid khơi dẫn sức mạnh thiên nhiên, chữa lành vết thương, trói buộc kẻ thù, và biến hình thành các dạng thú để phòng thủ hoặc gây sát thương.",
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
     },
     "aria": "Chi tiết lớp {className}: vai trò {role}. Chỉ số khởi đầu: Sức Mạnh {str}, Nhanh Nhẹn {agi}, Sức Bền {sta}, Trí Tuệ {int}, Tinh Thần {spi}.",
     "statBarAria": "{stat}: {value} trên 25"
@@ -11895,6 +11901,7 @@ export const vi_VN: EnTranslations = {
       "abilityNotReady": "Kỹ năng đó chưa sẵn sàng.",
       "notEnoughRage": "Không đủ nộ khí!",
       "notEnoughEnergy": "Không đủ năng lượng!",
+      "notEnoughCorruption": "Not enough Corruption!",
       "notEnoughMana": "Không đủ mana!",
       "notEnoughDevotion": "Không đủ Sùng Tín!",
       "notEnoughResource": "Không đủ {resource}!",
@@ -12238,7 +12245,8 @@ export const vi_VN: EnTranslations = {
       "rage": "Nộ Khí",
       "energy": "Năng Lượng",
       "focus": "tập trung",
-      "devotion": "Sùng Tín"
+      "devotion": "Sùng Tín",
+      "corruption": "Corruption"
     },
     "forms": {
       "bear": "Bruin",

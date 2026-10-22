@@ -3935,6 +3935,7 @@ const CREST_RECIPES: Record<string, IconRecipe> = {
   class_mage: r('arcane', 'arcanePink', ['staff', { p: 'gem', ...TR }], ['sparkle', 'glow']),
   class_warlock: r('shadow', 'shadowPurple', ['skull'], ['glow']),
   class_druid: r('nature', 'leafGreen', ['paw'], ['sparkle']),
+  class_glitch: r('arcane', 'sky', ['gem'], ['glow', 'sparkle']),
   // mob families
   family_beast: r('earth', 'earthBrown', ['paw']),
   family_humanoid: r('steel', 'steel', ['sword']),

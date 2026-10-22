@@ -7815,7 +7815,8 @@ export const da_DK: EnTranslations = {
       "rage": "Raseri",
       "mana": "Mana",
       "energy": "Energi",
-      "focus": "Fokus"
+      "focus": "Fokus",
+      "corruption": "Corruption"
     },
     "classPage": {
       "back": "Alle klasser",
@@ -10258,6 +10259,7 @@ export const da_DK: EnTranslations = {
     "mage": "Magiker",
     "warlock": "Heksemester",
     "druid": "Druide",
+    "glitch": "Glitch",
     "warriorAria": "Kriger-klasse",
     "paladinAria": "Paladin-klasse",
     "hunterAria": "Jæger-klasse",
@@ -10266,7 +10268,8 @@ export const da_DK: EnTranslations = {
     "shamanAria": "Shaman-klasse",
     "mageAria": "Magiker-klasse",
     "warlockAria": "Heksemester-klasse",
-    "druidAria": "Druide-klasse"
+    "druidAria": "Druide-klasse",
+    "glitchAria": "Glitch class"
   },
   "controls": {
     "title": "Guide til Styring",
@@ -11335,7 +11338,8 @@ export const da_DK: EnTranslations = {
       "mana": "Mana",
       "energy": "Energi",
       "rage": "Raseri",
-      "focus": "Fokus"
+      "focus": "Fokus",
+      "corruption": "Corruption"
     },
     "roles": {
       "warrior": "Tank / Nærkamps-DPS",
@@ -11346,7 +11350,8 @@ export const da_DK: EnTranslations = {
       "shaman": "Healer / Nærkamps- eller Afstands-DPS",
       "mage": "Afstands-DPS",
       "warlock": "Afstands-DPS",
-      "druid": "Tank / Healer / Nærkamps- eller Afstands-DPS"
+      "druid": "Tank / Healer / Nærkamps- eller Afstands-DPS",
+      "glitch": "Ranged DPS"
     },
     "armor": {
       "chainLeatherCloth": "Ringbrynje, Læder, Stof",
@@ -11370,7 +11375,8 @@ export const da_DK: EnTranslations = {
       "shaman": "Shamaner befaler elementerne, gennemtrænger våben med kraft, chokerer fjender med lyn og genopretter allierede.",
       "mage": "Magikere bøjer Ild-, Frost- og arkankraft for at tilintetgøre fjender, frembringe vand og fryse trusler på stedet.",
       "warlock": "Heksemestre tilkalder dæmoner, kaster forbandelser og skade-over-tid-magi og suger liv fra fjender for at holde ud.",
-      "druid": "Druider kanaliserer naturen, helbreder sår, omslynger fjender og skifter til dyreformer til forsvar eller skade."
+      "druid": "Druider kanaliserer naturen, helbreder sår, omslynger fjender og skifter til dyreformer til forsvar eller skade.",
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
     },
     "aria": "Klassedetaljer for {className}: rolle {role}. Startværdier: Styrke {str}, Smidighed {agi}, Udholdenhed {sta}, Intellekt {int}, Ånd {spi}.",
     "statBarAria": "{stat}: {value} ud af 25"
@@ -11895,6 +11901,7 @@ export const da_DK: EnTranslations = {
       "abilityNotReady": "Den evne er ikke klar endnu.",
       "notEnoughRage": "Ikke nok raseri!",
       "notEnoughEnergy": "Ikke nok energi!",
+      "notEnoughCorruption": "Not enough Corruption!",
       "notEnoughMana": "Ikke nok mana!",
       "notEnoughDevotion": "Ikke nok Hengivenhed!",
       "notEnoughResource": "Ikke nok {resource}!",
@@ -12238,7 +12245,8 @@ export const da_DK: EnTranslations = {
       "rage": "Raseri",
       "energy": "Energi",
       "focus": "fokus",
-      "devotion": "Hengivenhed"
+      "devotion": "Hengivenhed",
+      "corruption": "Corruption"
     },
     "forms": {
       "bear": "Bruin",

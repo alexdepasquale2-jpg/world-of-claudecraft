@@ -7815,7 +7815,8 @@ export const ko_KR: EnTranslations = {
       "rage": "분노",
       "mana": "마나",
       "energy": "기력",
-      "focus": "집중"
+      "focus": "집중",
+      "corruption": "Corruption"
     },
     "classPage": {
       "back": "전체 직업",
@@ -10258,6 +10259,7 @@ export const ko_KR: EnTranslations = {
     "mage": "마법사",
     "warlock": "흑마법사",
     "druid": "드루이드",
+    "glitch": "Glitch",
     "warriorAria": "전사 직업",
     "paladinAria": "성기사 직업",
     "hunterAria": "사냥꾼 직업",
@@ -10266,7 +10268,8 @@ export const ko_KR: EnTranslations = {
     "shamanAria": "주술사 직업",
     "mageAria": "마법사 직업",
     "warlockAria": "흑마법사 직업",
-    "druidAria": "드루이드 직업"
+    "druidAria": "드루이드 직업",
+    "glitchAria": "Glitch class"
   },
   "controls": {
     "title": "조작 가이드",
@@ -11335,7 +11338,8 @@ export const ko_KR: EnTranslations = {
       "mana": "마나",
       "energy": "기력",
       "rage": "분노",
-      "focus": "집중"
+      "focus": "집중",
+      "corruption": "Corruption"
     },
     "roles": {
       "warrior": "탱커 / 근접 DPS",
@@ -11346,7 +11350,8 @@ export const ko_KR: EnTranslations = {
       "shaman": "치유 / 근접 또는 원거리 DPS",
       "mage": "원거리 DPS",
       "warlock": "원거리 DPS",
-      "druid": "탱커 / 치유 / 근접 또는 원거리 DPS"
+      "druid": "탱커 / 치유 / 근접 또는 원거리 DPS",
+      "glitch": "Ranged DPS"
     },
     "armor": {
       "chainLeatherCloth": "사슬, 가죽, 천",
@@ -11370,7 +11375,8 @@ export const ko_KR: EnTranslations = {
       "shaman": "주술사는 정령을 다루고 무기에 힘을 불어넣으며 번개로 적을 충격시키고 아군을 회복시킵니다.",
       "mage": "마법사는 화염, 냉기, 비전의 힘으로 적을 파괴하고 물을 만들어내며 위협을 얼립니다.",
       "warlock": "흑마법사는 악마를 소환하고 저주와 지속 피해 마법을 걸며 적에게서 생명력을 흡수해 버팁니다.",
-      "druid": "드루이드는 자연의 힘으로 치유하고 적을 묶으며 동물 형태로 변신해 방어하거나 피해를 줍니다."
+      "druid": "드루이드는 자연의 힘으로 치유하고 적을 묶으며 동물 형태로 변신해 방어하거나 피해를 줍니다.",
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
     },
     "aria": "{className} 직업 세부 정보: 역할 {role}. 시작 능력치: 힘 {str}, 민첩 {agi}, 체력 {sta}, 지능 {int}, 정신력 {spi}.",
     "statBarAria": "{stat}: {value}/25"
@@ -11895,6 +11901,7 @@ export const ko_KR: EnTranslations = {
       "abilityNotReady": "그 능력은 아직 준비되지 않았습니다.",
       "notEnoughRage": "분노가 부족합니다!",
       "notEnoughEnergy": "기력이 부족합니다!",
+      "notEnoughCorruption": "Not enough Corruption!",
       "notEnoughMana": "마나가 부족합니다!",
       "notEnoughDevotion": "헌신이 부족합니다!",
       "notEnoughResource": "{resource}이 부족합니다!",
@@ -12238,7 +12245,8 @@ export const ko_KR: EnTranslations = {
       "rage": "분노",
       "energy": "기력",
       "focus": "집중",
-      "devotion": "헌신"
+      "devotion": "헌신",
+      "corruption": "Corruption"
     },
     "forms": {
       "bear": "곰",

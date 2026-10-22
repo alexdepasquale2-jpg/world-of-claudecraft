@@ -7815,7 +7815,8 @@ export const it_IT: EnTranslations = {
       "rage": "Ira",
       "mana": "Mana",
       "energy": "Energia",
-      "focus": "Concentrazione"
+      "focus": "Concentrazione",
+      "corruption": "Corruption"
     },
     "classPage": {
       "back": "Tutte le classi",
@@ -10258,6 +10259,7 @@ export const it_IT: EnTranslations = {
     "mage": "Mago",
     "warlock": "Stregone",
     "druid": "Druido",
+    "glitch": "Glitch",
     "warriorAria": "Classe Guerriero",
     "paladinAria": "Classe Paladino",
     "hunterAria": "Classe Cacciatore",
@@ -10266,7 +10268,8 @@ export const it_IT: EnTranslations = {
     "shamanAria": "Classe Sciamano",
     "mageAria": "Classe Mago",
     "warlockAria": "Classe Stregone",
-    "druidAria": "Classe Druido"
+    "druidAria": "Classe Druido",
+    "glitchAria": "Glitch class"
   },
   "controls": {
     "title": "Guida ai controlli",
@@ -11335,7 +11338,8 @@ export const it_IT: EnTranslations = {
       "mana": "Mana",
       "energy": "Energia",
       "rage": "Rabbia",
-      "focus": "Concentrazione"
+      "focus": "Concentrazione",
+      "corruption": "Corruption"
     },
     "roles": {
       "warrior": "Tank / DPS da mischia",
@@ -11346,7 +11350,8 @@ export const it_IT: EnTranslations = {
       "shaman": "Guaritore / DPS da mischia o a distanza",
       "mage": "DPS a distanza",
       "warlock": "DPS a distanza",
-      "druid": "Tank / Guaritore / DPS da mischia o a distanza"
+      "druid": "Tank / Guaritore / DPS da mischia o a distanza",
+      "glitch": "Ranged DPS"
     },
     "armor": {
       "chainLeatherCloth": "Maglia, cuoio, stoffa",
@@ -11370,7 +11375,8 @@ export const it_IT: EnTranslations = {
       "shaman": "Gli sciamani comandano gli elementi, infondono potere nelle armi, colpiscono con fulmini e curano gli alleati.",
       "mage": "I maghi manipolano Fuoco, Gelo e forza arcana per distruggere i nemici, evocare acqua e congelare le minacce sul posto.",
       "warlock": "Gli stregoni evocano demoni, applicano maledizioni e magie di danno nel tempo, e sottraggono vita ai nemici per resistere.",
-      "druid": "I druidi canalizzano la natura, curano ferite, intralciano nemici e assumono forme animali per difendere o attaccare."
+      "druid": "I druidi canalizzano la natura, curano ferite, intralciano nemici e assumono forme animali per difendere o attaccare.",
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
     },
     "aria": "Dettagli classe per {className}: ruolo {role}. Statistiche iniziali: Forza {str}, Agilità {agi}, Tempra {sta}, Intelletto {int}, Spirito {spi}.",
     "statBarAria": "{stat}: {value} su 25"
@@ -11895,6 +11901,7 @@ export const it_IT: EnTranslations = {
       "abilityNotReady": "Quell'abilità non è ancora pronta.",
       "notEnoughRage": "Rabbia insufficiente!",
       "notEnoughEnergy": "Energia insufficiente!",
+      "notEnoughCorruption": "Not enough Corruption!",
       "notEnoughMana": "Mana insufficiente!",
       "notEnoughDevotion": "Devozione insufficiente!",
       "notEnoughResource": "{resource} insufficiente!",
@@ -12238,7 +12245,8 @@ export const it_IT: EnTranslations = {
       "rage": "rabbia",
       "energy": "energia",
       "focus": "concentrazione",
-      "devotion": "Devozione"
+      "devotion": "Devozione",
+      "corruption": "Corruption"
     },
     "forms": {
       "bear": "orso",

@@ -347,6 +347,8 @@ const LOADOUTS: Readonly<Record<PlayerClass, ClassParseGear>> = Object.freeze({
       shoulder: 'heroic_soulflame_mantle',
     }),
   }),
+  // No parse captures yet: /dev bis takes the spec-less epic fallback.
+  glitch: Object.freeze({}),
   warlock: Object.freeze({
     // Heroic DPS rank 1, build 0.40.1, fight 51465.
     affliction: Object.freeze({

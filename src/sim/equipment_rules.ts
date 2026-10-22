@@ -31,6 +31,20 @@ const CASTER_WEAPON_CLASSES = new Set<PlayerClass>([
   'druid',
 ]);
 const ROGUE_WEAPON_CLASSES = new Set<PlayerClass>(['rogue', 'hunter']);
+// The Glitch wields caster weapons but is deliberately NOT in the classifier
+// set above (sameClassSet would stop recognising every authored caster list).
+const CASTER_WEAPON_WIELDERS = new Set<PlayerClass>([...CASTER_WEAPON_CLASSES, 'glitch']);
+
+/**
+ * Whether `cls` passes an authored requiredClass list. The Glitch shares the
+ * cloth-caster gear group: any list naming both Mage and Warlock admits it, so
+ * the shared caster rewards fit without re-authoring every item, while a
+ * class-locked single-class list stays exclusive.
+ */
+export function classListAllows(list: readonly PlayerClass[], cls: PlayerClass): boolean {
+  if (list.includes(cls)) return true;
+  return cls === 'glitch' && list.includes('mage') && list.includes('warlock');
+}
 
 const ARMOR_RANK: Record<ArmorType, number> = {
   cloth: 0,
@@ -417,12 +431,12 @@ export function canEquipItem(cls: PlayerClass, item: ItemDef): boolean {
   // any armor-type or weapon rule, so another class can never wear it.
   if (item.classLocked && !(item.requiredClass ?? []).includes(cls)) return false;
   if (isShieldItem(item)) {
-    return !item.requiredClass || item.requiredClass.includes(cls);
+    return !item.requiredClass || classListAllows(item.requiredClass, cls);
   }
   // Held offhands (caster orbs/tomes) carry no armor class or weapon proficiency:
   // the literal requiredClass list is the whole rule, like shields.
   if (item.kind === 'held_offhand') {
-    return !item.requiredClass || item.requiredClass.includes(cls);
+    return !item.requiredClass || classListAllows(item.requiredClass, cls);
   }
   const armorType = armorTypeForItem(item);
   if (armorType) return ARMOR_RANK[armorType] <= ARMOR_RANK[maxArmorTypeForClass(cls)];
@@ -434,9 +448,9 @@ export function canEquipItem(cls: PlayerClass, item: ItemDef): boolean {
   }
   const weaponArchetype = weaponArchetypeForItem(item);
   if (weaponArchetype === 'warrior') return WARRIOR_WEAPON_CLASSES.has(cls);
-  if (weaponArchetype === 'caster') return CASTER_WEAPON_CLASSES.has(cls);
+  if (weaponArchetype === 'caster') return CASTER_WEAPON_WIELDERS.has(cls);
   if (weaponArchetype === 'rogue') return ROGUE_WEAPON_CLASSES.has(cls);
-  if (item.requiredClass) return item.requiredClass.includes(cls);
+  if (item.requiredClass) return classListAllows(item.requiredClass, cls);
   return true;
 }
 

@@ -96,6 +96,11 @@ export const DEV_KIT_ROLES: Readonly<Record<PlayerClass, readonly DevKitRole[]>>
     { spec: 'demonology', weights: CASTER, melee: false },
     { spec: 'destruction', weights: CASTER, melee: false },
   ],
+  glitch: [
+    { spec: 'overclock', weights: CASTER, melee: false },
+    { spec: 'entropy', weights: CASTER, melee: false },
+    { spec: 'sandbox', weights: CASTER, melee: false },
+  ],
   druid: [
     { spec: 'balance', weights: CASTER, melee: false },
     // Declared TANK in talents.ts. Agility-led rather than strength-led, and no

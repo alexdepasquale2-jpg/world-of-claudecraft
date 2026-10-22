@@ -7815,7 +7815,8 @@ export const nl_NL: EnTranslations = {
       "rage": "Woede",
       "mana": "Mana",
       "energy": "Energie",
-      "focus": "Focus"
+      "focus": "Focus",
+      "corruption": "Corruption"
     },
     "classPage": {
       "back": "Alle klassen",
@@ -10258,6 +10259,7 @@ export const nl_NL: EnTranslations = {
     "mage": "Magiër",
     "warlock": "Heksenmeester",
     "druid": "Druïde",
+    "glitch": "Glitch",
     "warriorAria": "Klasse Krijger",
     "paladinAria": "Klasse Paladijn",
     "hunterAria": "Klasse Jager",
@@ -10266,7 +10268,8 @@ export const nl_NL: EnTranslations = {
     "shamanAria": "Klasse Sjamaan",
     "mageAria": "Klasse Magiër",
     "warlockAria": "Klasse Heksenmeester",
-    "druidAria": "Klasse Druïde"
+    "druidAria": "Klasse Druïde",
+    "glitchAria": "Glitch class"
   },
   "controls": {
     "title": "Besturingsgids",
@@ -11335,7 +11338,8 @@ export const nl_NL: EnTranslations = {
       "mana": "Mana",
       "energy": "Energie",
       "rage": "Woede",
-      "focus": "Focus"
+      "focus": "Focus",
+      "corruption": "Corruption"
     },
     "roles": {
       "warrior": "Tank / Melee-DPS",
@@ -11346,7 +11350,8 @@ export const nl_NL: EnTranslations = {
       "shaman": "Genezer / Melee- of Ranged-DPS",
       "mage": "Ranged-DPS",
       "warlock": "Ranged-DPS",
-      "druid": "Tank / Genezer / Melee- of Ranged-DPS"
+      "druid": "Tank / Genezer / Melee- of Ranged-DPS",
+      "glitch": "Ranged DPS"
     },
     "armor": {
       "chainLeatherCloth": "Maliënkolder, Leer, Stof",
@@ -11370,7 +11375,8 @@ export const nl_NL: EnTranslations = {
       "shaman": "Sjamanen gebieden de elementen, doordringen wapens met kracht, schokken vijanden met bliksem en herstellen bondgenoten.",
       "mage": "Magiërs buigen Vuur-, Vorst- en arcane kracht om vijanden te vernietigen, water op te roepen en dreigingen ter plaatse te bevriezen.",
       "warlock": "Heksenmeesters roepen demonen op, leggen vloeken en schade-over-tijd-magie op, en tappen leven af bij vijanden om vol te houden.",
-      "druid": "Druïden kanaliseren de natuur, genezen wonden, verstrikken vijanden en veranderen in diergedaanten voor verdediging of schade."
+      "druid": "Druïden kanaliseren de natuur, genezen wonden, verstrikken vijanden en veranderen in diergedaanten voor verdediging of schade.",
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
     },
     "aria": "Klassedetails voor {className}: rol {role}. Beginstatistieken: Kracht {str}, Behendigheid {agi}, Uithoudingsvermogen {sta}, Intellect {int}, Geest {spi}.",
     "statBarAria": "{stat}: {value} van 25"
@@ -11895,6 +11901,7 @@ export const nl_NL: EnTranslations = {
       "abilityNotReady": "Die vaardigheid is nog niet gereed.",
       "notEnoughRage": "Niet genoeg woede!",
       "notEnoughEnergy": "Niet genoeg energie!",
+      "notEnoughCorruption": "Not enough Corruption!",
       "notEnoughMana": "Niet genoeg mana!",
       "notEnoughDevotion": "Niet genoeg Toewijding!",
       "notEnoughResource": "Niet genoeg {resource}!",
@@ -12238,7 +12245,8 @@ export const nl_NL: EnTranslations = {
       "rage": "Woede",
       "energy": "Energie",
       "focus": "focus",
-      "devotion": "Toewijding"
+      "devotion": "Toewijding",
+      "corruption": "Corruption"
     },
     "forms": {
       "bear": "Bruin",

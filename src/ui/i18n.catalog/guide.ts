@@ -1350,6 +1350,7 @@ export const guideStrings = {
     mana: 'Mana',
     energy: 'Energy',
     focus: 'Focus',
+    corruption: 'Corruption',
   },
   classPage: {
     back: 'All classes',

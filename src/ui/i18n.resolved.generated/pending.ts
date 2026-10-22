@@ -9,25 +9,205 @@
 // Reproducibility is checked by tests/i18n_resolved_equivalence.test.ts.
 
 export const pending: Record<string, readonly string[]> = {
-  "es": [],
-  "es_ES": [],
-  "fr_FR": [],
-  "fr_CA": [],
+  "es": [
+    "abilityUi.resources.corruption",
+    "classDetails.lore.glitch",
+    "classDetails.resources.corruption",
+    "classDetails.roles.glitch",
+    "classes.glitch",
+    "classes.glitchAria",
+    "guide.resourceName.corruption",
+    "hud.errors.notEnoughCorruption"
+  ],
+  "es_ES": [
+    "abilityUi.resources.corruption",
+    "classDetails.lore.glitch",
+    "classDetails.resources.corruption",
+    "classDetails.roles.glitch",
+    "classes.glitch",
+    "classes.glitchAria",
+    "guide.resourceName.corruption",
+    "hud.errors.notEnoughCorruption"
+  ],
+  "fr_FR": [
+    "abilityUi.resources.corruption",
+    "classDetails.lore.glitch",
+    "classDetails.resources.corruption",
+    "classDetails.roles.glitch",
+    "classes.glitch",
+    "classes.glitchAria",
+    "guide.resourceName.corruption",
+    "hud.errors.notEnoughCorruption"
+  ],
+  "fr_CA": [
+    "abilityUi.resources.corruption",
+    "classDetails.lore.glitch",
+    "classDetails.resources.corruption",
+    "classDetails.roles.glitch",
+    "classes.glitch",
+    "classes.glitchAria",
+    "guide.resourceName.corruption",
+    "hud.errors.notEnoughCorruption"
+  ],
   "en_CA": [],
-  "it_IT": [],
-  "de_DE": [],
-  "zh_CN": [],
-  "zh_TW": [],
-  "ko_KR": [],
-  "ja_JP": [],
-  "pt_BR": [],
-  "ru_RU": [],
-  "cs_CZ": [],
-  "nl_NL": [],
-  "pl_PL": [],
-  "id_ID": [],
-  "tr_TR": [],
-  "sv_SE": [],
-  "vi_VN": [],
-  "da_DK": []
+  "it_IT": [
+    "abilityUi.resources.corruption",
+    "classDetails.lore.glitch",
+    "classDetails.resources.corruption",
+    "classDetails.roles.glitch",
+    "classes.glitch",
+    "classes.glitchAria",
+    "guide.resourceName.corruption",
+    "hud.errors.notEnoughCorruption"
+  ],
+  "de_DE": [
+    "abilityUi.resources.corruption",
+    "classDetails.lore.glitch",
+    "classDetails.resources.corruption",
+    "classDetails.roles.glitch",
+    "classes.glitch",
+    "classes.glitchAria",
+    "guide.resourceName.corruption",
+    "hud.errors.notEnoughCorruption"
+  ],
+  "zh_CN": [
+    "abilityUi.resources.corruption",
+    "classDetails.lore.glitch",
+    "classDetails.resources.corruption",
+    "classDetails.roles.glitch",
+    "classes.glitch",
+    "classes.glitchAria",
+    "guide.resourceName.corruption",
+    "hud.errors.notEnoughCorruption"
+  ],
+  "zh_TW": [
+    "abilityUi.resources.corruption",
+    "classDetails.lore.glitch",
+    "classDetails.resources.corruption",
+    "classDetails.roles.glitch",
+    "classes.glitch",
+    "classes.glitchAria",
+    "guide.resourceName.corruption",
+    "hud.errors.notEnoughCorruption"
+  ],
+  "ko_KR": [
+    "abilityUi.resources.corruption",
+    "classDetails.lore.glitch",
+    "classDetails.resources.corruption",
+    "classDetails.roles.glitch",
+    "classes.glitch",
+    "classes.glitchAria",
+    "guide.resourceName.corruption",
+    "hud.errors.notEnoughCorruption"
+  ],
+  "ja_JP": [
+    "abilityUi.resources.corruption",
+    "classDetails.lore.glitch",
+    "classDetails.resources.corruption",
+    "classDetails.roles.glitch",
+    "classes.glitch",
+    "classes.glitchAria",
+    "guide.resourceName.corruption",
+    "hud.errors.notEnoughCorruption"
+  ],
+  "pt_BR": [
+    "abilityUi.resources.corruption",
+    "classDetails.lore.glitch",
+    "classDetails.resources.corruption",
+    "classDetails.roles.glitch",
+    "classes.glitch",
+    "classes.glitchAria",
+    "guide.resourceName.corruption",
+    "hud.errors.notEnoughCorruption"
+  ],
+  "ru_RU": [
+    "abilityUi.resources.corruption",
+    "classDetails.lore.glitch",
+    "classDetails.resources.corruption",
+    "classDetails.roles.glitch",
+    "classes.glitch",
+    "classes.glitchAria",
+    "guide.resourceName.corruption",
+    "hud.errors.notEnoughCorruption"
+  ],
+  "cs_CZ": [
+    "abilityUi.resources.corruption",
+    "classDetails.lore.glitch",
+    "classDetails.resources.corruption",
+    "classDetails.roles.glitch",
+    "classes.glitch",
+    "classes.glitchAria",
+    "guide.resourceName.corruption",
+    "hud.errors.notEnoughCorruption"
+  ],
+  "nl_NL": [
+    "abilityUi.resources.corruption",
+    "classDetails.lore.glitch",
+    "classDetails.resources.corruption",
+    "classDetails.roles.glitch",
+    "classes.glitch",
+    "classes.glitchAria",
+    "guide.resourceName.corruption",
+    "hud.errors.notEnoughCorruption"
+  ],
+  "pl_PL": [
+    "abilityUi.resources.corruption",
+    "classDetails.lore.glitch",
+    "classDetails.resources.corruption",
+    "classDetails.roles.glitch",
+    "classes.glitch",
+    "classes.glitchAria",
+    "guide.resourceName.corruption",
+    "hud.errors.notEnoughCorruption"
+  ],
+  "id_ID": [
+    "abilityUi.resources.corruption",
+    "classDetails.lore.glitch",
+    "classDetails.resources.corruption",
+    "classDetails.roles.glitch",
+    "classes.glitch",
+    "classes.glitchAria",
+    "guide.resourceName.corruption",
+    "hud.errors.notEnoughCorruption"
+  ],
+  "tr_TR": [
+    "abilityUi.resources.corruption",
+    "classDetails.lore.glitch",
+    "classDetails.resources.corruption",
+    "classDetails.roles.glitch",
+    "classes.glitch",
+    "classes.glitchAria",
+    "guide.resourceName.corruption",
+    "hud.errors.notEnoughCorruption"
+  ],
+  "sv_SE": [
+    "abilityUi.resources.corruption",
+    "classDetails.lore.glitch",
+    "classDetails.resources.corruption",
+    "classDetails.roles.glitch",
+    "classes.glitch",
+    "classes.glitchAria",
+    "guide.resourceName.corruption",
+    "hud.errors.notEnoughCorruption"
+  ],
+  "vi_VN": [
+    "abilityUi.resources.corruption",
+    "classDetails.lore.glitch",
+    "classDetails.resources.corruption",
+    "classDetails.roles.glitch",
+    "classes.glitch",
+    "classes.glitchAria",
+    "guide.resourceName.corruption",
+    "hud.errors.notEnoughCorruption"
+  ],
+  "da_DK": [
+    "abilityUi.resources.corruption",
+    "classDetails.lore.glitch",
+    "classDetails.resources.corruption",
+    "classDetails.roles.glitch",
+    "classes.glitch",
+    "classes.glitchAria",
+    "guide.resourceName.corruption",
+    "hud.errors.notEnoughCorruption"
+  ]
 };

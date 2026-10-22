@@ -74,6 +74,7 @@ const abilityStringsEn = {
       energy: 'Energy',
       focus: 'Focus',
       devotion: 'Devotion',
+      corruption: 'Corruption',
     },
     forms: {
       bear: 'Bruin',

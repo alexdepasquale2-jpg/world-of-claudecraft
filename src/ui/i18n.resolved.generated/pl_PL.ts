@@ -7815,7 +7815,8 @@ export const pl_PL: EnTranslations = {
       "rage": "Wściekłość",
       "mana": "Mana",
       "energy": "Energia",
-      "focus": "Skupienie"
+      "focus": "Skupienie",
+      "corruption": "Corruption"
     },
     "classPage": {
       "back": "Wszystkie klasy",
@@ -10258,6 +10259,7 @@ export const pl_PL: EnTranslations = {
     "mage": "Mag",
     "warlock": "Czarnoksiężnik",
     "druid": "Druid",
+    "glitch": "Glitch",
     "warriorAria": "Klasa Wojownik",
     "paladinAria": "Klasa Paladyn",
     "hunterAria": "Klasa Łowca",
@@ -10266,7 +10268,8 @@ export const pl_PL: EnTranslations = {
     "shamanAria": "Klasa Szaman",
     "mageAria": "Klasa Mag",
     "warlockAria": "Klasa Czarnoksiężnik",
-    "druidAria": "Klasa Druid"
+    "druidAria": "Klasa Druid",
+    "glitchAria": "Glitch class"
   },
   "controls": {
     "title": "Przewodnik sterowania",
@@ -11335,7 +11338,8 @@ export const pl_PL: EnTranslations = {
       "mana": "Mana",
       "energy": "Energia",
       "rage": "Wściekłość",
-      "focus": "Skupienie"
+      "focus": "Skupienie",
+      "corruption": "Corruption"
     },
     "roles": {
       "warrior": "Tank / DPS wręcz",
@@ -11346,7 +11350,8 @@ export const pl_PL: EnTranslations = {
       "shaman": "Uzdrowiciel / Walka wręcz lub dystansowa DPS",
       "mage": "Dystansowy DPS",
       "warlock": "Dystansowy DPS",
-      "druid": "Tank / Uzdrowiciel / Walka wręcz lub dystansowa DPS"
+      "druid": "Tank / Uzdrowiciel / Walka wręcz lub dystansowa DPS",
+      "glitch": "Ranged DPS"
     },
     "armor": {
       "chainLeatherCloth": "Kolczuga, Skóra, Tkanina",
@@ -11370,7 +11375,8 @@ export const pl_PL: EnTranslations = {
       "shaman": "Szamani rozkazują żywiołom, napełniając oręż mocą, rażąc wrogów błyskawicami i przywracając siły sojusznikom.",
       "mage": "Magowie naginają Ogień, Mróz i arkaniczną moc, by niszczyć wrogów, przyzywać wodę i zamrażać zagrożenia w miejscu.",
       "warlock": "Czarnoksiężnicy przyzywają demony, rzucają klątwy i magię obrażeń w czasie oraz wysysają życie z wrogów, by przetrwać.",
-      "druid": "Druidzi czerpią z natury, lecząc rany, pętając wrogów i przemieniając się w postacie zwierząt dla obrony lub zadawania obrażeń."
+      "druid": "Druidzi czerpią z natury, lecząc rany, pętając wrogów i przemieniając się w postacie zwierząt dla obrony lub zadawania obrażeń.",
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
     },
     "aria": "Szczegóły klasy {className}: rola {role}. Statystyki początkowe: Siła {str}, Zręczność {agi}, Wytrzymałość {sta}, Intelekt {int}, Duch {spi}.",
     "statBarAria": "{stat}: {value} z 25"
@@ -11895,6 +11901,7 @@ export const pl_PL: EnTranslations = {
       "abilityNotReady": "Ta umiejętność nie jest jeszcze gotowa.",
       "notEnoughRage": "Za mało wściekłości!",
       "notEnoughEnergy": "Za mało energii!",
+      "notEnoughCorruption": "Not enough Corruption!",
       "notEnoughMana": "Za mało many!",
       "notEnoughDevotion": "Za mało Oddania!",
       "notEnoughResource": "Za mało: {resource}!",
@@ -12238,7 +12245,8 @@ export const pl_PL: EnTranslations = {
       "rage": "Wściekłość",
       "energy": "Energia",
       "focus": "skupienie",
-      "devotion": "Oddanie"
+      "devotion": "Oddanie",
+      "corruption": "Corruption"
     },
     "forms": {
       "bear": "Bruin",

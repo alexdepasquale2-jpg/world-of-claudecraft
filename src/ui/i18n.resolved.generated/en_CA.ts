@@ -7815,7 +7815,8 @@ export const en_CA: EnTranslations = {
       "rage": "Rage",
       "mana": "Mana",
       "energy": "Energy",
-      "focus": "Focus"
+      "focus": "Focus",
+      "corruption": "Corruption"
     },
     "classPage": {
       "back": "All classes",
@@ -10258,6 +10259,7 @@ export const en_CA: EnTranslations = {
     "mage": "Mage",
     "warlock": "Warlock",
     "druid": "Druid",
+    "glitch": "Glitch",
     "warriorAria": "Warrior class",
     "paladinAria": "Paladin class",
     "hunterAria": "Hunter class",
@@ -10266,7 +10268,8 @@ export const en_CA: EnTranslations = {
     "shamanAria": "Shaman class",
     "mageAria": "Mage class",
     "warlockAria": "Warlock class",
-    "druidAria": "Druid class"
+    "druidAria": "Druid class",
+    "glitchAria": "Glitch class"
   },
   "controls": {
     "title": "Controls Guide",
@@ -11335,7 +11338,8 @@ export const en_CA: EnTranslations = {
       "mana": "Mana",
       "energy": "Energy",
       "rage": "Rage",
-      "focus": "Focus"
+      "focus": "Focus",
+      "corruption": "Corruption"
     },
     "roles": {
       "warrior": "Tank / Melee DPS",
@@ -11346,7 +11350,8 @@ export const en_CA: EnTranslations = {
       "shaman": "Healer / Melee or Ranged DPS",
       "mage": "Ranged DPS",
       "warlock": "Ranged DPS",
-      "druid": "Tank / Healer / Melee or Ranged DPS"
+      "druid": "Tank / Healer / Melee or Ranged DPS",
+      "glitch": "Ranged DPS"
     },
     "armor": {
       "chainLeatherCloth": "Chainmail, Leather, Cloth",
@@ -11370,7 +11375,8 @@ export const en_CA: EnTranslations = {
       "shaman": "Shaman command the elements, imbuing weapons with power, shocking enemies with lightning, and restoring allies.",
       "mage": "Mages bend Fire, Frost, and arcane force to destroy enemies, summon water, and freeze threats in place.",
       "warlock": "Warlocks summon demons, apply curses and damage-over-time magic, and leech life from enemies to endure.",
-      "druid": "Druids channel nature, healing wounds, entangling foes, and shifting into animal forms for defence or damage."
+      "druid": "Druids channel nature, healing wounds, entangling foes, and shifting into animal forms for defence or damage.",
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
     },
     "aria": "Class details for {className}: role {role}. Starting stats: Strength {str}, Agility {agi}, Stamina {sta}, Intellect {int}, Spirit {spi}.",
     "statBarAria": "{stat}: {value} out of 25"
@@ -11895,6 +11901,7 @@ export const en_CA: EnTranslations = {
       "abilityNotReady": "That ability is not ready yet.",
       "notEnoughRage": "Not enough rage!",
       "notEnoughEnergy": "Not enough energy!",
+      "notEnoughCorruption": "Not enough Corruption!",
       "notEnoughMana": "Not enough mana!",
       "notEnoughDevotion": "Not enough Devotion!",
       "notEnoughResource": "Not enough {resource}!",
@@ -12238,7 +12245,8 @@ export const en_CA: EnTranslations = {
       "rage": "Rage",
       "energy": "Energy",
       "focus": "Focus",
-      "devotion": "Devotion"
+      "devotion": "Devotion",
+      "corruption": "Corruption"
     },
     "forms": {
       "bear": "Bruin",

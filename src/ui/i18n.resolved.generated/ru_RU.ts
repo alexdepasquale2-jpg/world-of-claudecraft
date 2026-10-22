@@ -7815,7 +7815,8 @@ export const ru_RU: EnTranslations = {
       "rage": "Ярость",
       "mana": "Мана",
       "energy": "Энергия",
-      "focus": "Концентрация"
+      "focus": "Концентрация",
+      "corruption": "Corruption"
     },
     "classPage": {
       "back": "Все классы",
@@ -10258,6 +10259,7 @@ export const ru_RU: EnTranslations = {
     "mage": "Маг",
     "warlock": "Чернокнижник",
     "druid": "Друид",
+    "glitch": "Glitch",
     "warriorAria": "Класс Воин",
     "paladinAria": "Класс Паладин",
     "hunterAria": "Класс Охотник",
@@ -10266,7 +10268,8 @@ export const ru_RU: EnTranslations = {
     "shamanAria": "Класс Шаман",
     "mageAria": "Класс Маг",
     "warlockAria": "Класс Чернокнижник",
-    "druidAria": "Класс Друид"
+    "druidAria": "Класс Друид",
+    "glitchAria": "Glitch class"
   },
   "controls": {
     "title": "Руководство по управлению",
@@ -11335,7 +11338,8 @@ export const ru_RU: EnTranslations = {
       "mana": "Мана",
       "energy": "Энергия",
       "rage": "Ярость",
-      "focus": "Концентрация"
+      "focus": "Концентрация",
+      "corruption": "Corruption"
     },
     "roles": {
       "warrior": "Танк / ближний DPS",
@@ -11346,7 +11350,8 @@ export const ru_RU: EnTranslations = {
       "shaman": "Лекарь / ближний или дальний DPS",
       "mage": "Дальний DPS",
       "warlock": "Дальний DPS",
-      "druid": "Танк / лекарь / ближний или дальний DPS"
+      "druid": "Танк / лекарь / ближний или дальний DPS",
+      "glitch": "Ranged DPS"
     },
     "armor": {
       "chainLeatherCloth": "Кольчуга, кожа, ткань",
@@ -11370,7 +11375,8 @@ export const ru_RU: EnTranslations = {
       "shaman": "Шаманы повелевают стихиями, усиливают оружие, поражают врагов молниями и восстанавливают союзников.",
       "mage": "Маги управляют огнём, льдом и тайной силой, уничтожают врагов, призывают воду и замораживают угрозы.",
       "warlock": "Чернокнижники призывают демонов, накладывают проклятия и длительный урон, затем вытягивают жизнь врагов, чтобы выжить.",
-      "druid": "Друиды направляют силу природы, лечат раны, оплетают врагов и принимают звериные формы для защиты или урона."
+      "druid": "Друиды направляют силу природы, лечат раны, оплетают врагов и принимают звериные формы для защиты или урона.",
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
     },
     "aria": "Описание класса {className}: роль {role}. Начальные характеристики: Сила {str}, Ловкость {agi}, Выносливость {sta}, Интеллект {int}, Дух {spi}.",
     "statBarAria": "{stat}: {value} из 25"
@@ -11895,6 +11901,7 @@ export const ru_RU: EnTranslations = {
       "abilityNotReady": "Эта способность еще не готова.",
       "notEnoughRage": "Недостаточно ярости!",
       "notEnoughEnergy": "Недостаточно энергии!",
+      "notEnoughCorruption": "Not enough Corruption!",
       "notEnoughMana": "Недостаточно маны!",
       "notEnoughDevotion": "Недостаточно Преданности!",
       "notEnoughResource": "Недостаточно {resource}!",
@@ -12238,7 +12245,8 @@ export const ru_RU: EnTranslations = {
       "rage": "ярости",
       "energy": "энергии",
       "focus": "концентрации",
-      "devotion": "Преданность"
+      "devotion": "Преданность",
+      "corruption": "Corruption"
     },
     "forms": {
       "bear": "бурого",

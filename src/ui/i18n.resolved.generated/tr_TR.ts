@@ -7815,7 +7815,8 @@ export const tr_TR: EnTranslations = {
       "rage": "Öfke",
       "mana": "Mana",
       "energy": "Enerji",
-      "focus": "Odak"
+      "focus": "Odak",
+      "corruption": "Corruption"
     },
     "classPage": {
       "back": "Tüm sınıflar",
@@ -10258,6 +10259,7 @@ export const tr_TR: EnTranslations = {
     "mage": "Büyücü",
     "warlock": "Karabüyücü",
     "druid": "Druid",
+    "glitch": "Glitch",
     "warriorAria": "Savaşçı sınıfı",
     "paladinAria": "Paladin sınıfı",
     "hunterAria": "Avcı sınıfı",
@@ -10266,7 +10268,8 @@ export const tr_TR: EnTranslations = {
     "shamanAria": "Şaman sınıfı",
     "mageAria": "Büyücü sınıfı",
     "warlockAria": "Karabüyücü sınıfı",
-    "druidAria": "Druid sınıfı"
+    "druidAria": "Druid sınıfı",
+    "glitchAria": "Glitch class"
   },
   "controls": {
     "title": "Kontrol Kılavuzu",
@@ -11335,7 +11338,8 @@ export const tr_TR: EnTranslations = {
       "mana": "Mana",
       "energy": "Enerji",
       "rage": "Öfke",
-      "focus": "Odak"
+      "focus": "Odak",
+      "corruption": "Corruption"
     },
     "roles": {
       "warrior": "Tank / Yakın DPS",
@@ -11346,7 +11350,8 @@ export const tr_TR: EnTranslations = {
       "shaman": "Şifacı / Yakın veya Menzilli DPS",
       "mage": "Menzilli DPS",
       "warlock": "Menzilli DPS",
-      "druid": "Tank / Şifacı / Yakın veya Menzilli DPS"
+      "druid": "Tank / Şifacı / Yakın veya Menzilli DPS",
+      "glitch": "Ranged DPS"
     },
     "armor": {
       "chainLeatherCloth": "Zincir Zırh, Deri, Kumaş",
@@ -11370,7 +11375,8 @@ export const tr_TR: EnTranslations = {
       "shaman": "Şamanlar elementlere komuta eder; silahlara güç katar, düşmanları yıldırımla sarsar ve müttefikleri iyileştirir.",
       "mage": "Büyücüler Ateş, Buz ve gizem gücünü bükerek düşmanları yok eder, su çağırır ve tehditleri olduğu yerde dondurur.",
       "warlock": "Karabüyücüler şeytanlar çağırır, lanetler ve süregelen hasar büyüleri uygular ve dayanmak için düşmanlardan can emer.",
-      "druid": "Druidler doğayı yönlendirir; yaraları iyileştirir, düşmanları kıskaca alır ve savunma ya da hasar için hayvan formlarına bürünür."
+      "druid": "Druidler doğayı yönlendirir; yaraları iyileştirir, düşmanları kıskaca alır ve savunma ya da hasar için hayvan formlarına bürünür.",
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
     },
     "aria": "{className} sınıf ayrıntıları: rol {role}. Başlangıç nitelikleri: Kuvvet {str}, Çeviklik {agi}, Dayanıklılık {sta}, Zeka {int}, Ruh {spi}.",
     "statBarAria": "{stat}: 25 üzerinden {value}"
@@ -11895,6 +11901,7 @@ export const tr_TR: EnTranslations = {
       "abilityNotReady": "O yetenek henüz hazır değil.",
       "notEnoughRage": "Yeterli öfke yok!",
       "notEnoughEnergy": "Yeterli enerji yok!",
+      "notEnoughCorruption": "Not enough Corruption!",
       "notEnoughMana": "Yeterli mana yok!",
       "notEnoughDevotion": "Yeterli Adanmışlık yok!",
       "notEnoughResource": "Yeterli {resource} yok!",
@@ -12238,7 +12245,8 @@ export const tr_TR: EnTranslations = {
       "rage": "Öfke",
       "energy": "Enerji",
       "focus": "odak",
-      "devotion": "Adanmışlık"
+      "devotion": "Adanmışlık",
+      "corruption": "Corruption"
     },
     "forms": {
       "bear": "Bruin",

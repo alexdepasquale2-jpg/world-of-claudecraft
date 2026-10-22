@@ -7815,7 +7815,8 @@ export const cs_CZ: EnTranslations = {
       "rage": "Vztek",
       "mana": "Mana",
       "energy": "Energie",
-      "focus": "Soustředění"
+      "focus": "Soustředění",
+      "corruption": "Corruption"
     },
     "classPage": {
       "back": "Všechny třídy",
@@ -10258,6 +10259,7 @@ export const cs_CZ: EnTranslations = {
     "mage": "Mág",
     "warlock": "Černokněžník",
     "druid": "Druid",
+    "glitch": "Glitch",
     "warriorAria": "Třída válečník",
     "paladinAria": "Třída paladin",
     "hunterAria": "Třída lovec",
@@ -10266,7 +10268,8 @@ export const cs_CZ: EnTranslations = {
     "shamanAria": "Třída šaman",
     "mageAria": "Třída mág",
     "warlockAria": "Třída černokněžník",
-    "druidAria": "Třída druid"
+    "druidAria": "Třída druid",
+    "glitchAria": "Glitch class"
   },
   "controls": {
     "title": "Průvodce ovládáním",
@@ -11335,7 +11338,8 @@ export const cs_CZ: EnTranslations = {
       "mana": "Mana",
       "energy": "Energie",
       "rage": "Vztek",
-      "focus": "Soustředění"
+      "focus": "Soustředění",
+      "corruption": "Corruption"
     },
     "roles": {
       "warrior": "Tank / DPS na blízko",
@@ -11346,7 +11350,8 @@ export const cs_CZ: EnTranslations = {
       "shaman": "Léčitel / DPS na blízko nebo na dálku",
       "mage": "DPS na dálku",
       "warlock": "DPS na dálku",
-      "druid": "Tank / léčitel / DPS na blízko nebo na dálku"
+      "druid": "Tank / léčitel / DPS na blízko nebo na dálku",
+      "glitch": "Ranged DPS"
     },
     "armor": {
       "chainLeatherCloth": "Kroužková zbroj, kůže, látka",
@@ -11370,7 +11375,8 @@ export const cs_CZ: EnTranslations = {
       "shaman": "Šamani ovládají živly, naplňují zbraně silou, zasahují nepřátele blesky a obnovují spojence.",
       "mage": "Mágové ohýbají oheň, mráz a arkánní sílu, aby ničili nepřátele, vyvolávali vodu a zmrazovali hrozby na místě.",
       "warlock": "Černokněžníci vyvolávají démony, sesílají kletby a průběžné poškození a vysávají život z nepřátel, aby vydrželi.",
-      "druid": "Druidové usměrňují síly přírody, léčí zranění, spoutávají nepřátele a mění se do zvířecích podob pro obranu nebo poškození."
+      "druid": "Druidové usměrňují síly přírody, léčí zranění, spoutávají nepřátele a mění se do zvířecích podob pro obranu nebo poškození.",
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
     },
     "aria": "Detaily třídy {className}: role {role}. Počáteční statistiky: Síla {str}, Obratnost {agi}, Výdrž {sta}, Intelekt {int}, Duch {spi}.",
     "statBarAria": "{stat}: {value} z 25"
@@ -11895,6 +11901,7 @@ export const cs_CZ: EnTranslations = {
       "abilityNotReady": "Tato schopnost ještě není připravená.",
       "notEnoughRage": "Nedostatek vzteku!",
       "notEnoughEnergy": "Nedostatek energie!",
+      "notEnoughCorruption": "Not enough Corruption!",
       "notEnoughMana": "Nedostatek many!",
       "notEnoughDevotion": "Nedostatek Oddanosti!",
       "notEnoughResource": "Nedostatek zdroje: {resource}!",
@@ -12238,7 +12245,8 @@ export const cs_CZ: EnTranslations = {
       "rage": "Vztek",
       "energy": "Energie",
       "focus": "soustředění",
-      "devotion": "Oddanost"
+      "devotion": "Oddanost",
+      "corruption": "Corruption"
     },
     "forms": {
       "bear": "Medvěd",

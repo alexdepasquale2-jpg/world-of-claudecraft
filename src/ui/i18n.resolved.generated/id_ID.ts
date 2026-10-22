@@ -7815,7 +7815,8 @@ export const id_ID: EnTranslations = {
       "rage": "Amukan",
       "mana": "Mana",
       "energy": "Energi",
-      "focus": "Fokus"
+      "focus": "Fokus",
+      "corruption": "Corruption"
     },
     "classPage": {
       "back": "Semua kelas",
@@ -10258,6 +10259,7 @@ export const id_ID: EnTranslations = {
     "mage": "Penyihir",
     "warlock": "Penyihir Iblis",
     "druid": "Druid",
+    "glitch": "Glitch",
     "warriorAria": "Kelas Prajurit",
     "paladinAria": "Kelas Paladin",
     "hunterAria": "Kelas Pemburu",
@@ -10266,7 +10268,8 @@ export const id_ID: EnTranslations = {
     "shamanAria": "Kelas Dukun",
     "mageAria": "Kelas Penyihir",
     "warlockAria": "Kelas Penyihir Iblis",
-    "druidAria": "Kelas Druid"
+    "druidAria": "Kelas Druid",
+    "glitchAria": "Glitch class"
   },
   "controls": {
     "title": "Panduan Kontrol",
@@ -11335,7 +11338,8 @@ export const id_ID: EnTranslations = {
       "mana": "Mana",
       "energy": "Energi",
       "rage": "Amukan",
-      "focus": "Fokus"
+      "focus": "Fokus",
+      "corruption": "Corruption"
     },
     "roles": {
       "warrior": "Tank / DPS Jarak Dekat",
@@ -11346,7 +11350,8 @@ export const id_ID: EnTranslations = {
       "shaman": "Penyembuh / DPS Jarak Dekat atau Jauh",
       "mage": "DPS Jarak Jauh",
       "warlock": "DPS Jarak Jauh",
-      "druid": "Tank / Penyembuh / DPS Jarak Dekat atau Jauh"
+      "druid": "Tank / Penyembuh / DPS Jarak Dekat atau Jauh",
+      "glitch": "Ranged DPS"
     },
     "armor": {
       "chainLeatherCloth": "Zirah Rantai, Kulit, Kain",
@@ -11370,7 +11375,8 @@ export const id_ID: EnTranslations = {
       "shaman": "Dukun memerintah unsur-unsur alam, mengisi senjata dengan kekuatan, mengejutkan musuh dengan petir, dan memulihkan sekutu.",
       "mage": "Penyihir menundukkan kekuatan Api, Beku, dan Arkana untuk membinasakan musuh, memanggil air, dan membekukan ancaman di tempat.",
       "warlock": "Penyihir Iblis memanggil iblis, menebar kutukan dan sihir kerusakan berkelanjutan, serta menyedot nyawa musuh untuk bertahan.",
-      "druid": "Druid menyalurkan kekuatan alam, menyembuhkan luka, membelit musuh, dan berubah ke wujud hewan untuk bertahan atau menyerang."
+      "druid": "Druid menyalurkan kekuatan alam, menyembuhkan luka, membelit musuh, dan berubah ke wujud hewan untuk bertahan atau menyerang.",
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
     },
     "aria": "Detail kelas untuk {className}: peran {role}. Statistik awal: Kekuatan {str}, Kegesitan {agi}, Stamina {sta}, Kecerdasan {int}, Semangat {spi}.",
     "statBarAria": "{stat}: {value} dari 25"
@@ -11895,6 +11901,7 @@ export const id_ID: EnTranslations = {
       "abilityNotReady": "Kemampuan itu belum siap.",
       "notEnoughRage": "Amarah tidak cukup!",
       "notEnoughEnergy": "Energi tidak cukup!",
+      "notEnoughCorruption": "Not enough Corruption!",
       "notEnoughMana": "Mana tidak cukup!",
       "notEnoughDevotion": "Pengabdian tidak cukup!",
       "notEnoughResource": "{resource} tidak cukup!",
@@ -12238,7 +12245,8 @@ export const id_ID: EnTranslations = {
       "rage": "Amukan",
       "energy": "Energi",
       "focus": "fokus",
-      "devotion": "Pengabdian"
+      "devotion": "Pengabdian",
+      "corruption": "Corruption"
     },
     "forms": {
       "bear": "Bruin",

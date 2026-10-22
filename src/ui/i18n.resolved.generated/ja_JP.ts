@@ -7815,7 +7815,8 @@ export const ja_JP: EnTranslations = {
       "rage": "レイジ",
       "mana": "マナ",
       "energy": "エナジー",
-      "focus": "フォーカス"
+      "focus": "フォーカス",
+      "corruption": "Corruption"
     },
     "classPage": {
       "back": "すべてのクラス",
@@ -10258,6 +10259,7 @@ export const ja_JP: EnTranslations = {
     "mage": "メイジ",
     "warlock": "ウォーロック",
     "druid": "ドルイド",
+    "glitch": "Glitch",
     "warriorAria": "戦士クラス",
     "paladinAria": "パラディンクラス",
     "hunterAria": "ハンタークラス",
@@ -10266,7 +10268,8 @@ export const ja_JP: EnTranslations = {
     "shamanAria": "シャーマンクラス",
     "mageAria": "メイジクラス",
     "warlockAria": "ウォーロッククラス",
-    "druidAria": "ドルイドクラス"
+    "druidAria": "ドルイドクラス",
+    "glitchAria": "Glitch class"
   },
   "controls": {
     "title": "操作ガイド",
@@ -11335,7 +11338,8 @@ export const ja_JP: EnTranslations = {
       "mana": "マナ",
       "energy": "エネルギー",
       "rage": "怒り",
-      "focus": "集中値"
+      "focus": "集中値",
+      "corruption": "Corruption"
     },
     "roles": {
       "warrior": "タンク / 近接DPS",
@@ -11346,7 +11350,8 @@ export const ja_JP: EnTranslations = {
       "shaman": "ヒーラー / 近接または遠隔DPS",
       "mage": "遠隔DPS",
       "warlock": "遠隔DPS",
-      "druid": "タンク / ヒーラー / 近接または遠隔DPS"
+      "druid": "タンク / ヒーラー / 近接または遠隔DPS",
+      "glitch": "Ranged DPS"
     },
     "armor": {
       "chainLeatherCloth": "鎖、革、布",
@@ -11370,7 +11375,8 @@ export const ja_JP: EnTranslations = {
       "shaman": "シャーマンは元素を操り、武器に力を宿し、稲妻で敵を打ち、味方を回復します。",
       "mage": "メイジは火炎、氷霜、秘術の力で敵を破壊し、水を召喚し、脅威をその場で凍りつかせます。",
       "warlock": "ウォーロックは悪魔を召喚し、呪いと継続ダメージ魔法をかけ、敵から生命力を吸収して耐えます。",
-      "druid": "ドルイドは自然の力を導き、傷を癒やし、敵を絡め取り、動物形態に変身して守りまたは攻めます。"
+      "druid": "ドルイドは自然の力を導き、傷を癒やし、敵を絡め取り、動物形態に変身して守りまたは攻めます。",
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
     },
     "aria": "{className}のクラス詳細: 役割 {role}。開始ステータス: 筋力 {str}、敏捷性 {agi}、スタミナ {sta}、知力 {int}、精神力 {spi}。",
     "statBarAria": "{stat}: {value}/25"
@@ -11895,6 +11901,7 @@ export const ja_JP: EnTranslations = {
       "abilityNotReady": "その能力はまだ準備できていません。",
       "notEnoughRage": "怒りが足りません！",
       "notEnoughEnergy": "エネルギーが足りません！",
+      "notEnoughCorruption": "Not enough Corruption!",
       "notEnoughMana": "マナが足りません！",
       "notEnoughDevotion": "献身が足りない！",
       "notEnoughResource": "{resource}が足りません！",
@@ -12238,7 +12245,8 @@ export const ja_JP: EnTranslations = {
       "rage": "怒り",
       "energy": "エネルギー",
       "focus": "集中値",
-      "devotion": "献身"
+      "devotion": "献身",
+      "corruption": "Corruption"
     },
     "forms": {
       "bear": "熊",

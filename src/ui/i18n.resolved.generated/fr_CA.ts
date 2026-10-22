@@ -7815,7 +7815,8 @@ export const fr_CA: EnTranslations = {
       "rage": "Rage",
       "mana": "Mana",
       "energy": "Énergie",
-      "focus": "Concentration"
+      "focus": "Concentration",
+      "corruption": "Corruption"
     },
     "classPage": {
       "back": "Toutes les classes",
@@ -10258,6 +10259,7 @@ export const fr_CA: EnTranslations = {
     "mage": "Mage",
     "warlock": "Démoniste",
     "druid": "Druide",
+    "glitch": "Glitch",
     "warriorAria": "Classe Guerrier",
     "paladinAria": "Classe Paladin",
     "hunterAria": "Classe Chasseur",
@@ -10266,7 +10268,8 @@ export const fr_CA: EnTranslations = {
     "shamanAria": "Classe Chaman",
     "mageAria": "Classe Mage",
     "warlockAria": "Classe Démoniste",
-    "druidAria": "Classe Druide"
+    "druidAria": "Classe Druide",
+    "glitchAria": "Glitch class"
   },
   "controls": {
     "title": "Guide des contrôles",
@@ -11335,7 +11338,8 @@ export const fr_CA: EnTranslations = {
       "mana": "Mana",
       "energy": "Énergie",
       "rage": "Rage",
-      "focus": "Concentration"
+      "focus": "Concentration",
+      "corruption": "Corruption"
     },
     "roles": {
       "warrior": "Tank / DPS mêlée",
@@ -11346,7 +11350,8 @@ export const fr_CA: EnTranslations = {
       "shaman": "Soigneur / DPS mêlée ou distance",
       "mage": "DPS à distance",
       "warlock": "DPS à distance",
-      "druid": "Tank / Soigneur / DPS mêlée ou distance"
+      "druid": "Tank / Soigneur / DPS mêlée ou distance",
+      "glitch": "Ranged DPS"
     },
     "armor": {
       "chainLeatherCloth": "Mailles, cuir, tissu",
@@ -11370,7 +11375,8 @@ export const fr_CA: EnTranslations = {
       "shaman": "Les chamans commandent les éléments, imprègnent leurs armes, frappent avec la foudre et restaurent leurs alliés.",
       "mage": "Les mages manient le Feu, le Givre et la force des Arcanes pour détruire leurs ennemis, conjurer de l'eau et figer les menaces sur place.",
       "warlock": "Les démonistes invoquent des démons, jettent des malédictions et des dégâts prolongés, puis drainent la vie de leurs ennemis pour tenir bon.",
-      "druid": "Les druides canalisent la nature, guérissent, entravent les ennemis et prennent des formes animales pour défendre ou attaquer."
+      "druid": "Les druides canalisent la nature, guérissent, entravent les ennemis et prennent des formes animales pour défendre ou attaquer.",
+      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
     },
     "aria": "Détails de classe pour {className}: rôle {role}. Caractéristiques de départ: Force {str}, Agilité {agi}, Endurance {sta}, Intelligence {int}, Esprit {spi}.",
     "statBarAria": "{stat}: {value} sur 25"
@@ -11895,6 +11901,7 @@ export const fr_CA: EnTranslations = {
       "abilityNotReady": "Cette technique n'est pas encore prête.",
       "notEnoughRage": "Pas assez de rage !",
       "notEnoughEnergy": "Pas assez d'énergie !",
+      "notEnoughCorruption": "Not enough Corruption!",
       "notEnoughMana": "Pas assez de mana !",
       "notEnoughDevotion": "Dévotion insuffisante !",
       "notEnoughResource": "Pas assez de {resource} !",
@@ -12238,7 +12245,8 @@ export const fr_CA: EnTranslations = {
       "rage": "rage",
       "energy": "énergie",
       "focus": "concentration",
-      "devotion": "Dévotion"
+      "devotion": "Dévotion",
+      "corruption": "Corruption"
     },
     "forms": {
       "bear": "Bruin",
