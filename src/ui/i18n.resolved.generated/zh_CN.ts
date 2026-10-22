@@ -7887,6 +7887,11 @@ export const zh_CN: EnTranslations = {
       "none": "没有职业符合所有筛选条件。清除一项以查看更多。"
     },
     "abilityHook": {
+      "glitch_corrupt_byte": "以持续的故障腐化目标，持续越久越能滋养你的腐化。",
+      "glitch_noise_field": "在你选定的地点布满静电，伤害并减速其中的所有目标。",
+      "glitch_phase_skip": "瞬间将你跳跃到你选定的地点。",
+      "glitch_overflow": "将储存的腐化一次性倾泻到目标身上。",
+      "glitch_cascade": "延长你在选定区域内所有正在运行的故障。",
       "evil_eye": "标记一个敌人，使其行动与承受的苦难为你积累谴罪。",
       "heroic_strike": "预备一次更重的挥击，在下次攻击时消耗怒气。",
       "revenge": "横扫你前方的敌人，并可能在躲闪或招架后不消耗资源。",
@@ -13119,6 +13124,46 @@ export const zh_CN: EnTranslations = {
   },
   "entities": {
     "abilities": {
+      "glitch_corrupt_byte": {
+        "name": "数据腐蚀",
+        "description": "腐蚀目标，在 12 秒内造成 {damage} 点暗影伤害。持续期间积累腐化。"
+      },
+      "glitch_noise_field": {
+        "name": "噪声力场",
+        "description": "在目标区域布满静电 8 秒，每秒造成 6 到 8 点奥术伤害，并使其中的敌人减速 30%。持续期间积累腐化。"
+      },
+      "glitch_phase_skip": {
+        "name": "相位跳跃",
+        "description": "跳跃到最远 20 码外的目标地点，并解除定身效果。"
+      },
+      "glitch_overflow": {
+        "name": "溢出",
+        "description": "将储存的腐化倾泻到目标身上，造成 {damage} 点暗影伤害。消耗 30 点腐化。"
+      },
+      "glitch_memory_leak": {
+        "name": "内存泄漏",
+        "description": "耗散目标的力量，在 15 秒内造成 {damage} 点暗影伤害。持续期间积累腐化。"
+      },
+      "glitch_rollback": {
+        "name": "回滚",
+        "description": "恢复你最大生命值的 25%。消耗 50 点腐化。"
+      },
+      "glitch_cascade": {
+        "name": "级联",
+        "description": "使你在目标区域内敌人身上的所有故障效果延长 4 秒。被延长的效果保留其已持续时间，因此会持续更快地积累腐化。消耗 20 点腐化。"
+      },
+      "glitch_fork_bomb": {
+        "name": "分叉炸弹",
+        "description": "引爆目标区域，对其中的每个敌人造成 {damage} 点奥术伤害。消耗 40 点腐化。（超频招牌技能）"
+      },
+      "glitch_bit_rot": {
+        "name": "位腐",
+        "description": "腐蚀目标，在 10 秒内造成 {damage} 点暗影伤害。持续期间积累腐化。（熵增招牌技能）"
+      },
+      "glitch_sandbox": {
+        "name": "沙盒",
+        "description": "将你隔离在一个护盾中，吸收相当于你最大生命值 20% 的伤害，持续 10 秒。消耗 20 点腐化。（沙盒招牌技能）"
+      },
       "sport_kick": {
         "name": "踢球",
         "description": "沿地面把球踢向瞄准点。"

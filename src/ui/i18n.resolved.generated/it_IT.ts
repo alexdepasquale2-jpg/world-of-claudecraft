@@ -7887,6 +7887,11 @@ export const it_IT: EnTranslations = {
       "none": "Nessuna classe corrisponde a tutti i filtri. Azzerane uno per vederne di più."
     },
     "abilityHook": {
+      "glitch_corrupt_byte": "Corrupts a target with a lingering fault that feeds your Corruption the longer it runs.",
+      "glitch_noise_field": "Fills a spot you choose with static that hurts and slows everything inside.",
+      "glitch_phase_skip": "Skips you to a spot you choose in an instant.",
+      "glitch_overflow": "Dumps your stored Corruption into a target in one hit.",
+      "glitch_cascade": "Stretches every fault you have running in a chosen area.",
       "evil_eye": "Nomina il nemico le cui azioni e sofferenza alimentano la tua Condanna.",
       "heroic_strike": "Mette in coda un fendente più pesante che spende ira al tuo prossimo colpo.",
       "revenge": "Colpisce i nemici davanti a te e può diventare gratuita dopo una schivata o una parata.",
@@ -13119,6 +13124,46 @@ export const it_IT: EnTranslations = {
   },
   "entities": {
     "abilities": {
+      "glitch_corrupt_byte": {
+        "name": "Corrupt Byte",
+        "description": "Corrupts the target, dealing {damage} Shadow damage over 12 sec. Builds Corruption while it runs."
+      },
+      "glitch_noise_field": {
+        "name": "Noise Field",
+        "description": "Fills the target area with static for 8 sec, dealing 6 to 8 Arcane damage each second and slowing enemies inside by 30%. Builds Corruption while it lasts."
+      },
+      "glitch_phase_skip": {
+        "name": "Phase Skip",
+        "description": "Skip to the target location up to 20 yards away, breaking roots."
+      },
+      "glitch_overflow": {
+        "name": "Overflow",
+        "description": "Dumps stored Corruption into the target, dealing {damage} Shadow damage. Costs 30 Corruption."
+      },
+      "glitch_memory_leak": {
+        "name": "Memory Leak",
+        "description": "Leaks the target's strength away, dealing {damage} Shadow damage over 15 sec. Builds Corruption while it runs."
+      },
+      "glitch_rollback": {
+        "name": "Rollback",
+        "description": "Restores 25% of your maximum health. Costs 50 Corruption."
+      },
+      "glitch_cascade": {
+        "name": "Cascade",
+        "description": "Extends every Glitch effect you have on enemies in the target area by 4 sec. Extended effects keep their age, so they keep building Corruption faster. Costs 20 Corruption."
+      },
+      "glitch_fork_bomb": {
+        "name": "Fork Bomb",
+        "description": "Detonates the target area, dealing {damage} Arcane damage to every enemy inside. Costs 40 Corruption. (Overclock signature)"
+      },
+      "glitch_bit_rot": {
+        "name": "Bit Rot",
+        "description": "Rots the target, dealing {damage} Shadow damage over 10 sec. Builds Corruption while it runs. (Entropy signature)"
+      },
+      "glitch_sandbox": {
+        "name": "Sandbox",
+        "description": "Isolates you in a shield that absorbs damage equal to 20% of your maximum health for 10 sec. Costs 20 Corruption. (Sandbox signature)"
+      },
       "sport_kick": {
         "name": "Calcio",
         "description": "Spingi la palla rasoterra verso il punto mirato."

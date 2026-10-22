@@ -7887,6 +7887,11 @@ export const zh_TW: EnTranslations = {
       "none": "沒有職業符合所有篩選條件。清除一項以查看更多。"
     },
     "abilityHook": {
+      "glitch_corrupt_byte": "以持續的故障腐化目標，持續越久越能滋養你的腐化。",
+      "glitch_noise_field": "在你選定的地點布滿靜電，傷害並減速其中的所有目標。",
+      "glitch_phase_skip": "瞬間將你跳躍到你選定的地點。",
+      "glitch_overflow": "將儲存的腐化一次性傾瀉到目標身上。",
+      "glitch_cascade": "延長你在選定區域內所有正在運行的故障。",
       "evil_eye": "標記一名敵人，使其行動與承受的苦難為你累積譴罪。",
       "heroic_strike": "預備一記更沉重的揮擊，在你的下一擊消耗怒氣。",
       "revenge": "橫掃你前方的敵人，並可能在閃躲或招架後不消耗資源。",
@@ -13119,6 +13124,46 @@ export const zh_TW: EnTranslations = {
   },
   "entities": {
     "abilities": {
+      "glitch_corrupt_byte": {
+        "name": "資料腐蝕",
+        "description": "腐蝕目標，在 12 秒內造成 {damage} 點暗影傷害。持續期間累積腐化。"
+      },
+      "glitch_noise_field": {
+        "name": "噪聲力場",
+        "description": "在目標區域布滿靜電 8 秒，每秒造成 6 到 8 點奧術傷害，並使其中的敵人減速 30%。持續期間累積腐化。"
+      },
+      "glitch_phase_skip": {
+        "name": "相位跳躍",
+        "description": "跳躍到最遠 20 碼外的目標地點，並解除定身效果。"
+      },
+      "glitch_overflow": {
+        "name": "溢位",
+        "description": "將儲存的腐化傾瀉到目標身上，造成 {damage} 點暗影傷害。消耗 30 點腐化。"
+      },
+      "glitch_memory_leak": {
+        "name": "記憶體洩漏",
+        "description": "耗散目標的力量，在 15 秒內造成 {damage} 點暗影傷害。持續期間累積腐化。"
+      },
+      "glitch_rollback": {
+        "name": "回溯",
+        "description": "恢復你最大生命值的 25%。消耗 50 點腐化。"
+      },
+      "glitch_cascade": {
+        "name": "級聯",
+        "description": "使你在目標區域內敵人身上的所有故障效果延長 4 秒。被延長的效果保留其已持續時間，因此會持續更快地累積腐化。消耗 20 點腐化。"
+      },
+      "glitch_fork_bomb": {
+        "name": "分叉炸彈",
+        "description": "引爆目標區域，對其中的每個敵人造成 {damage} 點奧術傷害。消耗 40 點腐化。（超頻招牌技能）"
+      },
+      "glitch_bit_rot": {
+        "name": "位元腐朽",
+        "description": "腐蝕目標，在 10 秒內造成 {damage} 點暗影傷害。持續期間累積腐化。（熵增招牌技能）"
+      },
+      "glitch_sandbox": {
+        "name": "沙盒",
+        "description": "將你隔離在一個護盾中，吸收相當於你最大生命值 20% 的傷害，持續 10 秒。消耗 20 點腐化。（沙盒招牌技能）"
+      },
       "sport_kick": {
         "name": "踢球",
         "description": "沿地面把球踢向瞄準點。"

@@ -2153,7 +2153,28 @@ export const GUIDE_CLASSES: GuideClassInfo[] = [
         "signature": "glitch_sandbox"
       }
     ],
-    "signatureAbilities": [],
+    "signatureAbilities": [
+      {
+        "id": "glitch_corrupt_byte",
+        "name": "Corrupt Byte"
+      },
+      {
+        "id": "glitch_noise_field",
+        "name": "Noise Field"
+      },
+      {
+        "id": "glitch_phase_skip",
+        "name": "Phase Skip"
+      },
+      {
+        "id": "glitch_overflow",
+        "name": "Overflow"
+      },
+      {
+        "id": "glitch_cascade",
+        "name": "Cascade"
+      }
+    ],
     "abilities": [
       {
         "id": "glitch_corrupt_byte",

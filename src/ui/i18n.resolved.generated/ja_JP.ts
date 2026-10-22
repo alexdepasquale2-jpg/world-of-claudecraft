@@ -7887,6 +7887,11 @@ export const ja_JP: EnTranslations = {
       "none": "すべての条件に合うクラスはありません。一つ解除するともっと表示されます。"
     },
     "abilityHook": {
+      "glitch_corrupt_byte": "長く続くほど侵食を育てる持続性の障害で対象を侵食する。",
+      "glitch_noise_field": "選んだ地点を静電気で満たし、内部の全員にダメージを与えて減速させる。",
+      "glitch_phase_skip": "選んだ地点へ一瞬で跳躍する。",
+      "glitch_overflow": "蓄えた侵食を一撃で対象に叩き込む。",
+      "glitch_cascade": "選んだ範囲で動作中のすべての障害を引き延ばす。",
       "evil_eye": "敵を一体指定し、その行動と苦痛から断罪を蓄積します。",
       "heroic_strike": "次の一撃にレイジを乗せ、より重い攻撃を予約します。",
       "revenge": "前方の敵を薙ぎ払い、回避または受け流しの後に消費なしで使えることがある。",
@@ -13119,6 +13124,46 @@ export const ja_JP: EnTranslations = {
   },
   "entities": {
     "abilities": {
+      "glitch_corrupt_byte": {
+        "name": "コラプトバイト",
+        "description": "対象を侵食し、12秒かけて{damage}の闇ダメージを与える。持続中は侵食が蓄積する。"
+      },
+      "glitch_noise_field": {
+        "name": "ノイズフィールド",
+        "description": "対象地点を8秒間静電気で満たし、毎秒6～8の秘術ダメージを与え、内部の敵の移動速度を30%低下させる。持続中は侵食が蓄積する。"
+      },
+      "glitch_phase_skip": {
+        "name": "フェイズスキップ",
+        "description": "最大20ヤード先の対象地点へ跳躍し、移動不能効果を解除する。"
+      },
+      "glitch_overflow": {
+        "name": "オーバーフロー",
+        "description": "蓄えた侵食を対象に叩き込み、{damage}の闇ダメージを与える。侵食を30消費する。"
+      },
+      "glitch_memory_leak": {
+        "name": "メモリリーク",
+        "description": "対象の力を漏出させ、15秒かけて{damage}の闇ダメージを与える。持続中は侵食が蓄積する。"
+      },
+      "glitch_rollback": {
+        "name": "ロールバック",
+        "description": "最大HPの25%を回復する。侵食を50消費する。"
+      },
+      "glitch_cascade": {
+        "name": "カスケード",
+        "description": "対象範囲内の敵にかかっている自分のグリッチ効果をすべて4秒延長する。延長された効果は経過時間を保つため、より速く侵食を蓄積し続ける。侵食を20消費する。"
+      },
+      "glitch_fork_bomb": {
+        "name": "フォークボム",
+        "description": "対象範囲を爆発させ、内部のすべての敵に{damage}の秘術ダメージを与える。侵食を40消費する。（オーバークロックの代表技）"
+      },
+      "glitch_bit_rot": {
+        "name": "ビットロット",
+        "description": "対象を腐らせ、10秒かけて{damage}の闇ダメージを与える。持続中は侵食が蓄積する。（エントロピーの代表技）"
+      },
+      "glitch_sandbox": {
+        "name": "サンドボックス",
+        "description": "最大HPの20%に相当するダメージを吸収するシールドで自分を隔離する。10秒間持続。侵食を20消費する。（サンドボックスの代表技）"
+      },
       "sport_kick": {
         "name": "キック",
         "description": "狙った地点へボールをグラウンダーで蹴り出す。"

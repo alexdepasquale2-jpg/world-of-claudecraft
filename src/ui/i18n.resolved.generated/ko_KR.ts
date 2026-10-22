@@ -7887,6 +7887,11 @@ export const ko_KR: EnTranslations = {
       "none": "모든 조건에 맞는 직업이 없습니다. 조건을 하나 지우면 더 많은 직업이 나타납니다."
     },
     "abilityHook": {
+      "glitch_corrupt_byte": "오래 지속될수록 오염을 키우는 결함으로 대상을 오염시킵니다.",
+      "glitch_noise_field": "선택한 지점을 정전기로 채워 안에 있는 모든 대상에게 피해를 주고 느리게 합니다.",
+      "glitch_phase_skip": "선택한 지점으로 순식간에 건너뜁니다.",
+      "glitch_overflow": "저장된 오염을 한 번에 대상에게 쏟아붓습니다.",
+      "glitch_cascade": "선택한 지역에서 작동 중인 모든 결함을 연장합니다.",
       "evil_eye": "적 하나를 지정해 그 행동과 고통으로 단죄를 축적합니다.",
       "heroic_strike": "다음 타격에 분노를 소모해 더 강하게 휘두르도록 예약합니다.",
       "revenge": "전방의 적을 휩쓸며, 회피하거나 무기 막기 후 자원 소모 없이 사용할 수 있습니다.",
@@ -13119,6 +13124,46 @@ export const ko_KR: EnTranslations = {
   },
   "entities": {
     "abilities": {
+      "glitch_corrupt_byte": {
+        "name": "바이트 오염",
+        "description": "대상을 오염시켜 12초에 걸쳐 {damage}의 암흑 피해를 줍니다. 지속되는 동안 오염이 쌓입니다."
+      },
+      "glitch_noise_field": {
+        "name": "잡음 장",
+        "description": "대상 지역을 8초 동안 정전기로 채워 매초 6~8의 비전 피해를 주고 안에 있는 적의 이동 속도를 30% 감소시킵니다. 지속되는 동안 오염이 쌓입니다."
+      },
+      "glitch_phase_skip": {
+        "name": "위상 도약",
+        "description": "최대 20미터 떨어진 대상 위치로 도약하고 이동 불가 효과를 해제합니다."
+      },
+      "glitch_overflow": {
+        "name": "오버플로",
+        "description": "저장된 오염을 대상에게 쏟아부어 {damage}의 암흑 피해를 줍니다. 오염 30 소모."
+      },
+      "glitch_memory_leak": {
+        "name": "메모리 누수",
+        "description": "대상의 힘을 새어 나가게 하여 15초에 걸쳐 {damage}의 암흑 피해를 줍니다. 지속되는 동안 오염이 쌓입니다."
+      },
+      "glitch_rollback": {
+        "name": "롤백",
+        "description": "최대 생명력의 25%를 회복합니다. 오염 50 소모."
+      },
+      "glitch_cascade": {
+        "name": "연쇄",
+        "description": "대상 지역의 적에게 걸린 자신의 모든 글리치 효과를 4초 연장합니다. 연장된 효과는 경과 시간을 유지하므로 계속 더 빠르게 오염을 쌓습니다. 오염 20 소모."
+      },
+      "glitch_fork_bomb": {
+        "name": "포크 폭탄",
+        "description": "대상 지역을 폭발시켜 안에 있는 모든 적에게 {damage}의 비전 피해를 줍니다. 오염 40 소모. (오버클럭 대표 기술)"
+      },
+      "glitch_bit_rot": {
+        "name": "비트 부패",
+        "description": "대상을 부패시켜 10초에 걸쳐 {damage}의 암흑 피해를 줍니다. 지속되는 동안 오염이 쌓입니다. (엔트로피 대표 기술)"
+      },
+      "glitch_sandbox": {
+        "name": "샌드박스",
+        "description": "최대 생명력의 20%에 해당하는 피해를 흡수하는 보호막으로 자신을 10초 동안 격리합니다. 오염 20 소모. (샌드박스 대표 기술)"
+      },
       "sport_kick": {
         "name": "킥",
         "description": "조준 지점을 향해 공을 땅볼로 차 보냅니다."

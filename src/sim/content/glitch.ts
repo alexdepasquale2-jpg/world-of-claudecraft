@@ -65,7 +65,7 @@ export const GLITCH_ABILITIES: Record<string, AbilityDef> = {
       },
     ],
     description:
-      'Fills the target area with static for 8 sec, dealing $d Arcane damage each second and slowing enemies inside by 30%. Builds Corruption while it lasts.',
+      'Fills the target area with static for 8 sec, dealing 6 to 8 Arcane damage each second and slowing enemies inside by 30%. Builds Corruption while it lasts.',
   },
   glitch_phase_skip: {
     id: 'glitch_phase_skip',

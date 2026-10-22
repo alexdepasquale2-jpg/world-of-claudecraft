@@ -20065,4 +20065,41 @@ export const ru_RU: Partial<Record<TranslationKey, string>> = {
   'abilityUi.resources.corruption': 'Порча',
   'classDetails.resources.corruption': 'Порча',
   'classDetails.roles.glitch': 'Дальний DPS',
+  'guide.abilityHook.glitch_corrupt_byte':
+    'Поражает цель затяжным сбоем, который тем сильнее питает Порчу, чем дольше длится.',
+  'guide.abilityHook.glitch_noise_field':
+    'Заполняет выбранное место помехами, которые ранят и замедляют всех внутри.',
+  'guide.abilityHook.glitch_phase_skip': 'Мгновенно переносит вас в выбранное место.',
+  'guide.abilityHook.glitch_overflow': 'Выплёскивает накопленную Порчу в цель одним ударом.',
+  'guide.abilityHook.glitch_cascade': 'Продлевает все ваши действующие сбои в выбранной области.',
+  'entities.abilities.glitch_corrupt_byte.name': 'Порча байта',
+  'entities.abilities.glitch_corrupt_byte.description':
+    'Поражает цель, нанося {damage} ед. урона от темной магии за 12 сек. Пока действует, копит Порчу.',
+  'entities.abilities.glitch_noise_field.name': 'Поле помех',
+  'entities.abilities.glitch_noise_field.description':
+    'Заполняет выбранную область помехами на 8 сек., нанося 6-8 ед. урона от тайной магии каждую секунду и замедляя врагов внутри на 30%. Пока действует, копит Порчу.',
+  'entities.abilities.glitch_phase_skip.name': 'Фазовый скачок',
+  'entities.abilities.glitch_phase_skip.description':
+    'Мгновенно переносит вас в выбранную точку на расстоянии до 20 м и снимает обездвиживание.',
+  'entities.abilities.glitch_overflow.name': 'Переполнение',
+  'entities.abilities.glitch_overflow.description':
+    'Выплёскивает накопленную Порчу в цель, нанося {damage} ед. урона от темной магии. Стоит 30 ед. Порчи.',
+  'entities.abilities.glitch_memory_leak.name': 'Утечка памяти',
+  'entities.abilities.glitch_memory_leak.description':
+    'Истощает силы цели, нанося {damage} ед. урона от темной магии за 15 сек. Пока действует, копит Порчу.',
+  'entities.abilities.glitch_rollback.name': 'Откат',
+  'entities.abilities.glitch_rollback.description':
+    'Восстанавливает 25% максимального запаса здоровья. Стоит 50 ед. Порчи.',
+  'entities.abilities.glitch_cascade.name': 'Каскад',
+  'entities.abilities.glitch_cascade.description':
+    'Продлевает все ваши эффекты Глитча на врагах в выбранной области на 4 сек. Продлённые эффекты сохраняют свой возраст и продолжают копить Порчу быстрее. Стоит 20 ед. Порчи.',
+  'entities.abilities.glitch_fork_bomb.name': 'Форк-бомба',
+  'entities.abilities.glitch_fork_bomb.description':
+    'Взрывает выбранную область, нанося {damage} ед. урона от тайной магии каждому врагу внутри. Стоит 40 ед. Порчи. (Фирменный приём Разгона)',
+  'entities.abilities.glitch_bit_rot.name': 'Гниль битов',
+  'entities.abilities.glitch_bit_rot.description':
+    'Гноит цель, нанося {damage} ед. урона от темной магии за 10 сек. Пока действует, копит Порчу. (Фирменный приём Энтропии)',
+  'entities.abilities.glitch_sandbox.name': 'Песочница',
+  'entities.abilities.glitch_sandbox.description':
+    'Изолирует вас щитом, поглощающим урон в размере 20% максимального запаса здоровья, на 10 сек. Стоит 20 ед. Порчи. (Фирменный приём Песочницы)',
 };

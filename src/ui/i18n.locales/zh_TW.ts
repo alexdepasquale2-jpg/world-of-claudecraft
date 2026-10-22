@@ -18741,4 +18741,38 @@ export const zh_TW: Partial<Record<TranslationKey, string>> = {
   'abilityUi.resources.corruption': '腐化值',
   'classDetails.resources.corruption': '腐化值',
   'classDetails.roles.glitch': '遠程 DPS',
+  'guide.abilityHook.glitch_corrupt_byte': '以持續的故障腐化目標，持續越久越能滋養你的腐化。',
+  'guide.abilityHook.glitch_noise_field': '在你選定的地點布滿靜電，傷害並減速其中的所有目標。',
+  'guide.abilityHook.glitch_phase_skip': '瞬間將你跳躍到你選定的地點。',
+  'guide.abilityHook.glitch_overflow': '將儲存的腐化一次性傾瀉到目標身上。',
+  'guide.abilityHook.glitch_cascade': '延長你在選定區域內所有正在運行的故障。',
+  'entities.abilities.glitch_corrupt_byte.name': '資料腐蝕',
+  'entities.abilities.glitch_corrupt_byte.description':
+    '腐蝕目標，在 12 秒內造成 {damage} 點暗影傷害。持續期間累積腐化。',
+  'entities.abilities.glitch_noise_field.name': '噪聲力場',
+  'entities.abilities.glitch_noise_field.description':
+    '在目標區域布滿靜電 8 秒，每秒造成 6 到 8 點奧術傷害，並使其中的敵人減速 30%。持續期間累積腐化。',
+  'entities.abilities.glitch_phase_skip.name': '相位跳躍',
+  'entities.abilities.glitch_phase_skip.description':
+    '跳躍到最遠 20 碼外的目標地點，並解除定身效果。',
+  'entities.abilities.glitch_overflow.name': '溢位',
+  'entities.abilities.glitch_overflow.description':
+    '將儲存的腐化傾瀉到目標身上，造成 {damage} 點暗影傷害。消耗 30 點腐化。',
+  'entities.abilities.glitch_memory_leak.name': '記憶體洩漏',
+  'entities.abilities.glitch_memory_leak.description':
+    '耗散目標的力量，在 15 秒內造成 {damage} 點暗影傷害。持續期間累積腐化。',
+  'entities.abilities.glitch_rollback.name': '回溯',
+  'entities.abilities.glitch_rollback.description': '恢復你最大生命值的 25%。消耗 50 點腐化。',
+  'entities.abilities.glitch_cascade.name': '級聯',
+  'entities.abilities.glitch_cascade.description':
+    '使你在目標區域內敵人身上的所有故障效果延長 4 秒。被延長的效果保留其已持續時間，因此會持續更快地累積腐化。消耗 20 點腐化。',
+  'entities.abilities.glitch_fork_bomb.name': '分叉炸彈',
+  'entities.abilities.glitch_fork_bomb.description':
+    '引爆目標區域，對其中的每個敵人造成 {damage} 點奧術傷害。消耗 40 點腐化。（超頻招牌技能）',
+  'entities.abilities.glitch_bit_rot.name': '位元腐朽',
+  'entities.abilities.glitch_bit_rot.description':
+    '腐蝕目標，在 10 秒內造成 {damage} 點暗影傷害。持續期間累積腐化。（熵增招牌技能）',
+  'entities.abilities.glitch_sandbox.name': '沙盒',
+  'entities.abilities.glitch_sandbox.description':
+    '將你隔離在一個護盾中，吸收相當於你最大生命值 20% 的傷害，持續 10 秒。消耗 20 點腐化。（沙盒招牌技能）',
 };
