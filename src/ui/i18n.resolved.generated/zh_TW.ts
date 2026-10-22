@@ -7816,7 +7816,7 @@ export const zh_TW: EnTranslations = {
       "mana": "法力",
       "energy": "能量",
       "focus": "集中",
-      "corruption": "Corruption"
+      "corruption": "腐化"
     },
     "classPage": {
       "back": "所有職業",
@@ -10259,7 +10259,7 @@ export const zh_TW: EnTranslations = {
     "mage": "法師",
     "warlock": "術士",
     "druid": "德魯伊",
-    "glitch": "Glitch",
+    "glitch": "故障者",
     "warriorAria": "戰士職業",
     "paladinAria": "聖騎士職業",
     "hunterAria": "獵人職業",
@@ -10269,7 +10269,7 @@ export const zh_TW: EnTranslations = {
     "mageAria": "法師職業",
     "warlockAria": "術士職業",
     "druidAria": "德魯伊職業",
-    "glitchAria": "Glitch class"
+    "glitchAria": "故障者職業"
   },
   "controls": {
     "title": "操作指南",
@@ -11339,7 +11339,7 @@ export const zh_TW: EnTranslations = {
       "energy": "能量",
       "rage": "怒氣",
       "focus": "集中值",
-      "corruption": "Corruption"
+      "corruption": "腐化值"
     },
     "roles": {
       "warrior": "坦克 / 近戰 DPS",
@@ -11351,7 +11351,7 @@ export const zh_TW: EnTranslations = {
       "mage": "遠程 DPS",
       "warlock": "遠程 DPS",
       "druid": "坦克 / 治療 / 近戰或遠程 DPS",
-      "glitch": "Ranged DPS"
+      "glitch": "遠程 DPS"
     },
     "armor": {
       "chainLeatherCloth": "鎖甲、皮甲、布甲",
@@ -11376,7 +11376,7 @@ export const zh_TW: EnTranslations = {
       "mage": "法師操縱火焰、冰霜與祕法之力來毀滅敵人，召喚清水並凍結威脅。",
       "warlock": "術士召喚惡魔，施放詛咒與持續傷害魔法，並從敵人身上汲取生命來支撐自己。",
       "druid": "德魯伊引導自然之力，治療傷口、纏繞敵人，並變形成動物來防禦或輸出。",
-      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
+      "glitch": "故障者腐化周遭的世界，播撒效果與力場，持續越久累積的腐化越多，然後一舉傾瀉而出。"
     },
     "aria": "{className} 職業詳情：職責 {role}。初始屬性：力量 {str}，敏捷 {agi}，耐力 {sta}，智力 {int}，精神 {spi}。",
     "statBarAria": "{stat}：{value}/25"
@@ -11901,7 +11901,7 @@ export const zh_TW: EnTranslations = {
       "abilityNotReady": "該技能尚未準備好。",
       "notEnoughRage": "怒氣不足！",
       "notEnoughEnergy": "能量不足！",
-      "notEnoughCorruption": "Not enough Corruption!",
+      "notEnoughCorruption": "腐化不足！",
       "notEnoughMana": "法力不足！",
       "notEnoughDevotion": "虔誠值不足！",
       "notEnoughResource": "{resource}不足！",
@@ -12246,7 +12246,7 @@ export const zh_TW: EnTranslations = {
       "energy": "能量",
       "focus": "集中值",
       "devotion": "虔誠",
-      "corruption": "Corruption"
+      "corruption": "腐化值"
     },
     "forms": {
       "bear": "巨熊",

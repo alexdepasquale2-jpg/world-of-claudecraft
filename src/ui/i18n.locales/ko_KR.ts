@@ -19672,4 +19672,13 @@ export const ko_KR: Partial<Record<TranslationKey, string>> = {
   'hudChrome.hill.callout.godlike': '{name}님이 신의 경지에 올랐습니다!',
   'hudChrome.hill.callout.legendary': '{name}님이 전설이 되었습니다!',
   'hudChrome.hill.callout.shutDown': '{killer}님이 {victim}님의 연속 처치를 끊었습니다!',
+  'classes.glitch': '글리치',
+  'classes.glitchAria': '글리치 직업',
+  'classDetails.lore.glitch':
+    '글리치는 주변 세계를 오염시키며 효과와 장을 퍼뜨립니다. 그것들이 오래 지속될수록 오염이 쌓이고, 이를 한꺼번에 쏟아냅니다.',
+  'hud.errors.notEnoughCorruption': '오염이 부족합니다!',
+  'guide.resourceName.corruption': '오염',
+  'abilityUi.resources.corruption': '오염',
+  'classDetails.resources.corruption': '오염',
+  'classDetails.roles.glitch': '원거리 DPS',
 };

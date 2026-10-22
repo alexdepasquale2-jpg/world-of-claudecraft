@@ -18714,4 +18714,13 @@ export const zh_CN: Partial<Record<TranslationKey, string>> = {
   'hudChrome.hill.callout.godlike': '{name}已经接近神了！',
   'hudChrome.hill.callout.legendary': '{name}已经超越神了！',
   'hudChrome.hill.callout.shutDown': '{killer}终结了{victim}！',
+  'classes.glitch': '故障者',
+  'classes.glitchAria': '故障者职业',
+  'classDetails.lore.glitch':
+    '故障者腐化周遭的世界，播撒效果与力场，持续越久积累的腐化越多，然后一举倾泻而出。',
+  'hud.errors.notEnoughCorruption': '腐化不足！',
+  'guide.resourceName.corruption': '腐化',
+  'abilityUi.resources.corruption': '腐化值',
+  'classDetails.resources.corruption': '腐化值',
+  'classDetails.roles.glitch': '远程 DPS',
 };

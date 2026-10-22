@@ -7816,7 +7816,7 @@ export const ja_JP: EnTranslations = {
       "mana": "マナ",
       "energy": "エナジー",
       "focus": "フォーカス",
-      "corruption": "Corruption"
+      "corruption": "侵食"
     },
     "classPage": {
       "back": "すべてのクラス",
@@ -10259,7 +10259,7 @@ export const ja_JP: EnTranslations = {
     "mage": "メイジ",
     "warlock": "ウォーロック",
     "druid": "ドルイド",
-    "glitch": "Glitch",
+    "glitch": "グリッチ",
     "warriorAria": "戦士クラス",
     "paladinAria": "パラディンクラス",
     "hunterAria": "ハンタークラス",
@@ -10269,7 +10269,7 @@ export const ja_JP: EnTranslations = {
     "mageAria": "メイジクラス",
     "warlockAria": "ウォーロッククラス",
     "druidAria": "ドルイドクラス",
-    "glitchAria": "Glitch class"
+    "glitchAria": "グリッチクラス"
   },
   "controls": {
     "title": "操作ガイド",
@@ -11339,7 +11339,7 @@ export const ja_JP: EnTranslations = {
       "energy": "エネルギー",
       "rage": "怒り",
       "focus": "集中値",
-      "corruption": "Corruption"
+      "corruption": "侵食"
     },
     "roles": {
       "warrior": "タンク / 近接DPS",
@@ -11351,7 +11351,7 @@ export const ja_JP: EnTranslations = {
       "mage": "遠隔DPS",
       "warlock": "遠隔DPS",
       "druid": "タンク / ヒーラー / 近接または遠隔DPS",
-      "glitch": "Ranged DPS"
+      "glitch": "遠隔DPS"
     },
     "armor": {
       "chainLeatherCloth": "鎖、革、布",
@@ -11376,7 +11376,7 @@ export const ja_JP: EnTranslations = {
       "mage": "メイジは火炎、氷霜、秘術の力で敵を破壊し、水を召喚し、脅威をその場で凍りつかせます。",
       "warlock": "ウォーロックは悪魔を召喚し、呪いと継続ダメージ魔法をかけ、敵から生命力を吸収して耐えます。",
       "druid": "ドルイドは自然の力を導き、傷を癒やし、敵を絡め取り、動物形態に変身して守りまたは攻めます。",
-      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
+      "glitch": "グリッチは周囲の世界を侵食し、効果やフィールドを撒き散らす。それらが長く続くほど侵食が蓄積し、やがて一気に解き放つ。"
     },
     "aria": "{className}のクラス詳細: 役割 {role}。開始ステータス: 筋力 {str}、敏捷性 {agi}、スタミナ {sta}、知力 {int}、精神力 {spi}。",
     "statBarAria": "{stat}: {value}/25"
@@ -11901,7 +11901,7 @@ export const ja_JP: EnTranslations = {
       "abilityNotReady": "その能力はまだ準備できていません。",
       "notEnoughRage": "怒りが足りません！",
       "notEnoughEnergy": "エネルギーが足りません！",
-      "notEnoughCorruption": "Not enough Corruption!",
+      "notEnoughCorruption": "侵食が足りません！",
       "notEnoughMana": "マナが足りません！",
       "notEnoughDevotion": "献身が足りない！",
       "notEnoughResource": "{resource}が足りません！",
@@ -12246,7 +12246,7 @@ export const ja_JP: EnTranslations = {
       "energy": "エネルギー",
       "focus": "集中値",
       "devotion": "献身",
-      "corruption": "Corruption"
+      "corruption": "侵食"
     },
     "forms": {
       "bear": "熊",

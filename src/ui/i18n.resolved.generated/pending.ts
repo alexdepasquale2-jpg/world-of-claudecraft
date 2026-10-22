@@ -70,46 +70,10 @@ export const pending: Record<string, readonly string[]> = {
     "guide.resourceName.corruption",
     "hud.errors.notEnoughCorruption"
   ],
-  "zh_CN": [
-    "abilityUi.resources.corruption",
-    "classDetails.lore.glitch",
-    "classDetails.resources.corruption",
-    "classDetails.roles.glitch",
-    "classes.glitch",
-    "classes.glitchAria",
-    "guide.resourceName.corruption",
-    "hud.errors.notEnoughCorruption"
-  ],
-  "zh_TW": [
-    "abilityUi.resources.corruption",
-    "classDetails.lore.glitch",
-    "classDetails.resources.corruption",
-    "classDetails.roles.glitch",
-    "classes.glitch",
-    "classes.glitchAria",
-    "guide.resourceName.corruption",
-    "hud.errors.notEnoughCorruption"
-  ],
-  "ko_KR": [
-    "abilityUi.resources.corruption",
-    "classDetails.lore.glitch",
-    "classDetails.resources.corruption",
-    "classDetails.roles.glitch",
-    "classes.glitch",
-    "classes.glitchAria",
-    "guide.resourceName.corruption",
-    "hud.errors.notEnoughCorruption"
-  ],
-  "ja_JP": [
-    "abilityUi.resources.corruption",
-    "classDetails.lore.glitch",
-    "classDetails.resources.corruption",
-    "classDetails.roles.glitch",
-    "classes.glitch",
-    "classes.glitchAria",
-    "guide.resourceName.corruption",
-    "hud.errors.notEnoughCorruption"
-  ],
+  "zh_CN": [],
+  "zh_TW": [],
+  "ko_KR": [],
+  "ja_JP": [],
   "pt_BR": [
     "abilityUi.resources.corruption",
     "classDetails.lore.glitch",
@@ -120,16 +84,7 @@ export const pending: Record<string, readonly string[]> = {
     "guide.resourceName.corruption",
     "hud.errors.notEnoughCorruption"
   ],
-  "ru_RU": [
-    "abilityUi.resources.corruption",
-    "classDetails.lore.glitch",
-    "classDetails.resources.corruption",
-    "classDetails.roles.glitch",
-    "classes.glitch",
-    "classes.glitchAria",
-    "guide.resourceName.corruption",
-    "hud.errors.notEnoughCorruption"
-  ],
+  "ru_RU": [],
   "cs_CZ": [
     "abilityUi.resources.corruption",
     "classDetails.lore.glitch",

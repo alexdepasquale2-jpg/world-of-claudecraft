@@ -19693,4 +19693,13 @@ export const ja_JP: Partial<Record<TranslationKey, string>> = {
   'hudChrome.hill.callout.godlike': '{name}：ゴッドライク！',
   'hudChrome.hill.callout.legendary': '{name}：レジェンダリー！',
   'hudChrome.hill.callout.shutDown': '{killer}が{victim}をシャットダウン！',
+  'classes.glitch': 'グリッチ',
+  'classes.glitchAria': 'グリッチクラス',
+  'classDetails.lore.glitch':
+    'グリッチは周囲の世界を侵食し、効果やフィールドを撒き散らす。それらが長く続くほど侵食が蓄積し、やがて一気に解き放つ。',
+  'hud.errors.notEnoughCorruption': '侵食が足りません！',
+  'guide.resourceName.corruption': '侵食',
+  'abilityUi.resources.corruption': '侵食',
+  'classDetails.resources.corruption': '侵食',
+  'classDetails.roles.glitch': '遠隔DPS',
 };

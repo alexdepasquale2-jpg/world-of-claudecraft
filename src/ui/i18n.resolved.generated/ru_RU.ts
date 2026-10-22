@@ -7816,7 +7816,7 @@ export const ru_RU: EnTranslations = {
       "mana": "Мана",
       "energy": "Энергия",
       "focus": "Концентрация",
-      "corruption": "Corruption"
+      "corruption": "Порча"
     },
     "classPage": {
       "back": "Все классы",
@@ -10259,7 +10259,7 @@ export const ru_RU: EnTranslations = {
     "mage": "Маг",
     "warlock": "Чернокнижник",
     "druid": "Друид",
-    "glitch": "Glitch",
+    "glitch": "Глитч",
     "warriorAria": "Класс Воин",
     "paladinAria": "Класс Паладин",
     "hunterAria": "Класс Охотник",
@@ -10269,7 +10269,7 @@ export const ru_RU: EnTranslations = {
     "mageAria": "Класс Маг",
     "warlockAria": "Класс Чернокнижник",
     "druidAria": "Класс Друид",
-    "glitchAria": "Glitch class"
+    "glitchAria": "Класс Глитч"
   },
   "controls": {
     "title": "Руководство по управлению",
@@ -11339,7 +11339,7 @@ export const ru_RU: EnTranslations = {
       "energy": "Энергия",
       "rage": "Ярость",
       "focus": "Концентрация",
-      "corruption": "Corruption"
+      "corruption": "Порча"
     },
     "roles": {
       "warrior": "Танк / ближний DPS",
@@ -11351,7 +11351,7 @@ export const ru_RU: EnTranslations = {
       "mage": "Дальний DPS",
       "warlock": "Дальний DPS",
       "druid": "Танк / лекарь / ближний или дальний DPS",
-      "glitch": "Ranged DPS"
+      "glitch": "Дальний DPS"
     },
     "armor": {
       "chainLeatherCloth": "Кольчуга, кожа, ткань",
@@ -11376,7 +11376,7 @@ export const ru_RU: EnTranslations = {
       "mage": "Маги управляют огнём, льдом и тайной силой, уничтожают врагов, призывают воду и замораживают угрозы.",
       "warlock": "Чернокнижники призывают демонов, накладывают проклятия и длительный урон, затем вытягивают жизнь врагов, чтобы выжить.",
       "druid": "Друиды направляют силу природы, лечат раны, оплетают врагов и принимают звериные формы для защиты или урона.",
-      "glitch": "Glitches corrupt the world around them, seeding effects and fields that build Corruption the longer they run, then dumping it in bursts."
+      "glitch": "Глитчи искажают мир вокруг себя, рассеивая эффекты и поля, которые копят Порчу тем быстрее, чем дольше действуют, а затем выплёскивают её разом."
     },
     "aria": "Описание класса {className}: роль {role}. Начальные характеристики: Сила {str}, Ловкость {agi}, Выносливость {sta}, Интеллект {int}, Дух {spi}.",
     "statBarAria": "{stat}: {value} из 25"
@@ -11901,7 +11901,7 @@ export const ru_RU: EnTranslations = {
       "abilityNotReady": "Эта способность еще не готова.",
       "notEnoughRage": "Недостаточно ярости!",
       "notEnoughEnergy": "Недостаточно энергии!",
-      "notEnoughCorruption": "Not enough Corruption!",
+      "notEnoughCorruption": "Недостаточно Порчи!",
       "notEnoughMana": "Недостаточно маны!",
       "notEnoughDevotion": "Недостаточно Преданности!",
       "notEnoughResource": "Недостаточно {resource}!",
@@ -12246,7 +12246,7 @@ export const ru_RU: EnTranslations = {
       "energy": "энергии",
       "focus": "концентрации",
       "devotion": "Преданность",
-      "corruption": "Corruption"
+      "corruption": "Порча"
     },
     "forms": {
       "bear": "бурого",

@@ -20056,4 +20056,13 @@ export const ru_RU: Partial<Record<TranslationKey, string>> = {
   'hudChrome.hill.callout.godlike': '{name}: подобен богу!',
   'hudChrome.hill.callout.legendary': '{name}: легендарен!',
   'hudChrome.hill.callout.shutDown': '{killer} прервал серию {victim}!',
+  'classes.glitch': 'Глитч',
+  'classes.glitchAria': 'Класс Глитч',
+  'classDetails.lore.glitch':
+    'Глитчи искажают мир вокруг себя, рассеивая эффекты и поля, которые копят Порчу тем быстрее, чем дольше действуют, а затем выплёскивают её разом.',
+  'hud.errors.notEnoughCorruption': 'Недостаточно Порчи!',
+  'guide.resourceName.corruption': 'Порча',
+  'abilityUi.resources.corruption': 'Порча',
+  'classDetails.resources.corruption': 'Порча',
+  'classDetails.roles.glitch': 'Дальний DPS',
 };
