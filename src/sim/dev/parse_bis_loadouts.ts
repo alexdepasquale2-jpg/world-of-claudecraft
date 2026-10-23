@@ -20,6 +20,24 @@ export const PARSE_BIS_SOURCE = Object.freeze({
 type ParseGear = Readonly<Partial<Record<EquipSlot, string>>>;
 type ClassParseGear = Readonly<Record<string, ParseGear>>;
 
+// The Glitch has no parse captures yet. Until one exists, every Glitch spec
+// borrows the warlock's Hexcraft (affliction) top parse: the same cloth-caster
+// gear pool, so the kit is legal and representative, but NOT observed Glitch data.
+const GLITCH_STAND_IN_GEAR = Object.freeze({
+  feet: 'necromancers_soulsteps',
+  legs: 'necromancers_legwraps',
+  neck: 'zense_meridian',
+  chest: 'shroud_of_the_gravewyrm',
+  ring1: 'nielas_coldlight_band',
+  ring2: 'nielas_coldlight_band',
+  waist: 'soulflame_cord',
+  gloves: 'soulflame_gloves',
+  helmet: 'heroic_soulflame_cowl',
+  offhand: 'wraithfire_orb',
+  mainhand: 'scepter_of_the_deathless_court',
+  shoulder: 'heroic_soulflame_mantle',
+});
+
 const LOADOUTS: Readonly<Record<PlayerClass, ClassParseGear>> = Object.freeze({
   warrior: Object.freeze({
     // Heroic DPS rank 1, build 0.38.2, fight 19300.
@@ -347,8 +365,11 @@ const LOADOUTS: Readonly<Record<PlayerClass, ClassParseGear>> = Object.freeze({
       shoulder: 'heroic_soulflame_mantle',
     }),
   }),
-  // No parse captures yet: /dev bis takes the spec-less epic fallback.
-  glitch: Object.freeze({}),
+  glitch: Object.freeze({
+    overclock: GLITCH_STAND_IN_GEAR,
+    entropy: GLITCH_STAND_IN_GEAR,
+    sandbox: GLITCH_STAND_IN_GEAR,
+  }),
   warlock: Object.freeze({
     // Heroic DPS rank 1, build 0.40.1, fight 51465.
     affliction: Object.freeze({

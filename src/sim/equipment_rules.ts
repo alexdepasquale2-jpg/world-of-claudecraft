@@ -29,12 +29,10 @@ const CASTER_WEAPON_CLASSES = new Set<PlayerClass>([
   'shaman',
   'paladin',
   'druid',
+  // Admitted to every authored caster list by admitGlitchToCasterGear below.
+  'glitch',
 ]);
 const ROGUE_WEAPON_CLASSES = new Set<PlayerClass>(['rogue', 'hunter']);
-// The Glitch wields caster weapons but is deliberately NOT in the classifier
-// set above (sameClassSet would stop recognising every authored caster list).
-const CASTER_WEAPON_WIELDERS = new Set<PlayerClass>([...CASTER_WEAPON_CLASSES, 'glitch']);
-
 /**
  * Whether `cls` passes an authored requiredClass list. The Glitch shares the
  * cloth-caster gear group: any list naming both Mage and Warlock admits it, so
@@ -44,6 +42,20 @@ const CASTER_WEAPON_WIELDERS = new Set<PlayerClass>([...CASTER_WEAPON_CLASSES, '
 export function classListAllows(list: readonly PlayerClass[], cls: PlayerClass): boolean {
   if (list.includes(cls)) return true;
   return cls === 'glitch' && list.includes('mage') && list.includes('warlock');
+}
+
+/**
+ * The Glitch shares the cloth-caster gear group, so every authored class list
+ * naming both Mage and Warlock (not a class-locked set) also names the Glitch,
+ * keeping item tooltips and the class lists honest about who can wear it.
+ * Run once over the merged item table (data.ts), after heroic variants exist.
+ */
+export function admitGlitchToCasterGear(items: Record<string, ItemDef>): void {
+  for (const item of Object.values(items)) {
+    const list = item.requiredClass;
+    if (!list || item.classLocked || list.includes('glitch')) continue;
+    if (list.includes('mage') && list.includes('warlock')) item.requiredClass = [...list, 'glitch'];
+  }
 }
 
 const ARMOR_RANK: Record<ArmorType, number> = {
@@ -448,7 +460,7 @@ export function canEquipItem(cls: PlayerClass, item: ItemDef): boolean {
   }
   const weaponArchetype = weaponArchetypeForItem(item);
   if (weaponArchetype === 'warrior') return WARRIOR_WEAPON_CLASSES.has(cls);
-  if (weaponArchetype === 'caster') return CASTER_WEAPON_WIELDERS.has(cls);
+  if (weaponArchetype === 'caster') return CASTER_WEAPON_CLASSES.has(cls);
   if (weaponArchetype === 'rogue') return ROGUE_WEAPON_CLASSES.has(cls);
   if (item.requiredClass) return classListAllows(item.requiredClass, cls);
   return true;

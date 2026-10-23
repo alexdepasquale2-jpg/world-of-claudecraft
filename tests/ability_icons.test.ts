@@ -129,11 +129,12 @@ describe('ability icons', () => {
     // 469: plus the Wildfang kit pass 2 glyphs (lunge, hamstring_bite).
     // 473: plus the Buried Hoards Clockwork Shock Bomb glyph (the 2026-09-28
     // release/v0.44.0 merge into feature/buried-hoards).
-    expect(ids).toHaveLength(473);
+    // 483: plus the ten Glitch class glyphs (glitch_*).
+    expect(ids).toHaveLength(483);
     for (const id of ids) expect(hasExplicitAbilityIcon(id), id).toBe(true);
 
     const identity = ids.map((id) => ({ id, recipe: abilityIconRecipe(id) }));
     const hash = createHash('sha256').update(stableSerialize(identity)).digest('hex');
-    expect(hash).toBe('6fa8b2c16d3459d5f09768545d08e8f6778c00a2ac3973cd0d9361ee3d08971c');
+    expect(hash).toBe('6d5e2f2293e0809d8f40b8290dc4a40f161b6d38658e0a2a2f22d0e153820345');
   });
 });

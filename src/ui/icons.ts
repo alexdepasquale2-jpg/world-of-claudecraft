@@ -2527,6 +2527,17 @@ function r(
 }
 
 const ABILITY_RECIPES: Record<string, IconRecipe> = {
+  // The Glitch kit (src/sim/content/glitch.ts): cyan glyphs until painted art ships.
+  glitch_corrupt_byte: r('shadow', 'sky', ['gem'], ['crack']),
+  glitch_noise_field: r('storm', 'sky', ['sigil_rune'], ['arcs']),
+  glitch_phase_skip: r('arcane', 'sky', ['boot'], ['motion']),
+  glitch_overflow: r('arcane', 'sky', ['droplet', { p: 'gem', ...TR }], ['glow']),
+  glitch_memory_leak: r('shadow', 'sky', ['hourglass'], ['drips']),
+  glitch_rollback: r('arcane', 'silverWhite', ['hourglass', { p: 'heart', ...BR }], ['glow']),
+  glitch_cascade: r('storm', 'sky', ['gem', { p: 'gem', ...TL }, { p: 'gem', ...BR }], ['sparkle']),
+  glitch_fork_bomb: r('fire', 'sky', ['meteor'], ['crack']),
+  glitch_bit_rot: r('shadow', 'venom', ['gear'], ['drips']),
+  glitch_sandbox: r('arcane', 'sky', ['shield'], ['arcs']),
   // Talents 2.0 ground-targeted spells (each aimed AoE gets a distinct recipe;
   // grouped here so the family reads together, order within the map is cosmetic).
   flamestrike: r('fire', 'ember', ['meteor', { p: 'sunburst', ...BIG }], ['glow']),
@@ -4448,6 +4459,18 @@ const WARLOCK_TALENT_IMAGE_IDS = new Set<string>([
   'wlk_r20_curse_mastery',
 ]);
 export const ABILITY_IMAGE_IDS = new Set<string>([
+  // The Glitch kit: placeholder cyan emblems under /ui/skills/glitch/ until its
+  // paintings ship.
+  'glitch_corrupt_byte',
+  'glitch_noise_field',
+  'glitch_phase_skip',
+  'glitch_overflow',
+  'glitch_memory_leak',
+  'glitch_rollback',
+  'glitch_cascade',
+  'glitch_fork_bomb',
+  'glitch_bit_rot',
+  'glitch_sandbox',
   // paladin (original project art for the overhaul and talent abilities, plus
   // the existing CraftPix premium "RPG Paladin skill icons" base set)
   'divine_ascension',
@@ -4979,18 +5002,6 @@ export const ABILITY_ART_PENDING = new Set<string>([
   // Buried Hoards: the Clockwork Shock Bomb's thrown cast draws its glyph until
   // its skill painting ships (the item itself already ships painted art).
   'clockwork_shock_bomb',
-  // The Glitch kit (src/sim/content/glitch.ts) draws its school glyphs until
-  // its skill paintings ship.
-  'glitch_corrupt_byte',
-  'glitch_noise_field',
-  'glitch_phase_skip',
-  'glitch_overflow',
-  'glitch_memory_leak',
-  'glitch_rollback',
-  'glitch_cascade',
-  'glitch_fork_bomb',
-  'glitch_bit_rot',
-  'glitch_sandbox',
 ]);
 
 /** Static URL of an ability's image icon, or null if it uses a recipe. */

@@ -138,7 +138,7 @@ export const GLITCH_ABILITIES: Record<string, AbilityDef> = {
     id: 'glitch_cascade',
     name: 'Cascade',
     class: 'glitch',
-    learnLevel: 10,
+    learnLevel: 12,
     cost: 20,
     castTime: 0,
     cooldown: 20,
