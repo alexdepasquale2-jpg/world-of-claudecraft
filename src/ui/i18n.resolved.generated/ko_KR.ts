@@ -13144,6 +13144,14 @@ export const ko_KR: EnTranslations = {
         "name": "메모리 누수",
         "description": "대상의 힘을 새어 나가게 하여 15초에 걸쳐 {damage}의 암흑 피해를 줍니다. 지속되는 동안 불안정이 쌓입니다."
       },
+      "glitch_packet_loss": {
+        "name": "패킷 손실",
+        "description": "대상의 주문 시전을 끊어 6초 동안 해당 계열의 주문을 시전할 수 없게 합니다."
+      },
+      "glitch_null_pointer": {
+        "name": "널 포인터",
+        "description": "대상이 아무것도 가리키지 못하게 하여 4초 동안 제자리에 묶습니다."
+      },
       "glitch_rollback": {
         "name": "롤백",
         "description": "최대 생명력의 25%를 회복합니다. 불안정 50 소모."

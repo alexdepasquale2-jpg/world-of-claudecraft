@@ -13144,6 +13144,14 @@ export const zh_TW: EnTranslations = {
         "name": "記憶體洩漏",
         "description": "耗散目標的力量，在 15 秒內造成 {damage} 點暗影傷害。持續期間累積不穩定值。"
       },
+      "glitch_packet_loss": {
+        "name": "封包遺失",
+        "description": "打斷目標正在施放的法術，使其在 6 秒內無法施放該系的任何法術。"
+      },
+      "glitch_null_pointer": {
+        "name": "空指標",
+        "description": "讓目標指向虛無，使其定身 4 秒。"
+      },
       "glitch_rollback": {
         "name": "回溯",
         "description": "恢復你最大生命值的 25%。消耗 50 點不穩定值。"

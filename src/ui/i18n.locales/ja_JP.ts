@@ -19737,4 +19737,9 @@ export const ja_JP: Partial<Record<TranslationKey, string>> = {
   'entities.abilities.glitch_sandbox.name': 'サンドボックス',
   'entities.abilities.glitch_sandbox.description':
     '最大HPの20%に相当するダメージを吸収するシールドで自分を隔離する。10秒間持続。不安定値を20消費する。（サンドボックスの代表技）',
+  'entities.abilities.glitch_packet_loss.name': 'パケットロス',
+  'entities.abilities.glitch_packet_loss.description':
+    '対象の詠唱中の呪文を落とし、6秒間その系統の呪文を詠唱できなくする。',
+  'entities.abilities.glitch_null_pointer.name': 'ヌルポインタ',
+  'entities.abilities.glitch_null_pointer.description': '対象を虚無へ向け、4秒間その場に拘束する。',
 };

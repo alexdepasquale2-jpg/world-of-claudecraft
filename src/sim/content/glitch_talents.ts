@@ -66,7 +66,7 @@ export const GLITCH_CHOICE_ROWS: ClassChoiceRows = {
     {
       level: 5,
       theme: 'mobility',
-      decision: 'more skips vs more fields vs cheaper recovery',
+      decision: 'more skips vs more fields vs a cheaper first dump',
       options: [
         {
           id: 'glt_r5_hot_swap',
@@ -83,11 +83,11 @@ export const GLITCH_CHOICE_ROWS: ClassChoiceRows = {
           effect: { ability: [{ ability: 'glitch_noise_field', cooldownFlat: -3 }] },
         },
         {
-          id: 'glt_r5_lean_rollback',
-          icon: 'glitch_rollback',
-          name: 'Lean Rollback',
-          description: 'Rollback costs 40% less Instability.',
-          effect: { ability: [{ ability: 'glitch_rollback', costPct: -0.4 }] },
+          id: 'glt_r5_prefetch',
+          icon: 'glitch_overflow',
+          name: 'Prefetch',
+          description: 'Overflow costs 10% less Instability.',
+          effect: { ability: [{ ability: 'glitch_overflow', costPct: -0.1 }] },
         },
       ],
     },

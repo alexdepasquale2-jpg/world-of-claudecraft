@@ -2538,6 +2538,8 @@ const ABILITY_RECIPES: Record<string, IconRecipe> = {
   glitch_fork_bomb: r('fire', 'sky', ['meteor'], ['crack']),
   glitch_bit_rot: r('shadow', 'venom', ['gear'], ['drips']),
   glitch_sandbox: r('arcane', 'sky', ['shield'], ['arcs']),
+  glitch_packet_loss: r('storm', 'sky', ['hand', { p: 'bolt', ...BR }], ['motion']),
+  glitch_null_pointer: r('arcane', 'sky', ['crosshair'], ['crack']),
   // Talents 2.0 ground-targeted spells (each aimed AoE gets a distinct recipe;
   // grouped here so the family reads together, order within the map is cosmetic).
   flamestrike: r('fire', 'ember', ['meteor', { p: 'sunburst', ...BIG }], ['glow']),
@@ -4471,6 +4473,8 @@ export const ABILITY_IMAGE_IDS = new Set<string>([
   'glitch_fork_bomb',
   'glitch_bit_rot',
   'glitch_sandbox',
+  'glitch_packet_loss',
+  'glitch_null_pointer',
   // paladin (original project art for the overhaul and talent abilities, plus
   // the existing CraftPix premium "RPG Paladin skill icons" base set)
   'divine_ascension',

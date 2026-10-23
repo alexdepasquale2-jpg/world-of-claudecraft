@@ -19718,4 +19718,10 @@ export const ko_KR: Partial<Record<TranslationKey, string>> = {
   'entities.abilities.glitch_sandbox.name': '샌드박스',
   'entities.abilities.glitch_sandbox.description':
     '최대 생명력의 20%에 해당하는 피해를 흡수하는 보호막으로 자신을 10초 동안 격리합니다. 불안정 20 소모. (샌드박스 대표 기술)',
+  'entities.abilities.glitch_packet_loss.name': '패킷 손실',
+  'entities.abilities.glitch_packet_loss.description':
+    '대상의 주문 시전을 끊어 6초 동안 해당 계열의 주문을 시전할 수 없게 합니다.',
+  'entities.abilities.glitch_null_pointer.name': '널 포인터',
+  'entities.abilities.glitch_null_pointer.description':
+    '대상이 아무것도 가리키지 못하게 하여 4초 동안 제자리에 묶습니다.',
 };

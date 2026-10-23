@@ -13144,6 +13144,14 @@ export const tr_TR: EnTranslations = {
         "name": "Memory Leak",
         "description": "Leaks the target's strength away, dealing {damage} Shadow damage over 15 sec. Builds Corruption while it runs."
       },
+      "glitch_packet_loss": {
+        "name": "Packet Loss",
+        "description": "Drops the target's spell mid-cast, preventing any spell in that school from being cast for 6 sec."
+      },
+      "glitch_null_pointer": {
+        "name": "Null Pointer",
+        "description": "Points the target at nothing, rooting it in place for 4 sec."
+      },
       "glitch_rollback": {
         "name": "Rollback",
         "description": "Restores 25% of your maximum health. Costs 50 Instability."

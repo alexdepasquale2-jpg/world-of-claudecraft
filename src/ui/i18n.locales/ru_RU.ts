@@ -20103,4 +20103,10 @@ export const ru_RU: Partial<Record<TranslationKey, string>> = {
   'entities.abilities.glitch_sandbox.name': 'Песочница',
   'entities.abilities.glitch_sandbox.description':
     'Изолирует вас щитом, поглощающим урон в размере 20% максимального запаса здоровья, на 10 сек. Стоит 20 ед. Нестабильности. (Фирменный приём Песочницы)',
+  'entities.abilities.glitch_packet_loss.name': 'Потеря пакетов',
+  'entities.abilities.glitch_packet_loss.description':
+    'Обрывает заклинание цели, не давая ей произносить заклинания этой школы 6 сек.',
+  'entities.abilities.glitch_null_pointer.name': 'Нулевой указатель',
+  'entities.abilities.glitch_null_pointer.description':
+    'Направляет цель в никуда, обездвиживая её на 4 сек.',
 };

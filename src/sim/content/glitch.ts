@@ -105,6 +105,35 @@ export const GLITCH_ABILITIES: Record<string, AbilityDef> = {
     description:
       'Dumps stored Instability into the target, dealing $d Shadow damage. Costs 30 Instability.',
   },
+  glitch_packet_loss: {
+    id: 'glitch_packet_loss',
+    name: 'Packet Loss',
+    class: 'glitch',
+    learnLevel: 8,
+    cost: 0,
+    castTime: 0,
+    cooldown: 24,
+    range: 30,
+    school: 'arcane',
+    requiresTarget: true,
+    effects: [{ type: 'interrupt', lockout: 6 }],
+    description:
+      "Drops the target's spell mid-cast, preventing any spell in that school from being cast for 6 sec.",
+  },
+  glitch_null_pointer: {
+    id: 'glitch_null_pointer',
+    name: 'Null Pointer',
+    class: 'glitch',
+    learnLevel: 9,
+    cost: 0,
+    castTime: 0,
+    cooldown: 20,
+    range: 30,
+    school: 'arcane',
+    requiresTarget: true,
+    effects: [{ type: 'root', duration: 4 }],
+    description: 'Points the target at nothing, rooting it in place for 4 sec.',
+  },
   glitch_memory_leak: {
     id: 'glitch_memory_leak',
     name: 'Memory Leak',
@@ -212,5 +241,7 @@ export const GLITCH_KIT: string[] = [
   'glitch_phase_skip',
   'glitch_memory_leak',
   'glitch_rollback',
+  'glitch_packet_loss',
+  'glitch_null_pointer',
   'glitch_cascade',
 ];

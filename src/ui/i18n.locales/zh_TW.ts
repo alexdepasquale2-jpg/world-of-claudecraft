@@ -18775,4 +18775,9 @@ export const zh_TW: Partial<Record<TranslationKey, string>> = {
   'entities.abilities.glitch_sandbox.name': '沙盒',
   'entities.abilities.glitch_sandbox.description':
     '將你隔離在一個護盾中，吸收相當於你最大生命值 20% 的傷害，持續 10 秒。消耗 20 點不穩定值。（沙盒招牌技能）',
+  'entities.abilities.glitch_packet_loss.name': '封包遺失',
+  'entities.abilities.glitch_packet_loss.description':
+    '打斷目標正在施放的法術，使其在 6 秒內無法施放該系的任何法術。',
+  'entities.abilities.glitch_null_pointer.name': '空指標',
+  'entities.abilities.glitch_null_pointer.description': '讓目標指向虛無，使其定身 4 秒。',
 };

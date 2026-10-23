@@ -2201,6 +2201,14 @@ export const GUIDE_CLASSES: GuideClassInfo[] = [
         "name": "Rollback"
       },
       {
+        "id": "glitch_packet_loss",
+        "name": "Packet Loss"
+      },
+      {
+        "id": "glitch_null_pointer",
+        "name": "Null Pointer"
+      },
+      {
         "id": "glitch_cascade",
         "name": "Cascade"
       }

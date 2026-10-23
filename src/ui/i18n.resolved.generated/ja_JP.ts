@@ -13144,6 +13144,14 @@ export const ja_JP: EnTranslations = {
         "name": "メモリリーク",
         "description": "対象の力を漏出させ、15秒かけて{damage}の闇ダメージを与える。持続中は不安定値が蓄積する。"
       },
+      "glitch_packet_loss": {
+        "name": "パケットロス",
+        "description": "対象の詠唱中の呪文を落とし、6秒間その系統の呪文を詠唱できなくする。"
+      },
+      "glitch_null_pointer": {
+        "name": "ヌルポインタ",
+        "description": "対象を虚無へ向け、4秒間その場に拘束する。"
+      },
       "glitch_rollback": {
         "name": "ロールバック",
         "description": "最大HPの25%を回復する。不安定値を50消費する。"

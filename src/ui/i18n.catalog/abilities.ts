@@ -162,6 +162,16 @@ const classAbilityNamesEn = {
         'Memory Leak',
         "Leaks the target's strength away, dealing {damage} Shadow damage over 15 sec. Builds Corruption while it runs.",
       ],
+      [
+        'glitch_packet_loss',
+        'Packet Loss',
+        "Drops the target's spell mid-cast, preventing any spell in that school from being cast for 6 sec.",
+      ],
+      [
+        'glitch_null_pointer',
+        'Null Pointer',
+        'Points the target at nothing, rooting it in place for 4 sec.',
+      ],
       ['glitch_rollback', 'Rollback', 'Restores 25% of your maximum health. Costs 50 Instability.'],
       [
         'glitch_cascade',
